@@ -1,0 +1,6 @@
+framework module CNPGridMenu {
+  umbrella header "Pods-Checkin-CNPGridMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

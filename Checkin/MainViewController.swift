@@ -1,0 +1,98 @@
+//
+//  ViewController.swift
+//  Checkin
+//
+//  Created by Siyuan Gao on 5/24/15.
+//  Copyright (c) 2015 Siyuan Gao. All rights reserved.
+//
+
+import UIKit
+import MultipeerConnectivity
+import XCGLogger
+import AYVibrantButton
+
+class MainViewController: UIViewController, MPCManagerDelegate{
+    
+    let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    @IBOutlet weak var freq1: UIButton!
+    @IBOutlet weak var freq2: UIButton!
+    @IBOutlet weak var freq3: UIButton!
+    @IBOutlet weak var freq4: UIButton!
+    @IBOutlet weak var freq5: UIButton!
+    @IBOutlet weak var freq6: UIButton!
+    @IBOutlet weak var codeLabel: UILabel!
+    
+    var code: [String]!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        appDelegate.mpcManager.delegate = self
+        appDelegate.mpcManager.browser.startBrowsingForPeers()
+        appDelegate.mpcManager.advertiser.startAdvertisingPeer()
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+        freq1.setTitle(freq[0], forState: UIControlState.Normal)
+        freq2.setTitle(freq[1], forState: UIControlState.Normal)
+        freq3.setTitle(freq[2], forState: UIControlState.Normal)
+        freq4.setTitle(freq[3], forState: UIControlState.Normal)
+        freq5.setTitle(freq[4], forState: UIControlState.Normal)
+        freq6.setTitle(freq[5], forState: UIControlState.Normal)
+        code = [String]()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+
+    override func viewWillAppear(animated: Bool) {
+        code.removeAll(keepCapacity: false)
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func foundPeer() {
+        log.verbose("Peer Found")
+    }
+    
+    func lostPeer() {
+        log.verbose("Peer Lost")
+    }
+    
+    func invitationWasReceived(fromPeer: String) {
+        
+    }
+    
+    func connectedWithPeer(peerID: MCPeerID) {
+        
+    }
+
+    @IBAction func buttonToggle(sender: UIButton!) {
+        sender.toggleButton()
+        if sender.selected {
+            code.append(sender.titleLabel!.text!)
+        } else {
+            code.removeObject(sender.titleLabel!.text!)
+        }
+        codeLabel.text = "-".join(code)
+    }
+
+}
+
+extension UIButton {
+    func toggleButton() {
+        selected = !selected
+    }
+}
+
+extension Array {
+    func indexOfObject(object : AnyObject) -> NSInteger {
+        return (self as! NSArray).indexOfObject(object)
+    }
+    
+    mutating func removeObject(object : AnyObject) {
+        for var index = self.indexOfObject(object); index != NSNotFound; index = self.indexOfObject(object) {
+            self.removeAtIndex(index)
+        }
+    }
+}
+

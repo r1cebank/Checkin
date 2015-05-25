@@ -1,0 +1,1620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00771968AD2701E8A932548F /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E285D3D74F189D500276C0A /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		021790859668FCEAA9B614B9 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF0C17DC0A7ADE8091825BA /* CSAnimation.m */; };
+		07C04DD0768263F7B0F6AE68 /* Pods-Checkin-VBFPopFlatButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4326A6CA0224F783A3598C1 /* Pods-Checkin-VBFPopFlatButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F7145A78AFBEFAFED05FEE /* Pods-Checkin-Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF57833C38EFB81A657BEDB /* Pods-Checkin-Canvas-dummy.m */; };
+		0B16D6F7449BA34D34B06DB3 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41CEC0A9603CB786CCF7E171 /* POPLayerExtras.mm */; };
+		0BB831B652A8AE24B7F07B2A /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D713C47B7E419479AD3EF76 /* POPBasicAnimation.mm */; };
+		0D64A4FA56198659B92833C7 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 897DA1F3BFDA87BD203BC7EB /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D93CC702659C4EA84450607 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 399BD9056139A50BB0C863CA /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3873E170E2F6F4D960E4FE /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D1EA76733C7B81484777E2 /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12CCE0AF469167C78EDBA5FC /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C18664EDD2D552E3DFEC63 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176D4EFEDEF7285ECE47BEA4 /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D6D6DEFE7F2782F3E7251 /* UITextField+PlaceholderColor.m */; };
+		17C957580B6E9322FCB1EB44 /* Pods-Checkin-CNPGridMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 178A9DCD1C567AC0CF3A28FD /* Pods-Checkin-CNPGridMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181FF019B5EC88085A70EC79 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 968B587BCE1A32D8823B6F56 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BCAB8DF24ED08A9FD0250AF /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F7268B07C3C9791631EB6C /* UITextView+TCCustomFont.m */; };
+		1F16552EC24BBFFA5A3C442B /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED45581D15141D21CC90858C /* POPCGUtils.mm */; };
+		236C4EA508240E236B7DE2A5 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF8E914D47BA44136F2A9684 /* POPGeometry.mm */; };
+		237B3D77D284CF2380848A89 /* Pods-Checkin-pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E151C74C6F58E25839484D16 /* Pods-Checkin-pop-dummy.m */; };
+		23AD35313A98150007F6ECFF /* Pods-Checkin-AYVibrantButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A923E8253D8660CBE75B884 /* Pods-Checkin-AYVibrantButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D96AA0C91F154D85E45CAC /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 333C86046D1AA55581D393FF /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FCD82A5BF77CCDE311EC5F /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E57E63BD7087A1A202A005D /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D81A06ACCAA3E3BEDC4D13 /* Pods-Checkin-VBFPopFlatButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45627B9F8DC0DC6BC53548C0 /* Pods-Checkin-VBFPopFlatButton-dummy.m */; };
+		2FB83399BDFF459FC0BA7CBA /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A436CD28ACE40274839ED7B4 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33C0E9ED81D6CA8B863F9EF5 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3670850015168B8323D9F828 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3600BB9E557BC153FCDBE9A3 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 68D99A6C3CE0310DE72FB1B9 /* POPVector.mm */; };
+		36C941062F3CB52983CB7007 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD690AF2C395407DA49270F /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A98BF7F3DD7237CD4476329 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161C47638D53763E9C3598C /* UINavigationBar+TCCustomFont.m */; };
+		3A9A823AC7859766F112E7FF /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE3FCFCC88894DE70FA3ED39 /* POPCustomAnimation.mm */; };
+		3CBE193CBCDADF42C11BEB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485A79E6D161BEC86D28C363 /* Foundation.framework */; };
+		4354BFE4535BBD8816EBA199 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C256359D4F7B29A179BBA8 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441B10A8FEA042FBB9A75607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485A79E6D161BEC86D28C363 /* Foundation.framework */; };
+		457A6818C3FAC4D38EDCBBD3 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5BEB8E875055673FDA79FC /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		460D81F927D946C0339A2C84 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C0CB7642D970882F237A66 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47139CE41FFC5A187F9A3797 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB0171775BFB0CA447F67EDA /* POPAnimatableProperty.mm */; };
+		477AB5CFE5CDA8D448A5021B /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CAC1D4D8D8B0ECB910605B /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483A073097C1B61A868F170C /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F18F746B43028766146BEAF /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E0188AD4AA53777D23E3059 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFD7FCB9425A432AB1946064 /* POPAnimator.mm */; };
+		4EFD9FD02FDC997315D09FBF /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E4582810B7E2F51F90BB3A7 /* TransformationMatrix.cpp */; };
+		54A87857AE63F37B8CEF9153 /* AYVibrantButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08985070FB20EBECB6960A /* AYVibrantButton.m */; };
+		569FE98F0ABEAED24BB55011 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF63DB350CE7DC5144359C5 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57694923BEEDD2995C21A80C /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = E4124838235FE1CCB86EA014 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59223F9064F9B7DD42ED1964 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA40B6CA6AF89B42CBF7F2E5 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BD355B456F463BD8DD6D8B3 /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 982ED332B9CEE82D05ABEC10 /* CSBlurView.m */; };
+		60208A62FE76824B84C7F7B5 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 370A7D790E7830BC9EE6065C /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6564853667B69E6A06E1CBB8 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 48C27F37660253866E05B61C /* POPAnimationExtras.mm */; };
+		6635CE62D718404B47A3A915 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 92FAD26017F0AD5BD9884D14 /* POPSpringAnimation.mm */; };
+		6BF3313E858118173CBF979B /* Pods-Checkin-CNPGridMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD45EF202D055B044E947EB /* Pods-Checkin-CNPGridMenu-dummy.m */; };
+		6E4CFA831B03F55ABD550E93 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7AA96326F53C7ED84033F0 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F46F789CCD9A007B6E55F50 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FAB8E059506DA2CF612B78 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70AA0A2A1A67C2EA8F3E1FEE /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A021D09742F97EADE6C2A2D /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		727C691F107514EF9F4D79E2 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0C405FE30B7ECAC6B5F79 /* UILabel+TCCustomFont.m */; };
+		72A68C7D7FB7879FD0AB076C /* CNPGridMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C6EC85C3D8A2015EEA7BE /* CNPGridMenu.m */; };
+		74CAC87A4FF25416C5462FAC /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DA0DD852408485FA1A7FE7 /* UIButton+TCCustomFont.m */; };
+		76C1B7D7577FD2AAA6CA3CA3 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E7DF85D7A7969CB980A38 /* POPPropertyAnimation.mm */; };
+		7B685411F2E31EB3F5112822 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0CDD73370A59F60C51F3C6 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8179FC5CCAF7B8685F7F1632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485A79E6D161BEC86D28C363 /* Foundation.framework */; };
+		82EE20B77FE90178C0954624 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7763476BDE63ABA32980C1 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C0FEED29E96DA49F1F76F8 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41449DB35091AE0FFA4C8627 /* POPMath.mm */; };
+		887B7FBAE21F06B594522B32 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA47A7B463EB40FF496C924 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B7C5DE4D1112BA79D0CC39 /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CCFD4521572D82DBB2BD6B /* XCGLogger.swift */; };
+		93BD8B8368E7C7C42BB84004 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3560D8F2B77E075CE5DDA236 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94B5474C2BB18EA83761A456 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21BA9A2AA1657BBAF94CFB40 /* POPDecayAnimation.mm */; };
+		9847866941C41355B26E658F /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F850B235EAFCD26838D3B5 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98DA344F52D20A9EC6D11821 /* Pods-Checkin-XCGLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 401F7727E061ADB9F8D5D2F2 /* Pods-Checkin-XCGLogger-dummy.m */; };
+		9ABF718A8F8636F22DF5D32F /* VBFPopFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C2D0104D852F227EE7408A /* VBFPopFlatButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC28E08968F8E06F14D4FFC /* AYVibrantButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E1EBC9037F99346ED0C6A1 /* AYVibrantButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A33DDC297307603142CD9CA4 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E91940534309B0AC1EC32 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7673CF5C93B699F004F1B3A /* VBFDoubleSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35807DCE0D459A983E93E3 /* VBFDoubleSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8157E1A82EA4B6EC4535F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485A79E6D161BEC86D28C363 /* Foundation.framework */; };
+		AB42E840D3899FFDB9D788F5 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB8E4E8DA9A21A4FC823489 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE9E424429DF9374886FA732 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F894902CF7C33460115181 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF746BA4FFC94034289359BE /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6652F0478D846937EFFC39DA /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFFB57262C5BE126DC3A6938 /* Pods-Checkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3993F6F04B06AA7433C6B34 /* Pods-Checkin-dummy.m */; };
+		B390364ABA259818AF4AABC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485A79E6D161BEC86D28C363 /* Foundation.framework */; };
+		B3B415A082F6CEB8DC751149 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBC254909D55B2E6F76A5FE0 /* POPAnimationEvent.mm */; };
+		B53E74A2EA455DA528CB0EB5 /* Pods-Checkin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B4C91E658E62B951810EB3 /* Pods-Checkin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD46612FCD6585D8527CF44 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9075D7344AE89011288B9FE0 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFEA5C3A20FD6E4D67C9EBE2 /* VBFPopFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95477DFA8D28B27A4F8D9FA0 /* VBFPopFlatButton.m */; };
+		C02C79C8EA564228B74E9CC2 /* Pods-Checkin-pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F46A6A0D4CF1DD1D2C7B77CE /* Pods-Checkin-pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FEAAD90B2371914BBFA84F /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D041FB534B223E69C1ACA9B8 /* POPAnimation.mm */; };
+		C8360F402268EEC87D124BE2 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A869C9878DB1B4DBECEAEEB /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA3DA3714796211A8F34D304 /* CNPGridMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A52348C751B8707F08D0EA /* CNPGridMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D07475B4CEA889AC6C609CEB /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFABE60BDD1B1B32940B009 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D58FA67B8987F25C83862123 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC502D98BC9E8DC341BFAA5 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6947E452AD534ADFA80B8BD /* Pods-Checkin-Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A96B60C3A8A3885B517C4CA /* Pods-Checkin-Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D896EC8BF4D5BB508422A551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485A79E6D161BEC86D28C363 /* Foundation.framework */; };
+		DC94CA38FCD301BCFD99677E /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47DF1E77DB2CD354FC15109 /* CSNavigationController.m */; };
+		E0A3EFDCFFB6FCD3384DB8C7 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = BE596C974BD42D6824B61933 /* UITextField+TCCustomFont.m */; };
+		E1F5C5D55963CF169294FA34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485A79E6D161BEC86D28C363 /* Foundation.framework */; };
+		E2675CE650AAEE3BF3A91C99 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B1317B416109F97BFB7E68 /* pop.framework */; };
+		E3B21593980885EE2B1AA03C /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A648746CF07A3BB475D6D2B /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E56660E0E090D44F63594182 /* Pods-Checkin-XCGLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1DC8434FA051296B65D7918 /* Pods-Checkin-XCGLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F7C0ACE583002206F7CB78 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECEF10343D5D5368D30FB83 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBAD5D97EFFCE585091B6390 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9B10D513A185AAD65D14A482 /* POPAnimationRuntime.mm */; };
+		F0449EA78E159FF9689A4FF8 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 998E78AAB9797F970F38F674 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1BF0130F719B357A363AE80 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D760BB46197ADDFC0AD64B5 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F25C1C7C29C89279FF30210F /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8044175C4C7007349E36118 /* POPAnimationTracer.mm */; };
+		F33FF32F6AAC3D5511D04D98 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E59D42B02EDB072D4C0487 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F35FF94983CF468D0BED8636 /* VBFDoubleSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2761FCC8E2D8A7445B3032 /* VBFDoubleSegment.m */; };
+		F63B25764464C8E47EFE0CEC /* Pods-Checkin-AYVibrantButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8722F556BA7A3EC89A301F3 /* Pods-Checkin-AYVibrantButton-dummy.m */; };
+		F6B6F11FA061FA62D84BE0D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765AF50D579D43AEC8F85451 /* UIKit.framework */; };
+		F8CFC9F87CB2F36B6F1346B7 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F5A2CDA1C54E6933A42A18 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC02F2EF22ED63D67202AF2E /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2577803B370345069AE9655B /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC91A10E838B138F6D917660 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A80A5B7CCD1DBACF2C2747 /* CSAnimationView.m */; };
+		FD0BFAF4C6626884252ED09D /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DA16F15696AE74A65C586EC7 /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0069469DC963302CC4CB5619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BD17EC4DC03E44792D743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539DF8EA6EF242827AE463EB;
+			remoteInfo = "Pods-Checkin-pop";
+		};
+		00A34BBCE25940D51AAC0909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BD17EC4DC03E44792D743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539DF8EA6EF242827AE463EB;
+			remoteInfo = "Pods-Checkin-pop";
+		};
+		05E5117FC5446B11A016E6A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BD17EC4DC03E44792D743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85BB6DFC47FF2096A363646D;
+			remoteInfo = "Pods-Checkin-CNPGridMenu";
+		};
+		8742DCAEFDF8AE4AE32B18DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BD17EC4DC03E44792D743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD92BB0B3769A314B7AAE13;
+			remoteInfo = "Pods-Checkin-Canvas";
+		};
+		B4B3909BFAC67492AE6E4D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BD17EC4DC03E44792D743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032C6F20BAF7D23622B55C9D;
+			remoteInfo = "Pods-Checkin-XCGLogger";
+		};
+		D90C9C7A44118C1924374EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BD17EC4DC03E44792D743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61CA0A654513C99829C3F1BF;
+			remoteInfo = "Pods-Checkin-VBFPopFlatButton";
+		};
+		F2447DACCB431C966371B053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BD17EC4DC03E44792D743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F20A8D965C16BA70DF54A4;
+			remoteInfo = "Pods-Checkin-AYVibrantButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013A6B82C8AA32C25D8C49DB /* Pods-Checkin-Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-prefix.pch"; sourceTree = "<group>"; };
+		01FAB8E059506DA2CF612B78 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		032871DACBA253A0D41B74E2 /* Pods-Checkin-AYVibrantButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-AYVibrantButton.xcconfig"; sourceTree = "<group>"; };
+		06D1EA76733C7B81484777E2 /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		09DFF5A11423BF9A25A26A67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A869C9878DB1B4DBECEAEEB /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		15E0C0E33623D976679652C0 /* Pods-Checkin-CNPGridMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-CNPGridMenu.modulemap"; sourceTree = "<group>"; };
+		16C2D0104D852F227EE7408A /* VBFPopFlatButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBFPopFlatButton.h; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFPopFlatButton.h; sourceTree = "<group>"; };
+		178A9DCD1C567AC0CF3A28FD /* Pods-Checkin-CNPGridMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-CNPGridMenu-umbrella.h"; sourceTree = "<group>"; };
+		19D474E1EB71470FE900F484 /* Pods-Checkin-Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas.xcconfig"; sourceTree = "<group>"; };
+		1E0CDD73370A59F60C51F3C6 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		1F18F746B43028766146BEAF /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		1F5D0FC94FC37A85D6463BFA /* Pods-Checkin-Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-Canvas.modulemap"; sourceTree = "<group>"; };
+		2091EC0F17BB52129818B266 /* Pods-Checkin-VBFPopFlatButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-VBFPopFlatButton-prefix.pch"; sourceTree = "<group>"; };
+		2161C47638D53763E9C3598C /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		21BA9A2AA1657BBAF94CFB40 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		226727F201066B668F052DA6 /* Pods-Checkin-XCGLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger.xcconfig"; sourceTree = "<group>"; };
+		2577803B370345069AE9655B /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		2903CA90406CFFA0A77125BC /* Pods-Checkin-XCGLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-XCGLogger.modulemap"; sourceTree = "<group>"; };
+		2B03A18909229FA6A79880C0 /* Pods-Checkin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-resources.sh"; sourceTree = "<group>"; };
+		2D1F345F46690E16A0A761E4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E4582810B7E2F51F90BB3A7 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		2E57E63BD7087A1A202A005D /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		31E0A96A73A90613D575ABCC /* Pods-Checkin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-frameworks.sh"; sourceTree = "<group>"; };
+		333C86046D1AA55581D393FF /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		3560D8F2B77E075CE5DDA236 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		3670850015168B8323D9F828 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		370A7D790E7830BC9EE6065C /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		37DA0DD852408485FA1A7FE7 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		38B1317B416109F97BFB7E68 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		399BD9056139A50BB0C863CA /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		3A6F78356C59714ACE6C03DB /* Pods-Checkin-pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-pop.xcconfig"; sourceTree = "<group>"; };
+		3AA655F584376AE1F384EB87 /* Pods-Checkin-CNPGridMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-CNPGridMenu-prefix.pch"; sourceTree = "<group>"; };
+		3C04AFB96C3C135365E671C6 /* Pods-Checkin-AYVibrantButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-AYVibrantButton.modulemap"; sourceTree = "<group>"; };
+		3E4E7DF85D7A7969CB980A38 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		3ED9E849459EC9725BE454B5 /* Pods-Checkin-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-environment.h"; sourceTree = "<group>"; };
+		401F7727E061ADB9F8D5D2F2 /* Pods-Checkin-XCGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-XCGLogger-dummy.m"; sourceTree = "<group>"; };
+		41449DB35091AE0FFA4C8627 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		41CEC0A9603CB786CCF7E171 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		4283C93289857A7286E951F7 /* VBFPopFlatButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VBFPopFlatButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45627B9F8DC0DC6BC53548C0 /* Pods-Checkin-VBFPopFlatButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-VBFPopFlatButton-dummy.m"; sourceTree = "<group>"; };
+		45CCFD4521572D82DBB2BD6B /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = XCGLogger/Library/XCGLogger/XCGLogger.swift; sourceTree = "<group>"; };
+		485A79E6D161BEC86D28C363 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48961A6F92B60CBEAFBD8D0E /* Pods-Checkin-AYVibrantButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-AYVibrantButton-Private.xcconfig"; sourceTree = "<group>"; };
+		48C27F37660253866E05B61C /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		48CAC1D4D8D8B0ECB910605B /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		49A80A5B7CCD1DBACF2C2747 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		4A9C54D29715AE5A930FB01D /* Pods_Checkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD45EF202D055B044E947EB /* Pods-Checkin-CNPGridMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-CNPGridMenu-dummy.m"; sourceTree = "<group>"; };
+		4C62A5F687FBD4FD4E072F96 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E285D3D74F189D500276C0A /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		4E5BEB8E875055673FDA79FC /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		4FC502D98BC9E8DC341BFAA5 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		525DC9EAB856F07AD82F009C /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C43D1AD6FAA808BB758A6E /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A96B60C3A8A3885B517C4CA /* Pods-Checkin-Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-umbrella.h"; sourceTree = "<group>"; };
+		5D713C47B7E419479AD3EF76 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		61A2CF4717C5B44263E045C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62441F9742049D87209A221A /* Pods-Checkin-VBFPopFlatButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-VBFPopFlatButton-Private.xcconfig"; sourceTree = "<group>"; };
+		63E582C2E76DEC20A62B9356 /* Pods-Checkin-pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-pop.modulemap"; sourceTree = "<group>"; };
+		6652F0478D846937EFFC39DA /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		68D99A6C3CE0310DE72FB1B9 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		68FB6C926677C16A42443428 /* CNPGridMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNPGridMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF51600C398B2D5647610B8 /* Pods-Checkin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Checkin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E08985070FB20EBECB6960A /* AYVibrantButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AYVibrantButton.m; path = AYVibrantButton/AYVibrantButton.m; sourceTree = "<group>"; };
+		7011305FD0165DBB21F15D34 /* Pods-Checkin-XCGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-prefix.pch"; sourceTree = "<group>"; };
+		73F325BC0F2A0905CBF5365B /* Pods-Checkin-pop-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-pop-Private.xcconfig"; sourceTree = "<group>"; };
+		765AF50D579D43AEC8F85451 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A648746CF07A3BB475D6D2B /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		7DF57833C38EFB81A657BEDB /* Pods-Checkin-Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-Canvas-dummy.m"; sourceTree = "<group>"; };
+		7ECEF10343D5D5368D30FB83 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		80AA6AD9E120E68053B33BB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8233AB25DADFC720BD99A873 /* Pods-Checkin-VBFPopFlatButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-VBFPopFlatButton.xcconfig"; sourceTree = "<group>"; };
+		85007EAE57B85E422B975110 /* Pods-Checkin-Canvas-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas-Private.xcconfig"; sourceTree = "<group>"; };
+		86C0CB7642D970882F237A66 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		897DA1F3BFDA87BD203BC7EB /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		8A35807DCE0D459A983E93E3 /* VBFDoubleSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBFDoubleSegment.h; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFDoubleSegment.h; sourceTree = "<group>"; };
+		8D760BB46197ADDFC0AD64B5 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		8F66A5625E3BC6BBEBABD883 /* Pods-Checkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.release.xcconfig"; sourceTree = "<group>"; };
+		9075D7344AE89011288B9FE0 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		92FAD26017F0AD5BD9884D14 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		93723867108E14C3B967FBA3 /* Pods-Checkin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Checkin-acknowledgements.plist"; sourceTree = "<group>"; };
+		95477DFA8D28B27A4F8D9FA0 /* VBFPopFlatButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBFPopFlatButton.m; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFPopFlatButton.m; sourceTree = "<group>"; };
+		968B587BCE1A32D8823B6F56 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		9787B1FB7E15A21957E5677C /* Pods-Checkin-VBFPopFlatButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-VBFPopFlatButton.modulemap"; sourceTree = "<group>"; };
+		982ED332B9CEE82D05ABEC10 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		98C18664EDD2D552E3DFEC63 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		998E78AAB9797F970F38F674 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		9A021D09742F97EADE6C2A2D /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		9A923E8253D8660CBE75B884 /* Pods-Checkin-AYVibrantButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-AYVibrantButton-umbrella.h"; sourceTree = "<group>"; };
+		9B10D513A185AAD65D14A482 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		9BB8E4E8DA9A21A4FC823489 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		9BD25A3377B977044DC3A0F0 /* Pods-Checkin-CNPGridMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-CNPGridMenu.xcconfig"; sourceTree = "<group>"; };
+		9CFABE60BDD1B1B32940B009 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		9D7C6EC85C3D8A2015EEA7BE /* CNPGridMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNPGridMenu.m; path = Source/CNPGridMenu.m; sourceTree = "<group>"; };
+		A2E59D42B02EDB072D4C0487 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		A436CD28ACE40274839ED7B4 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		A698D098CF30F59F97C253B6 /* Pods-Checkin-AYVibrantButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-AYVibrantButton-prefix.pch"; sourceTree = "<group>"; };
+		A8044175C4C7007349E36118 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		AC7D6D6DEFE7F2782F3E7251 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		AF524E3C067B9292501C58FC /* AYVibrantButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYVibrantButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8E914D47BA44136F2A9684 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		B0C256359D4F7B29A179BBA8 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		B0F5A2CDA1C54E6933A42A18 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		B1DC8434FA051296B65D7918 /* Pods-Checkin-XCGLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-umbrella.h"; sourceTree = "<group>"; };
+		B47DF1E77DB2CD354FC15109 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		B59E91940534309B0AC1EC32 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		BAF0C17DC0A7ADE8091825BA /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		BC7763476BDE63ABA32980C1 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		BD2761FCC8E2D8A7445B3032 /* VBFDoubleSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBFDoubleSegment.m; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFDoubleSegment.m; sourceTree = "<group>"; };
+		BE596C974BD42D6824B61933 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		BEA47A7B463EB40FF496C924 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		C2F850B235EAFCD26838D3B5 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		C4326A6CA0224F783A3598C1 /* Pods-Checkin-VBFPopFlatButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-VBFPopFlatButton-umbrella.h"; sourceTree = "<group>"; };
+		C5FEF7FE0B1631E36875F3B3 /* Pods-Checkin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin.modulemap"; sourceTree = "<group>"; };
+		C7E1EBC9037F99346ED0C6A1 /* AYVibrantButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AYVibrantButton.h; path = AYVibrantButton/AYVibrantButton.h; sourceTree = "<group>"; };
+		C9B4C91E658E62B951810EB3 /* Pods-Checkin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-umbrella.h"; sourceTree = "<group>"; };
+		CB0171775BFB0CA447F67EDA /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		CCF63DB350CE7DC5144359C5 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		CE3FCFCC88894DE70FA3ED39 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		D041FB534B223E69C1ACA9B8 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		D2D0C405FE30B7ECAC6B5F79 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		D4DAA827BDDA37E1FE75BE6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA16F15696AE74A65C586EC7 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		DAD690AF2C395407DA49270F /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		DED3113CCAF93E0B350437D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F7268B07C3C9791631EB6C /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		E151C74C6F58E25839484D16 /* Pods-Checkin-pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-pop-dummy.m"; sourceTree = "<group>"; };
+		E1A52348C751B8707F08D0EA /* CNPGridMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNPGridMenu.h; path = Source/CNPGridMenu.h; sourceTree = "<group>"; };
+		E3993F6F04B06AA7433C6B34 /* Pods-Checkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-dummy.m"; sourceTree = "<group>"; };
+		E3B7450D77DB1BD7EA6FDBCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4124838235FE1CCB86EA014 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		E6F894902CF7C33460115181 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		E88E4748CCDD4AF209E40F7D /* Pods-Checkin-CNPGridMenu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-CNPGridMenu-Private.xcconfig"; sourceTree = "<group>"; };
+		E8E4CE1AED967C62EC4BE074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BD7D3084B7D242E8CFB2C8 /* Pods-Checkin-pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-pop-prefix.pch"; sourceTree = "<group>"; };
+		EA40B6CA6AF89B42CBF7F2E5 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		EBC254909D55B2E6F76A5FE0 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		ED45581D15141D21CC90858C /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		EFBCD3DBA6222597DEAC8C16 /* Pods-Checkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.debug.xcconfig"; sourceTree = "<group>"; };
+		EFD7FCB9425A432AB1946064 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		F46A6A0D4CF1DD1D2C7B77CE /* Pods-Checkin-pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-pop-umbrella.h"; sourceTree = "<group>"; };
+		F8722F556BA7A3EC89A301F3 /* Pods-Checkin-AYVibrantButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-AYVibrantButton-dummy.m"; sourceTree = "<group>"; };
+		F8D95E17AAEF71E6EB20F0D3 /* Pods-Checkin-XCGLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger-Private.xcconfig"; sourceTree = "<group>"; };
+		FF7AA96326F53C7ED84033F0 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		319B8EFF7CE1B77CC258EC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F5C5D55963CF169294FA34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576933A03F1E6063A10B0D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBE193CBCDADF42C11BEB60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6407535F73F2AF68C93CF024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8157E1A82EA4B6EC4535F3E /* Foundation.framework in Frameworks */,
+				E2675CE650AAEE3BF3A91C99 /* pop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737A405718CE02810763B6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B390364ABA259818AF4AABC6 /* Foundation.framework in Frameworks */,
+				F6B6F11FA061FA62D84BE0D1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A295E4D7143C41EA2D589BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8179FC5CCAF7B8685F7F1632 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB256AB5DD45218BE10A6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B10A8FEA042FBB9A75607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959AD3D4187F5C998836405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D896EC8BF4D5BB508422A551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13573F7DBAE7B18340145915 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED3113CCAF93E0B350437D1 /* Info.plist */,
+				2903CA90406CFFA0A77125BC /* Pods-Checkin-XCGLogger.modulemap */,
+				226727F201066B668F052DA6 /* Pods-Checkin-XCGLogger.xcconfig */,
+				F8D95E17AAEF71E6EB20F0D3 /* Pods-Checkin-XCGLogger-Private.xcconfig */,
+				401F7727E061ADB9F8D5D2F2 /* Pods-Checkin-XCGLogger-dummy.m */,
+				7011305FD0165DBB21F15D34 /* Pods-Checkin-XCGLogger-prefix.pch */,
+				B1DC8434FA051296B65D7918 /* Pods-Checkin-XCGLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-XCGLogger";
+			sourceTree = "<group>";
+		};
+		15D3F192A8FD99B589D657F9 /* VBFPopFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				8A35807DCE0D459A983E93E3 /* VBFDoubleSegment.h */,
+				BD2761FCC8E2D8A7445B3032 /* VBFDoubleSegment.m */,
+				16C2D0104D852F227EE7408A /* VBFPopFlatButton.h */,
+				95477DFA8D28B27A4F8D9FA0 /* VBFPopFlatButton.m */,
+				F3B8A6F25E4CD5649BB28A90 /* Support Files */,
+			);
+			path = VBFPopFlatButton;
+			sourceTree = "<group>";
+		};
+		277F49D6C9CF5806D51F9879 = {
+			isa = PBXGroup;
+			children = (
+				2D1F345F46690E16A0A761E4 /* Podfile */,
+				A862F1DB1B60D543E6B2B62B /* Frameworks */,
+				EEE0A30CA8BB2187E7FAC2B9 /* Pods */,
+				6CB936C08C1EE12C9B4A63B4 /* Products */,
+				2D500FE4AA0459A798F66656 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2D500FE4AA0459A798F66656 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3A0FE9E778BA030EE5D5B /* Pods-Checkin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39BA70E3CD7350D1534462FD /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				06D1EA76733C7B81484777E2 /* CSAnimation.h */,
+				BAF0C17DC0A7ADE8091825BA /* CSAnimation.m */,
+				897DA1F3BFDA87BD203BC7EB /* CSAnimationView.h */,
+				49A80A5B7CCD1DBACF2C2747 /* CSAnimationView.m */,
+				0A869C9878DB1B4DBECEAEEB /* CSBlurView.h */,
+				982ED332B9CEE82D05ABEC10 /* CSBlurView.m */,
+				E6F894902CF7C33460115181 /* CSNavigationController.h */,
+				B47DF1E77DB2CD354FC15109 /* CSNavigationController.m */,
+				9BB8E4E8DA9A21A4FC823489 /* Canvas.h */,
+				968B587BCE1A32D8823B6F56 /* UIButton+TCCustomFont.h */,
+				37DA0DD852408485FA1A7FE7 /* UIButton+TCCustomFont.m */,
+				DA16F15696AE74A65C586EC7 /* UILabel+TCCustomFont.h */,
+				D2D0C405FE30B7ECAC6B5F79 /* UILabel+TCCustomFont.m */,
+				1E0CDD73370A59F60C51F3C6 /* UINavigationBar+TCCustomFont.h */,
+				2161C47638D53763E9C3598C /* UINavigationBar+TCCustomFont.m */,
+				2E57E63BD7087A1A202A005D /* UITextField+PlaceholderColor.h */,
+				AC7D6D6DEFE7F2782F3E7251 /* UITextField+PlaceholderColor.m */,
+				399BD9056139A50BB0C863CA /* UITextField+TCCustomFont.h */,
+				BE596C974BD42D6824B61933 /* UITextField+TCCustomFont.m */,
+				98C18664EDD2D552E3DFEC63 /* UITextView+TCCustomFont.h */,
+				E0F7268B07C3C9791631EB6C /* UITextView+TCCustomFont.m */,
+				8CAC3F42B7DF19A3919F6ACE /* Support Files */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		4817EB2341A210FA4B35FD42 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09DFF5A11423BF9A25A26A67 /* Info.plist */,
+				3C04AFB96C3C135365E671C6 /* Pods-Checkin-AYVibrantButton.modulemap */,
+				032871DACBA253A0D41B74E2 /* Pods-Checkin-AYVibrantButton.xcconfig */,
+				48961A6F92B60CBEAFBD8D0E /* Pods-Checkin-AYVibrantButton-Private.xcconfig */,
+				F8722F556BA7A3EC89A301F3 /* Pods-Checkin-AYVibrantButton-dummy.m */,
+				A698D098CF30F59F97C253B6 /* Pods-Checkin-AYVibrantButton-prefix.pch */,
+				9A923E8253D8660CBE75B884 /* Pods-Checkin-AYVibrantButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-AYVibrantButton";
+			sourceTree = "<group>";
+		};
+		54A78F19643254A7A9A6125B /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				9CFABE60BDD1B1B32940B009 /* FloatConversion.h */,
+				A2E59D42B02EDB072D4C0487 /* POP.h */,
+				B59E91940534309B0AC1EC32 /* POPAction.h */,
+				A436CD28ACE40274839ED7B4 /* POPAnimatableProperty.h */,
+				CB0171775BFB0CA447F67EDA /* POPAnimatableProperty.mm */,
+				4E5BEB8E875055673FDA79FC /* POPAnimation.h */,
+				D041FB534B223E69C1ACA9B8 /* POPAnimation.mm */,
+				BEA47A7B463EB40FF496C924 /* POPAnimationEvent.h */,
+				EBC254909D55B2E6F76A5FE0 /* POPAnimationEvent.mm */,
+				C2F850B235EAFCD26838D3B5 /* POPAnimationEventInternal.h */,
+				4FC502D98BC9E8DC341BFAA5 /* POPAnimationExtras.h */,
+				48C27F37660253866E05B61C /* POPAnimationExtras.mm */,
+				4E285D3D74F189D500276C0A /* POPAnimationInternal.h */,
+				EA40B6CA6AF89B42CBF7F2E5 /* POPAnimationPrivate.h */,
+				CCF63DB350CE7DC5144359C5 /* POPAnimationRuntime.h */,
+				9B10D513A185AAD65D14A482 /* POPAnimationRuntime.mm */,
+				DAD690AF2C395407DA49270F /* POPAnimationTracer.h */,
+				A8044175C4C7007349E36118 /* POPAnimationTracer.mm */,
+				370A7D790E7830BC9EE6065C /* POPAnimationTracerInternal.h */,
+				BC7763476BDE63ABA32980C1 /* POPAnimator.h */,
+				EFD7FCB9425A432AB1946064 /* POPAnimator.mm */,
+				9075D7344AE89011288B9FE0 /* POPAnimatorPrivate.h */,
+				48CAC1D4D8D8B0ECB910605B /* POPBasicAnimation.h */,
+				5D713C47B7E419479AD3EF76 /* POPBasicAnimation.mm */,
+				998E78AAB9797F970F38F674 /* POPBasicAnimationInternal.h */,
+				3670850015168B8323D9F828 /* POPCGUtils.h */,
+				ED45581D15141D21CC90858C /* POPCGUtils.mm */,
+				B0C256359D4F7B29A179BBA8 /* POPCustomAnimation.h */,
+				CE3FCFCC88894DE70FA3ED39 /* POPCustomAnimation.mm */,
+				86C0CB7642D970882F237A66 /* POPDecayAnimation.h */,
+				21BA9A2AA1657BBAF94CFB40 /* POPDecayAnimation.mm */,
+				7A648746CF07A3BB475D6D2B /* POPDecayAnimationInternal.h */,
+				8D760BB46197ADDFC0AD64B5 /* POPDefines.h */,
+				6652F0478D846937EFFC39DA /* POPGeometry.h */,
+				AF8E914D47BA44136F2A9684 /* POPGeometry.mm */,
+				FF7AA96326F53C7ED84033F0 /* POPLayerExtras.h */,
+				41CEC0A9603CB786CCF7E171 /* POPLayerExtras.mm */,
+				1F18F746B43028766146BEAF /* POPMath.h */,
+				41449DB35091AE0FFA4C8627 /* POPMath.mm */,
+				01FAB8E059506DA2CF612B78 /* POPPropertyAnimation.h */,
+				3E4E7DF85D7A7969CB980A38 /* POPPropertyAnimation.mm */,
+				9A021D09742F97EADE6C2A2D /* POPPropertyAnimationInternal.h */,
+				333C86046D1AA55581D393FF /* POPSpringAnimation.h */,
+				92FAD26017F0AD5BD9884D14 /* POPSpringAnimation.mm */,
+				3560D8F2B77E075CE5DDA236 /* POPSpringAnimationInternal.h */,
+				B0F5A2CDA1C54E6933A42A18 /* POPSpringSolver.h */,
+				2577803B370345069AE9655B /* POPVector.h */,
+				68D99A6C3CE0310DE72FB1B9 /* POPVector.mm */,
+				2E4582810B7E2F51F90BB3A7 /* TransformationMatrix.cpp */,
+				E4124838235FE1CCB86EA014 /* TransformationMatrix.h */,
+				7ECEF10343D5D5368D30FB83 /* UnitBezier.h */,
+				EFDA6F748FBC2E34A087FE22 /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		69D450E8D7F97766D7C614FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				485A79E6D161BEC86D28C363 /* Foundation.framework */,
+				765AF50D579D43AEC8F85451 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CB936C08C1EE12C9B4A63B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF524E3C067B9292501C58FC /* AYVibrantButton.framework */,
+				68FB6C926677C16A42443428 /* CNPGridMenu.framework */,
+				53C43D1AD6FAA808BB758A6E /* Canvas.framework */,
+				4A9C54D29715AE5A930FB01D /* Pods_Checkin.framework */,
+				4283C93289857A7286E951F7 /* VBFPopFlatButton.framework */,
+				525DC9EAB856F07AD82F009C /* XCGLogger.framework */,
+				4C62A5F687FBD4FD4E072F96 /* pop.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7322BA13A92BE00DBEFAA57D /* CNPGridMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E1A52348C751B8707F08D0EA /* CNPGridMenu.h */,
+				9D7C6EC85C3D8A2015EEA7BE /* CNPGridMenu.m */,
+				76BD41414895C6A65248E192 /* Support Files */,
+			);
+			path = CNPGridMenu;
+			sourceTree = "<group>";
+		};
+		76BD41414895C6A65248E192 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8E4CE1AED967C62EC4BE074 /* Info.plist */,
+				15E0C0E33623D976679652C0 /* Pods-Checkin-CNPGridMenu.modulemap */,
+				9BD25A3377B977044DC3A0F0 /* Pods-Checkin-CNPGridMenu.xcconfig */,
+				E88E4748CCDD4AF209E40F7D /* Pods-Checkin-CNPGridMenu-Private.xcconfig */,
+				4AD45EF202D055B044E947EB /* Pods-Checkin-CNPGridMenu-dummy.m */,
+				3AA655F584376AE1F384EB87 /* Pods-Checkin-CNPGridMenu-prefix.pch */,
+				178A9DCD1C567AC0CF3A28FD /* Pods-Checkin-CNPGridMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-CNPGridMenu";
+			sourceTree = "<group>";
+		};
+		8CAC3F42B7DF19A3919F6ACE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3B7450D77DB1BD7EA6FDBCC /* Info.plist */,
+				1F5D0FC94FC37A85D6463BFA /* Pods-Checkin-Canvas.modulemap */,
+				19D474E1EB71470FE900F484 /* Pods-Checkin-Canvas.xcconfig */,
+				85007EAE57B85E422B975110 /* Pods-Checkin-Canvas-Private.xcconfig */,
+				7DF57833C38EFB81A657BEDB /* Pods-Checkin-Canvas-dummy.m */,
+				013A6B82C8AA32C25D8C49DB /* Pods-Checkin-Canvas-prefix.pch */,
+				5A96B60C3A8A3885B517C4CA /* Pods-Checkin-Canvas-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-Canvas";
+			sourceTree = "<group>";
+		};
+		9AAE7CB02C567A8428691048 /* AYVibrantButton */ = {
+			isa = PBXGroup;
+			children = (
+				C7E1EBC9037F99346ED0C6A1 /* AYVibrantButton.h */,
+				6E08985070FB20EBECB6960A /* AYVibrantButton.m */,
+				4817EB2341A210FA4B35FD42 /* Support Files */,
+			);
+			path = AYVibrantButton;
+			sourceTree = "<group>";
+		};
+		A862F1DB1B60D543E6B2B62B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38B1317B416109F97BFB7E68 /* pop.framework */,
+				69D450E8D7F97766D7C614FD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB3A0FE9E778BA030EE5D5B /* Pods-Checkin */ = {
+			isa = PBXGroup;
+			children = (
+				D4DAA827BDDA37E1FE75BE6F /* Info.plist */,
+				C5FEF7FE0B1631E36875F3B3 /* Pods-Checkin.modulemap */,
+				6BF51600C398B2D5647610B8 /* Pods-Checkin-acknowledgements.markdown */,
+				93723867108E14C3B967FBA3 /* Pods-Checkin-acknowledgements.plist */,
+				E3993F6F04B06AA7433C6B34 /* Pods-Checkin-dummy.m */,
+				3ED9E849459EC9725BE454B5 /* Pods-Checkin-environment.h */,
+				31E0A96A73A90613D575ABCC /* Pods-Checkin-frameworks.sh */,
+				2B03A18909229FA6A79880C0 /* Pods-Checkin-resources.sh */,
+				C9B4C91E658E62B951810EB3 /* Pods-Checkin-umbrella.h */,
+				EFBCD3DBA6222597DEAC8C16 /* Pods-Checkin.debug.xcconfig */,
+				8F66A5625E3BC6BBEBABD883 /* Pods-Checkin.release.xcconfig */,
+			);
+			name = "Pods-Checkin";
+			path = "Target Support Files/Pods-Checkin";
+			sourceTree = "<group>";
+		};
+		D6505D07F8C88B08FFF30030 /* XCGLogger */ = {
+			isa = PBXGroup;
+			children = (
+				45CCFD4521572D82DBB2BD6B /* XCGLogger.swift */,
+				13573F7DBAE7B18340145915 /* Support Files */,
+			);
+			path = XCGLogger;
+			sourceTree = "<group>";
+		};
+		EEE0A30CA8BB2187E7FAC2B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE7CB02C567A8428691048 /* AYVibrantButton */,
+				7322BA13A92BE00DBEFAA57D /* CNPGridMenu */,
+				39BA70E3CD7350D1534462FD /* Canvas */,
+				15D3F192A8FD99B589D657F9 /* VBFPopFlatButton */,
+				D6505D07F8C88B08FFF30030 /* XCGLogger */,
+				54A78F19643254A7A9A6125B /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFDA6F748FBC2E34A087FE22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61A2CF4717C5B44263E045C8 /* Info.plist */,
+				63E582C2E76DEC20A62B9356 /* Pods-Checkin-pop.modulemap */,
+				3A6F78356C59714ACE6C03DB /* Pods-Checkin-pop.xcconfig */,
+				73F325BC0F2A0905CBF5365B /* Pods-Checkin-pop-Private.xcconfig */,
+				E151C74C6F58E25839484D16 /* Pods-Checkin-pop-dummy.m */,
+				E9BD7D3084B7D242E8CFB2C8 /* Pods-Checkin-pop-prefix.pch */,
+				F46A6A0D4CF1DD1D2C7B77CE /* Pods-Checkin-pop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-pop";
+			sourceTree = "<group>";
+		};
+		F3B8A6F25E4CD5649BB28A90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AA6AD9E120E68053B33BB9 /* Info.plist */,
+				9787B1FB7E15A21957E5677C /* Pods-Checkin-VBFPopFlatButton.modulemap */,
+				8233AB25DADFC720BD99A873 /* Pods-Checkin-VBFPopFlatButton.xcconfig */,
+				62441F9742049D87209A221A /* Pods-Checkin-VBFPopFlatButton-Private.xcconfig */,
+				45627B9F8DC0DC6BC53548C0 /* Pods-Checkin-VBFPopFlatButton-dummy.m */,
+				2091EC0F17BB52129818B266 /* Pods-Checkin-VBFPopFlatButton-prefix.pch */,
+				C4326A6CA0224F783A3598C1 /* Pods-Checkin-VBFPopFlatButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-VBFPopFlatButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CB6ED335F6290DF5D41170C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07475B4CEA889AC6C609CEB /* FloatConversion.h in Headers */,
+				F33FF32F6AAC3D5511D04D98 /* POP.h in Headers */,
+				A33DDC297307603142CD9CA4 /* POPAction.h in Headers */,
+				2FB83399BDFF459FC0BA7CBA /* POPAnimatableProperty.h in Headers */,
+				457A6818C3FAC4D38EDCBBD3 /* POPAnimation.h in Headers */,
+				887B7FBAE21F06B594522B32 /* POPAnimationEvent.h in Headers */,
+				9847866941C41355B26E658F /* POPAnimationEventInternal.h in Headers */,
+				D58FA67B8987F25C83862123 /* POPAnimationExtras.h in Headers */,
+				00771968AD2701E8A932548F /* POPAnimationInternal.h in Headers */,
+				59223F9064F9B7DD42ED1964 /* POPAnimationPrivate.h in Headers */,
+				569FE98F0ABEAED24BB55011 /* POPAnimationRuntime.h in Headers */,
+				36C941062F3CB52983CB7007 /* POPAnimationTracer.h in Headers */,
+				60208A62FE76824B84C7F7B5 /* POPAnimationTracerInternal.h in Headers */,
+				82EE20B77FE90178C0954624 /* POPAnimator.h in Headers */,
+				BAD46612FCD6585D8527CF44 /* POPAnimatorPrivate.h in Headers */,
+				477AB5CFE5CDA8D448A5021B /* POPBasicAnimation.h in Headers */,
+				F0449EA78E159FF9689A4FF8 /* POPBasicAnimationInternal.h in Headers */,
+				33C0E9ED81D6CA8B863F9EF5 /* POPCGUtils.h in Headers */,
+				4354BFE4535BBD8816EBA199 /* POPCustomAnimation.h in Headers */,
+				460D81F927D946C0339A2C84 /* POPDecayAnimation.h in Headers */,
+				E3B21593980885EE2B1AA03C /* POPDecayAnimationInternal.h in Headers */,
+				F1BF0130F719B357A363AE80 /* POPDefines.h in Headers */,
+				AF746BA4FFC94034289359BE /* POPGeometry.h in Headers */,
+				6E4CFA831B03F55ABD550E93 /* POPLayerExtras.h in Headers */,
+				483A073097C1B61A868F170C /* POPMath.h in Headers */,
+				6F46F789CCD9A007B6E55F50 /* POPPropertyAnimation.h in Headers */,
+				70AA0A2A1A67C2EA8F3E1FEE /* POPPropertyAnimationInternal.h in Headers */,
+				26D96AA0C91F154D85E45CAC /* POPSpringAnimation.h in Headers */,
+				93BD8B8368E7C7C42BB84004 /* POPSpringAnimationInternal.h in Headers */,
+				F8CFC9F87CB2F36B6F1346B7 /* POPSpringSolver.h in Headers */,
+				FC02F2EF22ED63D67202AF2E /* POPVector.h in Headers */,
+				C02C79C8EA564228B74E9CC2 /* Pods-Checkin-pop-umbrella.h in Headers */,
+				57694923BEEDD2995C21A80C /* TransformationMatrix.h in Headers */,
+				E7F7C0ACE583002206F7CB78 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E43C6CFD01357A4A3B6FD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56660E0E090D44F63594182 /* Pods-Checkin-XCGLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A00B2B26947B443A9CDC07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3873E170E2F6F4D960E4FE /* CSAnimation.h in Headers */,
+				0D64A4FA56198659B92833C7 /* CSAnimationView.h in Headers */,
+				C8360F402268EEC87D124BE2 /* CSBlurView.h in Headers */,
+				AE9E424429DF9374886FA732 /* CSNavigationController.h in Headers */,
+				AB42E840D3899FFDB9D788F5 /* Canvas.h in Headers */,
+				D6947E452AD534ADFA80B8BD /* Pods-Checkin-Canvas-umbrella.h in Headers */,
+				181FF019B5EC88085A70EC79 /* UIButton+TCCustomFont.h in Headers */,
+				FD0BFAF4C6626884252ED09D /* UILabel+TCCustomFont.h in Headers */,
+				7B685411F2E31EB3F5112822 /* UINavigationBar+TCCustomFont.h in Headers */,
+				26FCD82A5BF77CCDE311EC5F /* UITextField+PlaceholderColor.h in Headers */,
+				0D93CC702659C4EA84450607 /* UITextField+TCCustomFont.h in Headers */,
+				12CCE0AF469167C78EDBA5FC /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B97164D7747B9B44D71931E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E74A2EA455DA528CB0EB5 /* Pods-Checkin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA7698873A5F03B54775A7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3DA3714796211A8F34D304 /* CNPGridMenu.h in Headers */,
+				17C957580B6E9322FCB1EB44 /* Pods-Checkin-CNPGridMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3AAE49D07C45D305E8192D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C04DD0768263F7B0F6AE68 /* Pods-Checkin-VBFPopFlatButton-umbrella.h in Headers */,
+				A7673CF5C93B699F004F1B3A /* VBFDoubleSegment.h in Headers */,
+				9ABF718A8F8636F22DF5D32F /* VBFPopFlatButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEC47C247D9C712AB65A047 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC28E08968F8E06F14D4FFC /* AYVibrantButton.h in Headers */,
+				23AD35313A98150007F6ECFF /* Pods-Checkin-AYVibrantButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		032C6F20BAF7D23622B55C9D /* Pods-Checkin-XCGLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F611DE256BA9EC6BF68E94 /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */;
+			buildPhases = (
+				05D093A500AC3C79D7C9774F /* Sources */,
+				7AB256AB5DD45218BE10A6DB /* Frameworks */,
+				28E43C6CFD01357A4A3B6FD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-XCGLogger";
+			productName = "Pods-Checkin-XCGLogger";
+			productReference = 525DC9EAB856F07AD82F009C /* XCGLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		539DF8EA6EF242827AE463EB /* Pods-Checkin-pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F99972AA80676220408EA6 /* Build configuration list for PBXNativeTarget "Pods-Checkin-pop" */;
+			buildPhases = (
+				9779E6FC747F06AA9F8A2733 /* Sources */,
+				7A295E4D7143C41EA2D589BF /* Frameworks */,
+				1CB6ED335F6290DF5D41170C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-pop";
+			productName = "Pods-Checkin-pop";
+			productReference = 4C62A5F687FBD4FD4E072F96 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CD92BB0B3769A314B7AAE13 /* Pods-Checkin-Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CEB86D42590FBE53915DDF /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */;
+			buildPhases = (
+				B58B1FFFF81B70405981278F /* Sources */,
+				319B8EFF7CE1B77CC258EC0A /* Frameworks */,
+				45A00B2B26947B443A9CDC07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-Canvas";
+			productName = "Pods-Checkin-Canvas";
+			productReference = 53C43D1AD6FAA808BB758A6E /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61CA0A654513C99829C3F1BF /* Pods-Checkin-VBFPopFlatButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DCE190D252BCC3780FF1A4 /* Build configuration list for PBXNativeTarget "Pods-Checkin-VBFPopFlatButton" */;
+			buildPhases = (
+				B65895FF3FCECAD823DEC5E5 /* Sources */,
+				6407535F73F2AF68C93CF024 /* Frameworks */,
+				BB3AAE49D07C45D305E8192D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B42433D01ADBA4BCEBA33D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Checkin-VBFPopFlatButton";
+			productName = "Pods-Checkin-VBFPopFlatButton";
+			productReference = 4283C93289857A7286E951F7 /* VBFPopFlatButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6450B62CD1C6A1C67CED8D26 /* Pods-Checkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3382E14C111A9A5BCC29BE7F /* Build configuration list for PBXNativeTarget "Pods-Checkin" */;
+			buildPhases = (
+				4A9C3BF641AEC0754F07AD96 /* Sources */,
+				A959AD3D4187F5C998836405 /* Frameworks */,
+				5B97164D7747B9B44D71931E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BD336091F995EBC747F856 /* PBXTargetDependency */,
+				E72B955B32F14D760323A0A1 /* PBXTargetDependency */,
+				CCFC1F1624016CC7508ECF83 /* PBXTargetDependency */,
+				1E73ECE5C56EBCD2F1930AC5 /* PBXTargetDependency */,
+				20B6A96C6A724C9D82D78816 /* PBXTargetDependency */,
+				C1B9B9BF11058A554FD9E968 /* PBXTargetDependency */,
+			);
+			name = "Pods-Checkin";
+			productName = "Pods-Checkin";
+			productReference = 4A9C54D29715AE5A930FB01D /* Pods_Checkin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85BB6DFC47FF2096A363646D /* Pods-Checkin-CNPGridMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050EB07D34BD881B847ACF86 /* Build configuration list for PBXNativeTarget "Pods-Checkin-CNPGridMenu" */;
+			buildPhases = (
+				95EF8C4CB83389FBEB970E2A /* Sources */,
+				576933A03F1E6063A10B0D79 /* Frameworks */,
+				7DA7698873A5F03B54775A7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-CNPGridMenu";
+			productName = "Pods-Checkin-CNPGridMenu";
+			productReference = 68FB6C926677C16A42443428 /* CNPGridMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8F20A8D965C16BA70DF54A4 /* Pods-Checkin-AYVibrantButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C6DA929F0648C8FCF595B8 /* Build configuration list for PBXNativeTarget "Pods-Checkin-AYVibrantButton" */;
+			buildPhases = (
+				B83426DDC31A2D0AA86DB4E9 /* Sources */,
+				737A405718CE02810763B6CE /* Frameworks */,
+				FAEC47C247D9C712AB65A047 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-AYVibrantButton";
+			productName = "Pods-Checkin-AYVibrantButton";
+			productReference = AF524E3C067B9292501C58FC /* AYVibrantButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		693BD17EC4DC03E44792D743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 0D71A6CC0F79351D05AA07AA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 277F49D6C9CF5806D51F9879;
+			productRefGroup = 6CB936C08C1EE12C9B4A63B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6450B62CD1C6A1C67CED8D26 /* Pods-Checkin */,
+				F8F20A8D965C16BA70DF54A4 /* Pods-Checkin-AYVibrantButton */,
+				85BB6DFC47FF2096A363646D /* Pods-Checkin-CNPGridMenu */,
+				5CD92BB0B3769A314B7AAE13 /* Pods-Checkin-Canvas */,
+				61CA0A654513C99829C3F1BF /* Pods-Checkin-VBFPopFlatButton */,
+				032C6F20BAF7D23622B55C9D /* Pods-Checkin-XCGLogger */,
+				539DF8EA6EF242827AE463EB /* Pods-Checkin-pop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D093A500AC3C79D7C9774F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DA344F52D20A9EC6D11821 /* Pods-Checkin-XCGLogger-dummy.m in Sources */,
+				89B7C5DE4D1112BA79D0CC39 /* XCGLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A9C3BF641AEC0754F07AD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFB57262C5BE126DC3A6938 /* Pods-Checkin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EF8C4CB83389FBEB970E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A68C7D7FB7879FD0AB076C /* CNPGridMenu.m in Sources */,
+				6BF3313E858118173CBF979B /* Pods-Checkin-CNPGridMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9779E6FC747F06AA9F8A2733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47139CE41FFC5A187F9A3797 /* POPAnimatableProperty.mm in Sources */,
+				C2FEAAD90B2371914BBFA84F /* POPAnimation.mm in Sources */,
+				B3B415A082F6CEB8DC751149 /* POPAnimationEvent.mm in Sources */,
+				6564853667B69E6A06E1CBB8 /* POPAnimationExtras.mm in Sources */,
+				EBAD5D97EFFCE585091B6390 /* POPAnimationRuntime.mm in Sources */,
+				F25C1C7C29C89279FF30210F /* POPAnimationTracer.mm in Sources */,
+				4E0188AD4AA53777D23E3059 /* POPAnimator.mm in Sources */,
+				0BB831B652A8AE24B7F07B2A /* POPBasicAnimation.mm in Sources */,
+				1F16552EC24BBFFA5A3C442B /* POPCGUtils.mm in Sources */,
+				3A9A823AC7859766F112E7FF /* POPCustomAnimation.mm in Sources */,
+				94B5474C2BB18EA83761A456 /* POPDecayAnimation.mm in Sources */,
+				236C4EA508240E236B7DE2A5 /* POPGeometry.mm in Sources */,
+				0B16D6F7449BA34D34B06DB3 /* POPLayerExtras.mm in Sources */,
+				83C0FEED29E96DA49F1F76F8 /* POPMath.mm in Sources */,
+				76C1B7D7577FD2AAA6CA3CA3 /* POPPropertyAnimation.mm in Sources */,
+				6635CE62D718404B47A3A915 /* POPSpringAnimation.mm in Sources */,
+				3600BB9E557BC153FCDBE9A3 /* POPVector.mm in Sources */,
+				237B3D77D284CF2380848A89 /* Pods-Checkin-pop-dummy.m in Sources */,
+				4EFD9FD02FDC997315D09FBF /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58B1FFFF81B70405981278F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021790859668FCEAA9B614B9 /* CSAnimation.m in Sources */,
+				FC91A10E838B138F6D917660 /* CSAnimationView.m in Sources */,
+				5BD355B456F463BD8DD6D8B3 /* CSBlurView.m in Sources */,
+				DC94CA38FCD301BCFD99677E /* CSNavigationController.m in Sources */,
+				09F7145A78AFBEFAFED05FEE /* Pods-Checkin-Canvas-dummy.m in Sources */,
+				74CAC87A4FF25416C5462FAC /* UIButton+TCCustomFont.m in Sources */,
+				727C691F107514EF9F4D79E2 /* UILabel+TCCustomFont.m in Sources */,
+				3A98BF7F3DD7237CD4476329 /* UINavigationBar+TCCustomFont.m in Sources */,
+				176D4EFEDEF7285ECE47BEA4 /* UITextField+PlaceholderColor.m in Sources */,
+				E0A3EFDCFFB6FCD3384DB8C7 /* UITextField+TCCustomFont.m in Sources */,
+				1BCAB8DF24ED08A9FD0250AF /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65895FF3FCECAD823DEC5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D81A06ACCAA3E3BEDC4D13 /* Pods-Checkin-VBFPopFlatButton-dummy.m in Sources */,
+				F35FF94983CF468D0BED8636 /* VBFDoubleSegment.m in Sources */,
+				BFEA5C3A20FD6E4D67C9EBE2 /* VBFPopFlatButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83426DDC31A2D0AA86DB4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A87857AE63F37B8CEF9153 /* AYVibrantButton.m in Sources */,
+				F63B25764464C8E47EFE0CEC /* Pods-Checkin-AYVibrantButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E73ECE5C56EBCD2F1930AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-VBFPopFlatButton";
+			target = 61CA0A654513C99829C3F1BF /* Pods-Checkin-VBFPopFlatButton */;
+			targetProxy = D90C9C7A44118C1924374EC8 /* PBXContainerItemProxy */;
+		};
+		20B6A96C6A724C9D82D78816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-XCGLogger";
+			target = 032C6F20BAF7D23622B55C9D /* Pods-Checkin-XCGLogger */;
+			targetProxy = B4B3909BFAC67492AE6E4D57 /* PBXContainerItemProxy */;
+		};
+		8B42433D01ADBA4BCEBA33D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-pop";
+			target = 539DF8EA6EF242827AE463EB /* Pods-Checkin-pop */;
+			targetProxy = 00A34BBCE25940D51AAC0909 /* PBXContainerItemProxy */;
+		};
+		C1B9B9BF11058A554FD9E968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-pop";
+			target = 539DF8EA6EF242827AE463EB /* Pods-Checkin-pop */;
+			targetProxy = 0069469DC963302CC4CB5619 /* PBXContainerItemProxy */;
+		};
+		CCFC1F1624016CC7508ECF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-Canvas";
+			target = 5CD92BB0B3769A314B7AAE13 /* Pods-Checkin-Canvas */;
+			targetProxy = 8742DCAEFDF8AE4AE32B18DF /* PBXContainerItemProxy */;
+		};
+		E4BD336091F995EBC747F856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-AYVibrantButton";
+			target = F8F20A8D965C16BA70DF54A4 /* Pods-Checkin-AYVibrantButton */;
+			targetProxy = F2447DACCB431C966371B053 /* PBXContainerItemProxy */;
+		};
+		E72B955B32F14D760323A0A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-CNPGridMenu";
+			target = 85BB6DFC47FF2096A363646D /* Pods-Checkin-CNPGridMenu */;
+			targetProxy = 05E5117FC5446B11A016E6A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CFDCA602D5F29415AFBFA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F325BC0F2A0905CBF5365B /* Pods-Checkin-pop-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-pop/Pods-Checkin-pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-pop/Pods-Checkin-pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BF779CE3A3086FF6C65E14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		264878A6848D73B39EB7AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F66A5625E3BC6BBEBABD883 /* Pods-Checkin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin/Pods-Checkin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Checkin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F507DFD1787A6F6CA604CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48961A6F92B60CBEAFBD8D0E /* Pods-Checkin-AYVibrantButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-AYVibrantButton/Pods-Checkin-AYVibrantButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-AYVibrantButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-AYVibrantButton/Pods-Checkin-AYVibrantButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AYVibrantButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44434ACCAC2ABA0B6E1E688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62441F9742049D87209A221A /* Pods-Checkin-VBFPopFlatButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-VBFPopFlatButton/Pods-Checkin-VBFPopFlatButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-VBFPopFlatButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-VBFPopFlatButton/Pods-Checkin-VBFPopFlatButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VBFPopFlatButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46CB97A72BE076F82D2CE2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88E4748CCDD4AF209E40F7D /* Pods-Checkin-CNPGridMenu-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-CNPGridMenu/Pods-Checkin-CNPGridMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-CNPGridMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-CNPGridMenu/Pods-Checkin-CNPGridMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CNPGridMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FE0D57B97D63531A8D01942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85007EAE57B85E422B975110 /* Pods-Checkin-Canvas-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D4C37BA25F0B595C6717434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85007EAE57B85E422B975110 /* Pods-Checkin-Canvas-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A10C3FD1DE11E44441973609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88E4748CCDD4AF209E40F7D /* Pods-Checkin-CNPGridMenu-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-CNPGridMenu/Pods-Checkin-CNPGridMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-CNPGridMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-CNPGridMenu/Pods-Checkin-CNPGridMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CNPGridMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD298ADD0F3DA5AB15AE8669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62441F9742049D87209A221A /* Pods-Checkin-VBFPopFlatButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-VBFPopFlatButton/Pods-Checkin-VBFPopFlatButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-VBFPopFlatButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-VBFPopFlatButton/Pods-Checkin-VBFPopFlatButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VBFPopFlatButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C229B30F1ED06A877E987EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4AD300A4438DF3C6E495F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBCD3DBA6222597DEAC8C16 /* Pods-Checkin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin/Pods-Checkin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Checkin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3DCB098640ECA841EDA970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48961A6F92B60CBEAFBD8D0E /* Pods-Checkin-AYVibrantButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-AYVibrantButton/Pods-Checkin-AYVibrantButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-AYVibrantButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-AYVibrantButton/Pods-Checkin-AYVibrantButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AYVibrantButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAD02077482B1E3F2F0F1EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F325BC0F2A0905CBF5365B /* Pods-Checkin-pop-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-pop/Pods-Checkin-pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-pop/Pods-Checkin-pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4567DEC26A405953CDC05A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D95E17AAEF71E6EB20F0D3 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XCGLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBA442C2B07B3E81197E1976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D95E17AAEF71E6EB20F0D3 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XCGLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050EB07D34BD881B847ACF86 /* Build configuration list for PBXNativeTarget "Pods-Checkin-CNPGridMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CB97A72BE076F82D2CE2BC /* Debug */,
+				A10C3FD1DE11E44441973609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C6DA929F0648C8FCF595B8 /* Build configuration list for PBXNativeTarget "Pods-Checkin-AYVibrantButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DCB098640ECA841EDA970A /* Debug */,
+				3F507DFD1787A6F6CA604CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D71A6CC0F79351D05AA07AA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF779CE3A3086FF6C65E14C /* Debug */,
+				C229B30F1ED06A877E987EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3382E14C111A9A5BCC29BE7F /* Build configuration list for PBXNativeTarget "Pods-Checkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AD300A4438DF3C6E495F01 /* Debug */,
+				264878A6848D73B39EB7AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DCE190D252BCC3780FF1A4 /* Build configuration list for PBXNativeTarget "Pods-Checkin-VBFPopFlatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44434ACCAC2ABA0B6E1E688B /* Debug */,
+				BD298ADD0F3DA5AB15AE8669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CEB86D42590FBE53915DDF /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE0D57B97D63531A8D01942 /* Debug */,
+				5D4C37BA25F0B595C6717434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F611DE256BA9EC6BF68E94 /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA442C2B07B3E81197E1976 /* Debug */,
+				F4567DEC26A405953CDC05A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F99972AA80676220408EA6 /* Build configuration list for PBXNativeTarget "Pods-Checkin-pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD02077482B1E3F2F0F1EFD /* Debug */,
+				0CFDCA602D5F29415AFBFA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 693BD17EC4DC03E44792D743 /* Project object */;
+}
