@@ -42,6 +42,7 @@ class CheckInViewController: UIViewController, MPCManagerDelegate {
                     PXAlertView.showAlertWithTitle("Success!", message: "You are checked in")
                 } else {
                     PXAlertView.showAlertWithTitle("Failed!", message: "You are not checked in")
+                    return
                 }
             })
         } else {
@@ -59,6 +60,7 @@ class CheckInViewController: UIViewController, MPCManagerDelegate {
             let data: [String : AnyObject] = ["message" : message]
             self.appDelegate.mpcManager.sendData(dictionaryWithData: data, toPeer: self.appDelegate.mpcManager.session.connectedPeers[0] as! MCPeerID)
             PXAlertView.showAlertWithTitle("Success!", message: "You are checked in")
+            self.dismissViewControllerAnimated(true, completion: nil)
         }
         inputBox.show()
     }

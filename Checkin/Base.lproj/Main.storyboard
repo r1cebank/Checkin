@@ -119,15 +119,6 @@
                                     <action selector="buttonToggle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KE7-nj-sYB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qgr-vd-AAA">
-                                <rect key="frame" x="43" y="270" width="513" height="59"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="59" id="tGI-NE-GAV"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37U-Kq-6ka">
                                 <rect key="frame" x="226" y="337" width="148" height="45"/>
                                 <constraints>
@@ -165,6 +156,15 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qgr-vd-AAA">
+                                <rect key="frame" x="43" y="270" width="513" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="tGI-NE-GAV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -177,10 +177,12 @@
                             <constraint firstAttribute="centerX" secondItem="pJc-u9-26j" secondAttribute="centerX" constant="-0.5" id="HAR-gD-MTz"/>
                             <constraint firstItem="Qgr-vd-AAA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="27" id="HBV-nY-lL6">
                                 <variation key="heightClass=compact" constant="28"/>
+                                <variation key="widthClass=compact" constant="28"/>
                             </constraint>
                             <constraint firstItem="xcL-Ax-kym" firstAttribute="top" secondItem="pJc-u9-26j" secondAttribute="bottom" constant="16" id="KNd-Nd-ULf"/>
                             <constraint firstAttribute="centerY" secondItem="Qgr-vd-AAA" secondAttribute="centerY" id="MKD-gX-WAF">
                                 <variation key="heightClass=compact" constant="-42.5"/>
+                                <variation key="widthClass=compact" constant="-38.5"/>
                             </constraint>
                             <constraint firstItem="fCr-vE-ok0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="132" id="Q4R-Mj-XL2">
                                 <variation key="heightClass=compact" constant="87"/>
@@ -194,10 +196,12 @@
                             </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="Qgr-vd-AAA" secondAttribute="trailing" constant="28" id="Ux8-GF-yBv">
                                 <variation key="heightClass=compact" constant="27"/>
+                                <variation key="widthClass=compact" constant="27"/>
                             </constraint>
                             <constraint firstItem="fCr-vE-ok0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wzn-5T-bxo"/>
                             <constraint firstItem="37U-Kq-6ka" firstAttribute="top" secondItem="Qgr-vd-AAA" secondAttribute="bottom" constant="8" id="bl5-dm-Sb8">
                                 <variation key="heightClass=compact" constant="8"/>
+                                <variation key="widthClass=compact" constant="54"/>
                             </constraint>
                             <constraint firstItem="iiH-3t-Uhi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="g9g-iU-eh6"/>
                             <constraint firstAttribute="centerX" secondItem="f27-QN-tVG" secondAttribute="centerX" id="jBD-gf-GFC"/>
@@ -263,11 +267,23 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting for Action" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnW-Zk-C5i">
+                                <rect key="frame" x="197" y="273" width="207" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="l4c-Tz-9Tn"/>
+                                    <constraint firstAttribute="height" constant="53" id="tRw-a6-yzj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="lLY-wE-taQ" firstAttribute="top" secondItem="CZK-lw-Lgr" secondAttribute="bottom" constant="8" id="1h1-5h-jLq"/>
+                            <constraint firstAttribute="centerX" secondItem="CnW-Zk-C5i" secondAttribute="centerX" id="Cb0-gu-qOr"/>
                             <constraint firstAttribute="centerX" secondItem="lLY-wE-taQ" secondAttribute="centerX" id="Jcr-rB-hwz"/>
+                            <constraint firstAttribute="centerY" secondItem="CnW-Zk-C5i" secondAttribute="centerY" id="eHA-BK-wkw"/>
                             <constraint firstItem="CZK-lw-Lgr" firstAttribute="top" secondItem="Mcd-2k-sgw" secondAttribute="bottom" constant="8" id="mRX-qp-0MC"/>
                             <constraint firstAttribute="centerX" secondItem="CZK-lw-Lgr" secondAttribute="centerX" id="xGH-6X-Q9b"/>
                         </constraints>
