@@ -1,6 +1,0 @@
-framework module AYVibrantButton {
-  umbrella header "Pods-Checkin-AYVibrantButton-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -19,7 +19,7 @@ class ClientViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleLabel.text = "Connected to " + freq
+        titleLabel.text = freq
     }
     override func didReceiveMemoryWarning() {
     }

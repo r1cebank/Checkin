@@ -243,7 +243,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(placeholder)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZK-lw-Lgr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequency set to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZK-lw-Lgr">
                                 <rect key="frame" x="156" y="28" width="289" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="MYm-Of-Z7a"/>
@@ -253,15 +253,27 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(freq)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lLY-wE-taQ">
+                                <rect key="frame" x="181" y="57" width="238" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="RKE-vy-fVz"/>
+                                    <constraint firstAttribute="height" constant="68" id="qbH-jQ-MyF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="lLY-wE-taQ" firstAttribute="top" secondItem="CZK-lw-Lgr" secondAttribute="bottom" constant="8" id="1h1-5h-jLq"/>
+                            <constraint firstAttribute="centerX" secondItem="lLY-wE-taQ" secondAttribute="centerX" id="Jcr-rB-hwz"/>
                             <constraint firstItem="CZK-lw-Lgr" firstAttribute="top" secondItem="Mcd-2k-sgw" secondAttribute="bottom" constant="8" id="mRX-qp-0MC"/>
                             <constraint firstAttribute="centerX" secondItem="CZK-lw-Lgr" secondAttribute="centerX" id="xGH-6X-Q9b"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="titleLabel" destination="CZK-lw-Lgr" id="AoV-OD-7LS"/>
+                        <outlet property="titleLabel" destination="lLY-wE-taQ" id="oyi-WZ-Rph"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTi-gV-Iuc" userLabel="First Responder" sceneMemberID="firstResponder"/>

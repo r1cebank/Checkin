@@ -48,18 +48,12 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'AYVibrantButton.framework'
-  install_framework 'CNPGridMenu.framework'
   install_framework 'Canvas.framework'
-  install_framework 'VBFPopFlatButton.framework'
+  install_framework 'SwiftSpinner.framework'
   install_framework 'XCGLogger.framework'
-  install_framework 'pop.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'AYVibrantButton.framework'
-  install_framework 'CNPGridMenu.framework'
   install_framework 'Canvas.framework'
-  install_framework 'VBFPopFlatButton.framework'
+  install_framework 'SwiftSpinner.framework'
   install_framework 'XCGLogger.framework'
-  install_framework 'pop.framework'
 fi

@@ -10,6 +10,7 @@ import UIKit
 import MultipeerConnectivity
 import XCGLogger
 import AYVibrantButton
+import SwiftSpinner
 
 class MainViewController: UIViewController, MPCManagerDelegate{
     
@@ -60,7 +61,13 @@ class MainViewController: UIViewController, MPCManagerDelegate{
     }
     
     func connectedWithPeer(peerID: MCPeerID) {
-        //let ids = split(peerID.displayName) { $0 = "-" }
+        let ids = peerID.displayName.componentsSeparatedByString("-")
+        if(ids[ids.count - 1] == "host") {
+            log.verbose("found the host")
+            SwiftSpinner.show("Host connected!", animated: true)
+            self.performSegueWithIdentifier("showClientViewSegue", sender: nil)
+        }
+        
     }
 
     @IBAction func buttonToggle(sender: UIButton!) {
@@ -88,9 +95,9 @@ class MainViewController: UIViewController, MPCManagerDelegate{
             appDelegate.mpcManager.delegate = self
             appDelegate.mpcManager.browser.startBrowsingForPeers()
             appDelegate.mpcManager.advertiser.startAdvertisingPeer()
+            SwiftSpinner.show("waiting for host", animated: true)
         }
         sender.toggleButton()
-        self.performSegueWithIdentifier("showClientViewSegue", sender: nil)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

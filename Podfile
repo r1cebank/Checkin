@@ -4,10 +4,8 @@
 target 'Checkin' do
     use_frameworks!
     pod 'XCGLogger'
-    pod 'CNPGridMenu' #Unused
     pod 'Canvas'
-    pod 'VBFPopFlatButton' #Unused
-    pod 'AYVibrantButton' #Unused
+    pod 'SwiftSpinner'
 
 end
 
