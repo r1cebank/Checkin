@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5CD92BB0B3769A314B7AAE13"
+               BlueprintIdentifier = "CDE45096112540CE89E507DA"
                BuildableName = "Canvas.framework"
                BlueprintName = "Pods-Checkin-Canvas"
                ReferencedContainer = "container:Pods.xcodeproj">

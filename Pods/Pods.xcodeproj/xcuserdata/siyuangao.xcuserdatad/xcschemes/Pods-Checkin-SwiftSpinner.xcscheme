@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8F20A8D965C16BA70DF54A4"
-               BuildableName = "AYVibrantButton.framework"
-               BlueprintName = "Pods-Checkin-AYVibrantButton"
+               BlueprintIdentifier = "5146A9C22834320040401190"
+               BuildableName = "SwiftSpinner.framework"
+               BlueprintName = "Pods-Checkin-SwiftSpinner"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

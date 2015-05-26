@@ -7,431 +7,394 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05FB7B96C8A3C5FD26AEE027 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C2D1C45D8C78D0BF59865 /* CSAnimation.m */; };
-		0C6C8F8203497645B6036EF0 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F5806D1270ECFB6C0DE5DB /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EC27AFC9B5CD918BB6DA669 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D58397945F15C37F9B1909 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FBB153B8BB1A8560EB9D00D /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C65B709D66C051C9C9DC2E /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10572EF8FD7BF3BC8A125E57 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 829183009524309550F1CCED /* UITextView+TCCustomFont.m */; };
-		15CAE6A630ABACB34708C8F0 /* Pods-Checkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E3A0552AFB9EA4447C4CD9 /* Pods-Checkin-dummy.m */; };
-		1D1FF488F22FA0AAC10B4EA8 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 385CB398C286869977081E67 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23BC9F62277A2BA0C9AEE3C4 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44F70CD3FEE09CAC1047DB /* UILabel+TCCustomFont.m */; };
-		264E1106F66237B0238178AE /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF80536ACBA0CB4B20499CA /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31B5A158BEA3AB646FA46AAC /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F9E22FE750B1E0F69843CC /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CB759CE0398E598F92CEE17 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3767292BC80DC462C46245 /* CSNavigationController.m */; };
-		452D9AA56B32D5B91A071C6D /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD445A2A612467892BCB6E2 /* UIButton+TCCustomFont.m */; };
-		4BE65656614B0EC4C159862D /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6018560F90B033A8CD6E9 /* CSAnimationView.m */; };
-		5D63C83108BCD74A942A05F6 /* Pods-Checkin-Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C68C300E8AC534D32D7910B3 /* Pods-Checkin-Canvas-dummy.m */; };
-		6D4BD1326F6C69AB6533D5E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C5B5C307B4D19CEBC50CA /* Foundation.framework */; };
-		6F812618D8CBD0D0D4252BFC /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 047296E28BE784F27DB7B801 /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BB809310E8E6B0D88582469 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB3EFEA864C021CDF5F40D /* UITextField+TCCustomFont.m */; };
-		81C60C4254A6525974AD78C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C5B5C307B4D19CEBC50CA /* Foundation.framework */; };
-		81F9957FEA68EE89F66775BA /* Pods-Checkin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3713731927A794E1D992661 /* Pods-Checkin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9962DA8173CFB702E2BD8E07 /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E8ED274580C287074FC32B /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E4CBD5C6162A1B56AF35409 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E93935D8299DA90AC8CCD0BE /* UINavigationBar+TCCustomFont.m */; };
-		B3489AE6D7E187002E1DEC80 /* Pods-Checkin-XCGLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB866B4379E2FD067B1565A4 /* Pods-Checkin-XCGLogger-dummy.m */; };
-		B49E5D55F2ED7084B518522B /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B10E8C26DDB9480C6AF387 /* UITextField+PlaceholderColor.m */; };
-		C09E76D9C9903B333BFFBEF3 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FE21C4C06F36A57BAACA93 /* SwiftSpinner.swift */; };
-		C19CE9F2D2F2EE779275A894 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 459D6DED2FA478B781797081 /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C678F62F3314294B05A18D41 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7807CC70A266A07775D730 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB0C155829D734DF6E912B7F /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C7257C6A774B4BD2909C80 /* CSBlurView.m */; };
-		D07EE13D82CC84A7CF86A4DF /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 207B91CC3FA89C42F95358B8 /* Pods-Checkin-SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1C2BDFACF6F737E4907A751 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C936F60DFB1CE8AF40DD4D3 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D43F659F5CA4C8D36E504DB1 /* Pods-Checkin-Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CA5C1305E41D92E5660423 /* Pods-Checkin-Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA994A5262AB2ADD31BF4D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C5B5C307B4D19CEBC50CA /* Foundation.framework */; };
-		E11B399AC4E87593EE012FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E127F62CF9782F482B126B2D /* UIKit.framework */; };
-		E5B93782D03554EDCF163A6A /* Pods-Checkin-XCGLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 218937A141EE1F8896265459 /* Pods-Checkin-XCGLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFF8038C07CED69B037F8E2E /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C45D86E01703D63E131BE5 /* XCGLogger.swift */; };
-		FDCAA23ED22D1D986B205BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C5B5C307B4D19CEBC50CA /* Foundation.framework */; };
-		FFD97B1723C637E10A595DDA /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8118E9302DA9187B68A021 /* Pods-Checkin-SwiftSpinner-dummy.m */; };
+		030F8AA29B6C5E8BE58ED19E /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A02CD1A0C9958DAA1CBB5 /* SwiftSpinner.swift */; };
+		0B3736CB5CD5CCC9A9DEB45C /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE7CBA361847DA2838F12C /* XCGLogger.swift */; };
+		1E0EE329F30BC7DAE8EB88C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83F00A439402D9FCA322E46 /* UIKit.framework */; };
+		25F52825A299CF3830B0C4B0 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7209F338BA91C25CA0E14F /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C4156191E4FF32D516C7E4 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 995F84E150ADABA35B42662F /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF41377336E14C0AAE80E82 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF02F1336F35232C6AAB71AB /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E412611BE78CFC26F1CA0D7 /* Pods-Checkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43958D43974B09AA39808961 /* Pods-Checkin-dummy.m */; };
+		42942F11A8C65D647F5301EA /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D360F976224A9A266F1099C /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44A3B296689109715D2C4C74 /* Pods-Checkin-XCGLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA0B9FB0F04D3EB783C549A /* Pods-Checkin-XCGLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48983FD3A1A69738EF93C403 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DB106F344CD02A1A04E8C /* UIButton+TCCustomFont.m */; };
+		49BF03CDF33FCED8413A8484 /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA7D2276DF0C4078215EB5 /* CSBlurView.m */; };
+		5497B3D2C8592EEA1BEDCFFE /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF456D4F42099BEC8FDDB96 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5529837E936457C87C3E5E36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
+		5C4AAF589212151CB1260EAB /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = C019FD8F9B8CDE7836F9467A /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6541012938F268F64A8ADFEF /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD096081FDAC1CEBF69C2C4 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		697175B1EA36C973BF8501E6 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84328FF6361DC7302C7B0671 /* UITextView+TCCustomFont.m */; };
+		6CEFBEB9E63E1F26910F0B3E /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A5ACC96D981EB498DED911 /* UINavigationBar+TCCustomFont.m */; };
+		7121D9191E3CC881FB4EF73E /* Pods-Checkin-Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE8C0B9E3CA53564427225 /* Pods-Checkin-Canvas-dummy.m */; };
+		72A7CC7A6F887AA61CF3D500 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AFAAD22D84BC8A1F593D7 /* CSAnimation.m */; };
+		7439C60179D142705092B1F8 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D34A5F9BFC6E630BA456AA9 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB194413C03C650B6A1F846 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A73FEB0001C4D2C8CC0F87 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81446012F242B62F96EF37D7 /* Pods-Checkin-Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF10B09A4FED7E2486B455A /* Pods-Checkin-Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A271EB13D6DD353E7AAEE16 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = A14CA9DED32615794D490DD8 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B694007D6C93AA69475370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
+		9AE078FEBFA6147753100B7D /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 909B30FF7691A2AF33DF04CB /* Pods-Checkin-SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA421658AB2920703B9589F /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DB86B4D4203F5FF9E6BD0994 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC669C68B34243AD17D020B9 /* Pods-Checkin-XCGLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA37ACBD65DE0AA19311F4 /* Pods-Checkin-XCGLogger-dummy.m */; };
+		AD85F6F6E8BE8E1DF18C2EB6 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6648637D5FB3E9D350358E0D /* CSNavigationController.m */; };
+		B4A722C66D21D9665D3DF21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
+		BDCBDE426C5CBAC4514AEE4A /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1ED82A4D5E5F54399790E /* UILabel+TCCustomFont.m */; };
+		C32F66F4B56057905687492B /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4DE2ACD46BDCC222BBA53 /* CSAnimationView.m */; };
+		C35163BABAEC5C6FFBEDA129 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C099168AF8638DE8D65CAF9 /* UITextField+TCCustomFont.m */; };
+		CE002FD03A261D52F2FD377A /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3313C0A749A618570F156829 /* Pods-Checkin-SwiftSpinner-dummy.m */; };
+		D1FCAE166419E510CD6D2C63 /* Pods-Checkin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCB75CA06ACADB8823287E2 /* Pods-Checkin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D286DB242226A7A36813E9EE /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4DB8EF19C6212826F9DD5 /* UITextField+PlaceholderColor.m */; };
+		D778E18634C29072C586AA61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71944097574B71B5671B1BDD /* PBXContainerItemProxy */ = {
+		9644EA3B1E6B26BB9464AFDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E36A4FBD99834ED5BD31B239 /* Project object */;
+			containerPortal = 5F8B77B25350B1E6666DE76A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B7F136EE455A572F57BDF018;
+			remoteGlobalIDString = CDE45096112540CE89E507DA;
 			remoteInfo = "Pods-Checkin-Canvas";
 		};
-		8575456568653E9D6935F15C /* PBXContainerItemProxy */ = {
+		96EA446420B2975D1748A64C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E36A4FBD99834ED5BD31B239 /* Project object */;
+			containerPortal = 5F8B77B25350B1E6666DE76A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34AB37FA25DA646206D47B03;
-			remoteInfo = "Pods-Checkin-SwiftSpinner";
-		};
-		ED72A73B7686DCF769F5DBC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E36A4FBD99834ED5BD31B239 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 921A87EF7A2AAF39B6D41579;
+			remoteGlobalIDString = 46EDA37322B5C4660CD5A2B7;
 			remoteInfo = "Pods-Checkin-XCGLogger";
+		};
+		F8DE744A3C3C4EC36B4D5A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8B77B25350B1E6666DE76A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5146A9C22834320040401190;
+			remoteInfo = "Pods-Checkin-SwiftSpinner";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01EDC0277183C366DE73633A /* Pods-Checkin-SwiftSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner-Private.xcconfig"; sourceTree = "<group>"; };
-		03E6EAE3869F8E71F20ED8A7 /* Pods-Checkin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin.modulemap"; sourceTree = "<group>"; };
-		047296E28BE784F27DB7B801 /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
-		06F590DBEC3C264A2BED023A /* Pods_Checkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FEF75B541B94789F6001CE9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0FF80536ACBA0CB4B20499CA /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
-		1065E21357A8D122930312D0 /* Pods-Checkin-XCGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-prefix.pch"; sourceTree = "<group>"; };
-		10BC2893116BF3B326736652 /* Pods-Checkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.debug.xcconfig"; sourceTree = "<group>"; };
-		167D0DDF532DAAF95B556315 /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B7807CC70A266A07775D730 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
-		207B91CC3FA89C42F95358B8 /* Pods-Checkin-SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
-		218937A141EE1F8896265459 /* Pods-Checkin-XCGLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-umbrella.h"; sourceTree = "<group>"; };
-		23C7257C6A774B4BD2909C80 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
-		25FE21C4C06F36A57BAACA93 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
-		26520C54536C9F6C84DF1E20 /* Pods-Checkin-XCGLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger-Private.xcconfig"; sourceTree = "<group>"; };
-		26E8ED274580C287074FC32B /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
-		30C20F4E3B2299F8FDAC8EB6 /* Pods-Checkin-SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
-		385CB398C286869977081E67 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
-		4195FE0BD615B839682FA71E /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		444918D819D6E1E59AAB7E50 /* Pods-Checkin-XCGLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger.xcconfig"; sourceTree = "<group>"; };
-		459D6DED2FA478B781797081 /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
-		4A44F70CD3FEE09CAC1047DB /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
-		4FC6A02DFBB0C682E5D8B684 /* Pods-Checkin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-resources.sh"; sourceTree = "<group>"; };
-		51035CADCD410D701CF37642 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		629AF6D19D2B70514E4C952E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64CA5C1305E41D92E5660423 /* Pods-Checkin-Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-umbrella.h"; sourceTree = "<group>"; };
-		6F7729CFC76C6E5E9090D3C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75DC00A8F7226BAAF5182967 /* Pods-Checkin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Checkin-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7712AADF02E5A8DA625B9C2D /* Pods-Checkin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Checkin-acknowledgements.plist"; sourceTree = "<group>"; };
-		78F9E22FE750B1E0F69843CC /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
-		7BD445A2A612467892BCB6E2 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
-		829183009524309550F1CCED /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
-		8782A3204D6C64C4833C4FC6 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89D58397945F15C37F9B1909 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
-		8DD6018560F90B033A8CD6E9 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
-		8E8118E9302DA9187B68A021 /* Pods-Checkin-SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
-		94E3A0552AFB9EA4447C4CD9 /* Pods-Checkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-dummy.m"; sourceTree = "<group>"; };
-		958200020C389BCEE405ED23 /* Pods-Checkin-Canvas-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas-Private.xcconfig"; sourceTree = "<group>"; };
-		9C936F60DFB1CE8AF40DD4D3 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
-		A1CB3EFEA864C021CDF5F40D /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
-		A1E726DB81CB295DAFB06E18 /* Pods-Checkin-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-environment.h"; sourceTree = "<group>"; };
-		A43046A99FBCFF834D31A179 /* Pods-Checkin-SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-SwiftSpinner.modulemap"; sourceTree = "<group>"; };
-		A94404E46452D89B38AB48EE /* Pods-Checkin-Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas.xcconfig"; sourceTree = "<group>"; };
-		B05C2D1C45D8C78D0BF59865 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
-		B26A067748AAB6D867EA25A4 /* Pods-Checkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.release.xcconfig"; sourceTree = "<group>"; };
-		B6C45D86E01703D63E131BE5 /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = XCGLogger/Library/XCGLogger/XCGLogger.swift; sourceTree = "<group>"; };
-		C1B10E8C26DDB9480C6AF387 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
-		C3084875958950A9C1F6C835 /* Pods-Checkin-SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner.xcconfig"; sourceTree = "<group>"; };
-		C68C300E8AC534D32D7910B3 /* Pods-Checkin-Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-Canvas-dummy.m"; sourceTree = "<group>"; };
-		CF0838ACF356FE7ECD468E14 /* Pods-Checkin-XCGLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-XCGLogger.modulemap"; sourceTree = "<group>"; };
-		D18C5B5C307B4D19CEBC50CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8331C4BFBA66C85D47693EB /* Pods-Checkin-Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-Canvas.modulemap"; sourceTree = "<group>"; };
-		DB866B4379E2FD067B1565A4 /* Pods-Checkin-XCGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-XCGLogger-dummy.m"; sourceTree = "<group>"; };
-		DC9EC7A79F1E16FC344E71A4 /* Pods-Checkin-Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-prefix.pch"; sourceTree = "<group>"; };
-		E127F62CF9782F482B126B2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E93935D8299DA90AC8CCD0BE /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
-		EB3767292BC80DC462C46245 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
-		F1C65B709D66C051C9C9DC2E /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
-		F28EC65A15E44DDAE8BE2E7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3713731927A794E1D992661 /* Pods-Checkin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-umbrella.h"; sourceTree = "<group>"; };
-		F377B3016DDDA72A85BBBD31 /* Pods-Checkin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-frameworks.sh"; sourceTree = "<group>"; };
-		F6F5806D1270ECFB6C0DE5DB /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		02DE7CBA361847DA2838F12C /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = XCGLogger/Library/XCGLogger/XCGLogger.swift; sourceTree = "<group>"; };
+		05A73FEB0001C4D2C8CC0F87 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		0C099168AF8638DE8D65CAF9 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		10F4DB8EF19C6212826F9DD5 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		18AA37ACBD65DE0AA19311F4 /* Pods-Checkin-XCGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-XCGLogger-dummy.m"; sourceTree = "<group>"; };
+		1CD6449036482D849FC0976C /* Pods-Checkin-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-environment.h"; sourceTree = "<group>"; };
+		1D34A5F9BFC6E630BA456AA9 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		2DCF0EACCAE2924946EF6050 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3313C0A749A618570F156829 /* Pods-Checkin-SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		3418691B08473D96FE74D09D /* Pods-Checkin-SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		3B7209F338BA91C25CA0E14F /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		403A1C36516A52F1DC0C6268 /* Pods-Checkin-XCGLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger.xcconfig"; sourceTree = "<group>"; };
+		413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger-Private.xcconfig"; sourceTree = "<group>"; };
+		41987A17D511ABCBC3695B05 /* Pods-Checkin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-resources.sh"; sourceTree = "<group>"; };
+		43958D43974B09AA39808961 /* Pods-Checkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-dummy.m"; sourceTree = "<group>"; };
+		447EE140379B27011BFE063B /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EE8C0B9E3CA53564427225 /* Pods-Checkin-Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-Canvas-dummy.m"; sourceTree = "<group>"; };
+		4B21844E161AB374567DE576 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D360F976224A9A266F1099C /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		4E84A5D2E6F60BA9EAEED695 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50ED3E588E0455E546B81ED0 /* Pods-Checkin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Checkin-acknowledgements.plist"; sourceTree = "<group>"; };
+		56E1ED82A4D5E5F54399790E /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		6270D46F373575941D1C4864 /* Pods-Checkin-Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-Canvas.modulemap"; sourceTree = "<group>"; };
+		63F4DE2ACD46BDCC222BBA53 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		6648637D5FB3E9D350358E0D /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		84328FF6361DC7302C7B0671 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		88A5ACC96D981EB498DED911 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		909B30FF7691A2AF33DF04CB /* Pods-Checkin-SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		9520120DF052817DDF6A2DB3 /* Pods-Checkin-XCGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-prefix.pch"; sourceTree = "<group>"; };
+		990E095D0CAEB111AA31253A /* Pods-Checkin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin.modulemap"; sourceTree = "<group>"; };
+		995F84E150ADABA35B42662F /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		9AE4FC5B8CB7A779C993DBCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA0B9FB0F04D3EB783C549A /* Pods-Checkin-XCGLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-umbrella.h"; sourceTree = "<group>"; };
+		9FCA7D2276DF0C4078215EB5 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		A05C3420171043A2B0E4D15D /* Pods-Checkin-XCGLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-XCGLogger.modulemap"; sourceTree = "<group>"; };
+		A14CA9DED32615794D490DD8 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		A22F6053233C7B9353958816 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A020D91F98AAF0FAB0FA3D /* Pods-Checkin-Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-prefix.pch"; sourceTree = "<group>"; };
+		A41EFCC4B1B61B65E2EA5803 /* Pods-Checkin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-frameworks.sh"; sourceTree = "<group>"; };
+		A83F00A439402D9FCA322E46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA60BD63346842147FA6A0BA /* Pods-Checkin-SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner.xcconfig"; sourceTree = "<group>"; };
+		ABD096081FDAC1CEBF69C2C4 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		ABF10B09A4FED7E2486B455A /* Pods-Checkin-Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-umbrella.h"; sourceTree = "<group>"; };
+		ADCB75CA06ACADB8823287E2 /* Pods-Checkin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-umbrella.h"; sourceTree = "<group>"; };
+		B276EB989AEB18E6DA331E8C /* Pods-Checkin-SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-SwiftSpinner.modulemap"; sourceTree = "<group>"; };
+		B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner-Private.xcconfig"; sourceTree = "<group>"; };
+		BA0A02CD1A0C9958DAA1CBB5 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		BAF456D4F42099BEC8FDDB96 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		C019FD8F9B8CDE7836F9467A /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas-Private.xcconfig"; sourceTree = "<group>"; };
+		C67C3F57E745A72460FD1E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA3DB106F344CD02A1A04E8C /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		CA4802E6089B327D75975768 /* Pods-Checkin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Checkin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA6411280653B1E7F580B7BE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB86B4D4203F5FF9E6BD0994 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		E57739FD12B3CBBC53003935 /* Pods-Checkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.debug.xcconfig"; sourceTree = "<group>"; };
+		E77AFAAD22D84BC8A1F593D7 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		F283CF632D83FF2279E221EB /* Pods-Checkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.release.xcconfig"; sourceTree = "<group>"; };
+		F8C80CF8CA9DDBBAAFD411BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB80F64C3EC68D9A1495ADBE /* Pods-Checkin-Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas.xcconfig"; sourceTree = "<group>"; };
+		FE1447BE7EF68046064704CB /* Pods_Checkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF02F1336F35232C6AAB71AB /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1ED6922E565F0DBE7C6A8F73 /* Frameworks */ = {
+		4E58949D6A375A504C26A865 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA994A5262AB2ADD31BF4D4B /* Foundation.framework in Frameworks */,
-				E11B399AC4E87593EE012FC2 /* UIKit.framework in Frameworks */,
+				92B694007D6C93AA69475370 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3064FF55ACC4E5BA7AE6A62C /* Frameworks */ = {
+		A5CDE4825C10BEE56680B2AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCAA23ED22D1D986B205BD0 /* Foundation.framework in Frameworks */,
+				B4A722C66D21D9665D3DF21F /* Foundation.framework in Frameworks */,
+				1E0EE329F30BC7DAE8EB88C7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3736128AE40259DF5CFC2E08 /* Frameworks */ = {
+		D19E86AFCF79AB153990EE42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4BD1326F6C69AB6533D5E6 /* Foundation.framework in Frameworks */,
+				D778E18634C29072C586AA61 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAFEF65E982489E5B0BE15BC /* Frameworks */ = {
+		DBB63976FB5C9462121F24BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C60C4254A6525974AD78C4 /* Foundation.framework in Frameworks */,
+				5529837E936457C87C3E5E36 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5980785D98E220278C5974DE /* Targets Support Files */ = {
+		07C72AE00BE31596878D786D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF3D6C1EB4A7B05C7AD4C282 /* Pods-Checkin */,
+				4EC751707E59A7987ECF1D32 /* Pods-Checkin */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5A54BD26FA371DF0099E735E /* Pods */ = {
+		14E5483AB255E4B6EC426AC7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E0FCC487DB3A5A83E2B6ADC3 /* Canvas */,
-				7EEA7D84848108A15713F62E /* SwiftSpinner */,
-				8E92D663E46E752565763925 /* XCGLogger */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6903282D51A4CBEE92224E71 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				51035CADCD410D701CF37642 /* Info.plist */,
-				CF0838ACF356FE7ECD468E14 /* Pods-Checkin-XCGLogger.modulemap */,
-				444918D819D6E1E59AAB7E50 /* Pods-Checkin-XCGLogger.xcconfig */,
-				26520C54536C9F6C84DF1E20 /* Pods-Checkin-XCGLogger-Private.xcconfig */,
-				DB866B4379E2FD067B1565A4 /* Pods-Checkin-XCGLogger-dummy.m */,
-				1065E21357A8D122930312D0 /* Pods-Checkin-XCGLogger-prefix.pch */,
-				218937A141EE1F8896265459 /* Pods-Checkin-XCGLogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Checkin-XCGLogger";
-			sourceTree = "<group>";
-		};
-		7E4C3903D79A463AF73A0306 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				629AF6D19D2B70514E4C952E /* Info.plist */,
-				D8331C4BFBA66C85D47693EB /* Pods-Checkin-Canvas.modulemap */,
-				A94404E46452D89B38AB48EE /* Pods-Checkin-Canvas.xcconfig */,
-				958200020C389BCEE405ED23 /* Pods-Checkin-Canvas-Private.xcconfig */,
-				C68C300E8AC534D32D7910B3 /* Pods-Checkin-Canvas-dummy.m */,
-				DC9EC7A79F1E16FC344E71A4 /* Pods-Checkin-Canvas-prefix.pch */,
-				64CA5C1305E41D92E5660423 /* Pods-Checkin-Canvas-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Checkin-Canvas";
-			sourceTree = "<group>";
-		};
-		7EEA7D84848108A15713F62E /* SwiftSpinner */ = {
-			isa = PBXGroup;
-			children = (
-				25FE21C4C06F36A57BAACA93 /* SwiftSpinner.swift */,
-				8F94AC03CBD0DB389957951A /* Support Files */,
-			);
-			path = SwiftSpinner;
-			sourceTree = "<group>";
-		};
-		8E92D663E46E752565763925 /* XCGLogger */ = {
-			isa = PBXGroup;
-			children = (
-				B6C45D86E01703D63E131BE5 /* XCGLogger.swift */,
-				6903282D51A4CBEE92224E71 /* Support Files */,
-			);
-			path = XCGLogger;
-			sourceTree = "<group>";
-		};
-		8F94AC03CBD0DB389957951A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F7729CFC76C6E5E9090D3C5 /* Info.plist */,
-				A43046A99FBCFF834D31A179 /* Pods-Checkin-SwiftSpinner.modulemap */,
-				C3084875958950A9C1F6C835 /* Pods-Checkin-SwiftSpinner.xcconfig */,
-				01EDC0277183C366DE73633A /* Pods-Checkin-SwiftSpinner-Private.xcconfig */,
-				8E8118E9302DA9187B68A021 /* Pods-Checkin-SwiftSpinner-dummy.m */,
-				30C20F4E3B2299F8FDAC8EB6 /* Pods-Checkin-SwiftSpinner-prefix.pch */,
-				207B91CC3FA89C42F95358B8 /* Pods-Checkin-SwiftSpinner-umbrella.h */,
+				4E84A5D2E6F60BA9EAEED695 /* Info.plist */,
+				B276EB989AEB18E6DA331E8C /* Pods-Checkin-SwiftSpinner.modulemap */,
+				AA60BD63346842147FA6A0BA /* Pods-Checkin-SwiftSpinner.xcconfig */,
+				B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */,
+				3313C0A749A618570F156829 /* Pods-Checkin-SwiftSpinner-dummy.m */,
+				3418691B08473D96FE74D09D /* Pods-Checkin-SwiftSpinner-prefix.pch */,
+				909B30FF7691A2AF33DF04CB /* Pods-Checkin-SwiftSpinner-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Checkin-SwiftSpinner";
 			sourceTree = "<group>";
 		};
-		A5F6C419A9149B1304314C84 /* iOS */ = {
+		4EC751707E59A7987ECF1D32 /* Pods-Checkin */ = {
 			isa = PBXGroup;
 			children = (
-				D18C5B5C307B4D19CEBC50CA /* Foundation.framework */,
-				E127F62CF9782F482B126B2D /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		AFB05125A21DB2CF07A0BF69 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5F6C419A9149B1304314C84 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6E4065E3FE06A5A28AB8736 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8782A3204D6C64C4833C4FC6 /* Canvas.framework */,
-				06F590DBEC3C264A2BED023A /* Pods_Checkin.framework */,
-				4195FE0BD615B839682FA71E /* SwiftSpinner.framework */,
-				167D0DDF532DAAF95B556315 /* XCGLogger.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DF3D6C1EB4A7B05C7AD4C282 /* Pods-Checkin */ = {
-			isa = PBXGroup;
-			children = (
-				F28EC65A15E44DDAE8BE2E7A /* Info.plist */,
-				03E6EAE3869F8E71F20ED8A7 /* Pods-Checkin.modulemap */,
-				75DC00A8F7226BAAF5182967 /* Pods-Checkin-acknowledgements.markdown */,
-				7712AADF02E5A8DA625B9C2D /* Pods-Checkin-acknowledgements.plist */,
-				94E3A0552AFB9EA4447C4CD9 /* Pods-Checkin-dummy.m */,
-				A1E726DB81CB295DAFB06E18 /* Pods-Checkin-environment.h */,
-				F377B3016DDDA72A85BBBD31 /* Pods-Checkin-frameworks.sh */,
-				4FC6A02DFBB0C682E5D8B684 /* Pods-Checkin-resources.sh */,
-				F3713731927A794E1D992661 /* Pods-Checkin-umbrella.h */,
-				10BC2893116BF3B326736652 /* Pods-Checkin.debug.xcconfig */,
-				B26A067748AAB6D867EA25A4 /* Pods-Checkin.release.xcconfig */,
+				9AE4FC5B8CB7A779C993DBCC /* Info.plist */,
+				990E095D0CAEB111AA31253A /* Pods-Checkin.modulemap */,
+				CA4802E6089B327D75975768 /* Pods-Checkin-acknowledgements.markdown */,
+				50ED3E588E0455E546B81ED0 /* Pods-Checkin-acknowledgements.plist */,
+				43958D43974B09AA39808961 /* Pods-Checkin-dummy.m */,
+				1CD6449036482D849FC0976C /* Pods-Checkin-environment.h */,
+				A41EFCC4B1B61B65E2EA5803 /* Pods-Checkin-frameworks.sh */,
+				41987A17D511ABCBC3695B05 /* Pods-Checkin-resources.sh */,
+				ADCB75CA06ACADB8823287E2 /* Pods-Checkin-umbrella.h */,
+				E57739FD12B3CBBC53003935 /* Pods-Checkin.debug.xcconfig */,
+				F283CF632D83FF2279E221EB /* Pods-Checkin.release.xcconfig */,
 			);
 			name = "Pods-Checkin";
 			path = "Target Support Files/Pods-Checkin";
 			sourceTree = "<group>";
 		};
-		E0FCC487DB3A5A83E2B6ADC3 /* Canvas */ = {
+		4EF6883017E01C4E0A22B0F6 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
-				047296E28BE784F27DB7B801 /* CSAnimation.h */,
-				B05C2D1C45D8C78D0BF59865 /* CSAnimation.m */,
-				459D6DED2FA478B781797081 /* CSAnimationView.h */,
-				8DD6018560F90B033A8CD6E9 /* CSAnimationView.m */,
-				89D58397945F15C37F9B1909 /* CSBlurView.h */,
-				23C7257C6A774B4BD2909C80 /* CSBlurView.m */,
-				1B7807CC70A266A07775D730 /* CSNavigationController.h */,
-				EB3767292BC80DC462C46245 /* CSNavigationController.m */,
-				0FF80536ACBA0CB4B20499CA /* Canvas.h */,
-				78F9E22FE750B1E0F69843CC /* UIButton+TCCustomFont.h */,
-				7BD445A2A612467892BCB6E2 /* UIButton+TCCustomFont.m */,
-				F1C65B709D66C051C9C9DC2E /* UILabel+TCCustomFont.h */,
-				4A44F70CD3FEE09CAC1047DB /* UILabel+TCCustomFont.m */,
-				385CB398C286869977081E67 /* UINavigationBar+TCCustomFont.h */,
-				E93935D8299DA90AC8CCD0BE /* UINavigationBar+TCCustomFont.m */,
-				26E8ED274580C287074FC32B /* UITextField+PlaceholderColor.h */,
-				C1B10E8C26DDB9480C6AF387 /* UITextField+PlaceholderColor.m */,
-				9C936F60DFB1CE8AF40DD4D3 /* UITextField+TCCustomFont.h */,
-				A1CB3EFEA864C021CDF5F40D /* UITextField+TCCustomFont.m */,
-				F6F5806D1270ECFB6C0DE5DB /* UITextView+TCCustomFont.h */,
-				829183009524309550F1CCED /* UITextView+TCCustomFont.m */,
-				7E4C3903D79A463AF73A0306 /* Support Files */,
+				4D360F976224A9A266F1099C /* CSAnimation.h */,
+				E77AFAAD22D84BC8A1F593D7 /* CSAnimation.m */,
+				C019FD8F9B8CDE7836F9467A /* CSAnimationView.h */,
+				63F4DE2ACD46BDCC222BBA53 /* CSAnimationView.m */,
+				FF02F1336F35232C6AAB71AB /* CSBlurView.h */,
+				9FCA7D2276DF0C4078215EB5 /* CSBlurView.m */,
+				995F84E150ADABA35B42662F /* CSNavigationController.h */,
+				6648637D5FB3E9D350358E0D /* CSNavigationController.m */,
+				05A73FEB0001C4D2C8CC0F87 /* Canvas.h */,
+				DB86B4D4203F5FF9E6BD0994 /* UIButton+TCCustomFont.h */,
+				CA3DB106F344CD02A1A04E8C /* UIButton+TCCustomFont.m */,
+				3B7209F338BA91C25CA0E14F /* UILabel+TCCustomFont.h */,
+				56E1ED82A4D5E5F54399790E /* UILabel+TCCustomFont.m */,
+				BAF456D4F42099BEC8FDDB96 /* UINavigationBar+TCCustomFont.h */,
+				88A5ACC96D981EB498DED911 /* UINavigationBar+TCCustomFont.m */,
+				ABD096081FDAC1CEBF69C2C4 /* UITextField+PlaceholderColor.h */,
+				10F4DB8EF19C6212826F9DD5 /* UITextField+PlaceholderColor.m */,
+				1D34A5F9BFC6E630BA456AA9 /* UITextField+TCCustomFont.h */,
+				0C099168AF8638DE8D65CAF9 /* UITextField+TCCustomFont.m */,
+				A14CA9DED32615794D490DD8 /* UITextView+TCCustomFont.h */,
+				84328FF6361DC7302C7B0671 /* UITextView+TCCustomFont.m */,
+				CAC715D1D6815422989ED76A /* Support Files */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
 		};
-		EFFBAFAF55B382FCE24C4713 = {
+		57523045B3F18A68E9F16863 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0FEF75B541B94789F6001CE9 /* Podfile */,
-				AFB05125A21DB2CF07A0BF69 /* Frameworks */,
-				5A54BD26FA371DF0099E735E /* Pods */,
-				C6E4065E3FE06A5A28AB8736 /* Products */,
-				5980785D98E220278C5974DE /* Targets Support Files */,
+				F8C80CF8CA9DDBBAAFD411BA /* Info.plist */,
+				A05C3420171043A2B0E4D15D /* Pods-Checkin-XCGLogger.modulemap */,
+				403A1C36516A52F1DC0C6268 /* Pods-Checkin-XCGLogger.xcconfig */,
+				413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */,
+				18AA37ACBD65DE0AA19311F4 /* Pods-Checkin-XCGLogger-dummy.m */,
+				9520120DF052817DDF6A2DB3 /* Pods-Checkin-XCGLogger-prefix.pch */,
+				9FA0B9FB0F04D3EB783C549A /* Pods-Checkin-XCGLogger-umbrella.h */,
 			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-XCGLogger";
+			sourceTree = "<group>";
+		};
+		670C5CE8C4DABE41BE372F6F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C67C3F57E745A72460FD1E81 /* Foundation.framework */,
+				A83F00A439402D9FCA322E46 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74881F5F27CFFD77A1A3FEBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EF6883017E01C4E0A22B0F6 /* Canvas */,
+				F46DB4A30CD98D3ED3E499A2 /* SwiftSpinner */,
+				928914F9026335FC8C9A8E69 /* XCGLogger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		928914F9026335FC8C9A8E69 /* XCGLogger */ = {
+			isa = PBXGroup;
+			children = (
+				02DE7CBA361847DA2838F12C /* XCGLogger.swift */,
+				57523045B3F18A68E9F16863 /* Support Files */,
+			);
+			path = XCGLogger;
+			sourceTree = "<group>";
+		};
+		93A1C4B730D7797CD2E8AD1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B21844E161AB374567DE576 /* Canvas.framework */,
+				FE1447BE7EF68046064704CB /* Pods_Checkin.framework */,
+				2DCF0EACCAE2924946EF6050 /* SwiftSpinner.framework */,
+				447EE140379B27011BFE063B /* XCGLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF879BAC2459EFB7E149638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670C5CE8C4DABE41BE372F6F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1637F6B293E29D1D654F746 = {
+			isa = PBXGroup;
+			children = (
+				CA6411280653B1E7F580B7BE /* Podfile */,
+				BCF879BAC2459EFB7E149638 /* Frameworks */,
+				74881F5F27CFFD77A1A3FEBA /* Pods */,
+				93A1C4B730D7797CD2E8AD1C /* Products */,
+				07C72AE00BE31596878D786D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC715D1D6815422989ED76A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A22F6053233C7B9353958816 /* Info.plist */,
+				6270D46F373575941D1C4864 /* Pods-Checkin-Canvas.modulemap */,
+				FB80F64C3EC68D9A1495ADBE /* Pods-Checkin-Canvas.xcconfig */,
+				C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */,
+				48EE8C0B9E3CA53564427225 /* Pods-Checkin-Canvas-dummy.m */,
+				A2A020D91F98AAF0FAB0FA3D /* Pods-Checkin-Canvas-prefix.pch */,
+				ABF10B09A4FED7E2486B455A /* Pods-Checkin-Canvas-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-Canvas";
+			sourceTree = "<group>";
+		};
+		F46DB4A30CD98D3ED3E499A2 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A02CD1A0C9958DAA1CBB5 /* SwiftSpinner.swift */,
+				14E5483AB255E4B6EC426AC7 /* Support Files */,
+			);
+			path = SwiftSpinner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5E31F976047F9F0F17BA6726 /* Headers */ = {
+		4D9E2C0E1F83F0AAB4810743 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F812618D8CBD0D0D4252BFC /* CSAnimation.h in Headers */,
-				C19CE9F2D2F2EE779275A894 /* CSAnimationView.h in Headers */,
-				0EC27AFC9B5CD918BB6DA669 /* CSBlurView.h in Headers */,
-				C678F62F3314294B05A18D41 /* CSNavigationController.h in Headers */,
-				264E1106F66237B0238178AE /* Canvas.h in Headers */,
-				D43F659F5CA4C8D36E504DB1 /* Pods-Checkin-Canvas-umbrella.h in Headers */,
-				31B5A158BEA3AB646FA46AAC /* UIButton+TCCustomFont.h in Headers */,
-				0FBB153B8BB1A8560EB9D00D /* UILabel+TCCustomFont.h in Headers */,
-				1D1FF488F22FA0AAC10B4EA8 /* UINavigationBar+TCCustomFont.h in Headers */,
-				9962DA8173CFB702E2BD8E07 /* UITextField+PlaceholderColor.h in Headers */,
-				D1C2BDFACF6F737E4907A751 /* UITextField+TCCustomFont.h in Headers */,
-				0C6C8F8203497645B6036EF0 /* UITextView+TCCustomFont.h in Headers */,
+				44A3B296689109715D2C4C74 /* Pods-Checkin-XCGLogger-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAF4782CC349A09E5C6D1C34 /* Headers */ = {
+		5A7D67A65B4E8D0F5E0D00DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07EE13D82CC84A7CF86A4DF /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */,
+				9AE078FEBFA6147753100B7D /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6AD8231CB6FB4AECC61C4D1 /* Headers */ = {
+		9C44D10D99B8CDBB3DC11C38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B93782D03554EDCF163A6A /* Pods-Checkin-XCGLogger-umbrella.h in Headers */,
+				D1FCAE166419E510CD6D2C63 /* Pods-Checkin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F24A3DCD9954DAF26FE707F6 /* Headers */ = {
+		D43B47D9C872E5DEE23489C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81F9957FEA68EE89F66775BA /* Pods-Checkin-umbrella.h in Headers */,
+				42942F11A8C65D647F5301EA /* CSAnimation.h in Headers */,
+				5C4AAF589212151CB1260EAB /* CSAnimationView.h in Headers */,
+				3CF41377336E14C0AAE80E82 /* CSBlurView.h in Headers */,
+				32C4156191E4FF32D516C7E4 /* CSNavigationController.h in Headers */,
+				7FB194413C03C650B6A1F846 /* Canvas.h in Headers */,
+				81446012F242B62F96EF37D7 /* Pods-Checkin-Canvas-umbrella.h in Headers */,
+				9BA421658AB2920703B9589F /* UIButton+TCCustomFont.h in Headers */,
+				25F52825A299CF3830B0C4B0 /* UILabel+TCCustomFont.h in Headers */,
+				5497B3D2C8592EEA1BEDCFFE /* UINavigationBar+TCCustomFont.h in Headers */,
+				6541012938F268F64A8ADFEF /* UITextField+PlaceholderColor.h in Headers */,
+				7439C60179D142705092B1F8 /* UITextField+TCCustomFont.h in Headers */,
+				8A271EB13D6DD353E7AAEE16 /* UITextView+TCCustomFont.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		04B93F37E4D097DADA84BC5F /* Pods-Checkin */ = {
+		46EDA37322B5C4660CD5A2B7 /* Pods-Checkin-XCGLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DEE93936E65A4465F71D4D3 /* Build configuration list for PBXNativeTarget "Pods-Checkin" */;
+			buildConfigurationList = 3B911B53C11583BDF0F805EF /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */;
 			buildPhases = (
-				7702A336D3375B06376F03B0 /* Sources */,
-				3736128AE40259DF5CFC2E08 /* Frameworks */,
-				F24A3DCD9954DAF26FE707F6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8184C7404F6E8C75CA8D26DB /* PBXTargetDependency */,
-				88ACF372E2D5EB57F1B76139 /* PBXTargetDependency */,
-				C0686404F842C0606A3ECD84 /* PBXTargetDependency */,
-			);
-			name = "Pods-Checkin";
-			productName = "Pods-Checkin";
-			productReference = 06F590DBEC3C264A2BED023A /* Pods_Checkin.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		34AB37FA25DA646206D47B03 /* Pods-Checkin-SwiftSpinner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 590835F8B1204FE2A88E8EFF /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */;
-			buildPhases = (
-				4BBBF1DCD54BDCCDCBD1D483 /* Sources */,
-				1ED6922E565F0DBE7C6A8F73 /* Frameworks */,
-				CAF4782CC349A09E5C6D1C34 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Checkin-SwiftSpinner";
-			productName = "Pods-Checkin-SwiftSpinner";
-			productReference = 4195FE0BD615B839682FA71E /* SwiftSpinner.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		921A87EF7A2AAF39B6D41579 /* Pods-Checkin-XCGLogger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A871B260DDF1E5846EFB55E /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */;
-			buildPhases = (
-				10F057978093CD17BA97412F /* Sources */,
-				3064FF55ACC4E5BA7AE6A62C /* Frameworks */,
-				E6AD8231CB6FB4AECC61C4D1 /* Headers */,
+				C1B2C28DB39CF300D6159FE4 /* Sources */,
+				DBB63976FB5C9462121F24BA /* Frameworks */,
+				4D9E2C0E1F83F0AAB4810743 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -439,16 +402,53 @@
 			);
 			name = "Pods-Checkin-XCGLogger";
 			productName = "Pods-Checkin-XCGLogger";
-			productReference = 167D0DDF532DAAF95B556315 /* XCGLogger.framework */;
+			productReference = 447EE140379B27011BFE063B /* XCGLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B7F136EE455A572F57BDF018 /* Pods-Checkin-Canvas */ = {
+		5146A9C22834320040401190 /* Pods-Checkin-SwiftSpinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6FBEBFD7FD13C57452D8934 /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */;
+			buildConfigurationList = E7F9CC3C16806DB25EE72A76 /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */;
 			buildPhases = (
-				4807AF7F67AC4ADA3FC28771 /* Sources */,
-				AAFEF65E982489E5B0BE15BC /* Frameworks */,
-				5E31F976047F9F0F17BA6726 /* Headers */,
+				E478CE8B6DFCB17CAD33B75C /* Sources */,
+				A5CDE4825C10BEE56680B2AD /* Frameworks */,
+				5A7D67A65B4E8D0F5E0D00DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-SwiftSpinner";
+			productName = "Pods-Checkin-SwiftSpinner";
+			productReference = 2DCF0EACCAE2924946EF6050 /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97FA81CB860B1142523D3F9F /* Pods-Checkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9991E126D668FF218F4066 /* Build configuration list for PBXNativeTarget "Pods-Checkin" */;
+			buildPhases = (
+				1F4E41D9CF4944F9653F25F1 /* Sources */,
+				4E58949D6A375A504C26A865 /* Frameworks */,
+				9C44D10D99B8CDBB3DC11C38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90128A6C29AFDC867A0D30D6 /* PBXTargetDependency */,
+				35825CB152C21ECE1895664B /* PBXTargetDependency */,
+				07C16CEF2D54A69DB0447C1D /* PBXTargetDependency */,
+			);
+			name = "Pods-Checkin";
+			productName = "Pods-Checkin";
+			productReference = FE1447BE7EF68046064704CB /* Pods_Checkin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDE45096112540CE89E507DA /* Pods-Checkin-Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5EC5666B07644D4020DFB5 /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */;
+			buildPhases = (
+				A4C4F187B6065D9BB1F88C91 /* Sources */,
+				D19E86AFCF79AB153990EE42 /* Frameworks */,
+				D43B47D9C872E5DEE23489C0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -456,107 +456,191 @@
 			);
 			name = "Pods-Checkin-Canvas";
 			productName = "Pods-Checkin-Canvas";
-			productReference = 8782A3204D6C64C4833C4FC6 /* Canvas.framework */;
+			productReference = 4B21844E161AB374567DE576 /* Canvas.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E36A4FBD99834ED5BD31B239 /* Project object */ = {
+		5F8B77B25350B1E6666DE76A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 0E28D38607CFC2A8FED60CA1 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 1AB8E71C281DADBEA02A2EF1 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EFFBAFAF55B382FCE24C4713;
-			productRefGroup = C6E4065E3FE06A5A28AB8736 /* Products */;
+			mainGroup = C1637F6B293E29D1D654F746;
+			productRefGroup = 93A1C4B730D7797CD2E8AD1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04B93F37E4D097DADA84BC5F /* Pods-Checkin */,
-				B7F136EE455A572F57BDF018 /* Pods-Checkin-Canvas */,
-				34AB37FA25DA646206D47B03 /* Pods-Checkin-SwiftSpinner */,
-				921A87EF7A2AAF39B6D41579 /* Pods-Checkin-XCGLogger */,
+				97FA81CB860B1142523D3F9F /* Pods-Checkin */,
+				CDE45096112540CE89E507DA /* Pods-Checkin-Canvas */,
+				5146A9C22834320040401190 /* Pods-Checkin-SwiftSpinner */,
+				46EDA37322B5C4660CD5A2B7 /* Pods-Checkin-XCGLogger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10F057978093CD17BA97412F /* Sources */ = {
+		1F4E41D9CF4944F9653F25F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3489AE6D7E187002E1DEC80 /* Pods-Checkin-XCGLogger-dummy.m in Sources */,
-				EFF8038C07CED69B037F8E2E /* XCGLogger.swift in Sources */,
+				3E412611BE78CFC26F1CA0D7 /* Pods-Checkin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4807AF7F67AC4ADA3FC28771 /* Sources */ = {
+		A4C4F187B6065D9BB1F88C91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FB7B96C8A3C5FD26AEE027 /* CSAnimation.m in Sources */,
-				4BE65656614B0EC4C159862D /* CSAnimationView.m in Sources */,
-				CB0C155829D734DF6E912B7F /* CSBlurView.m in Sources */,
-				3CB759CE0398E598F92CEE17 /* CSNavigationController.m in Sources */,
-				5D63C83108BCD74A942A05F6 /* Pods-Checkin-Canvas-dummy.m in Sources */,
-				452D9AA56B32D5B91A071C6D /* UIButton+TCCustomFont.m in Sources */,
-				23BC9F62277A2BA0C9AEE3C4 /* UILabel+TCCustomFont.m in Sources */,
-				9E4CBD5C6162A1B56AF35409 /* UINavigationBar+TCCustomFont.m in Sources */,
-				B49E5D55F2ED7084B518522B /* UITextField+PlaceholderColor.m in Sources */,
-				7BB809310E8E6B0D88582469 /* UITextField+TCCustomFont.m in Sources */,
-				10572EF8FD7BF3BC8A125E57 /* UITextView+TCCustomFont.m in Sources */,
+				72A7CC7A6F887AA61CF3D500 /* CSAnimation.m in Sources */,
+				C32F66F4B56057905687492B /* CSAnimationView.m in Sources */,
+				49BF03CDF33FCED8413A8484 /* CSBlurView.m in Sources */,
+				AD85F6F6E8BE8E1DF18C2EB6 /* CSNavigationController.m in Sources */,
+				7121D9191E3CC881FB4EF73E /* Pods-Checkin-Canvas-dummy.m in Sources */,
+				48983FD3A1A69738EF93C403 /* UIButton+TCCustomFont.m in Sources */,
+				BDCBDE426C5CBAC4514AEE4A /* UILabel+TCCustomFont.m in Sources */,
+				6CEFBEB9E63E1F26910F0B3E /* UINavigationBar+TCCustomFont.m in Sources */,
+				D286DB242226A7A36813E9EE /* UITextField+PlaceholderColor.m in Sources */,
+				C35163BABAEC5C6FFBEDA129 /* UITextField+TCCustomFont.m in Sources */,
+				697175B1EA36C973BF8501E6 /* UITextView+TCCustomFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BBBF1DCD54BDCCDCBD1D483 /* Sources */ = {
+		C1B2C28DB39CF300D6159FE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD97B1723C637E10A595DDA /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */,
-				C09E76D9C9903B333BFFBEF3 /* SwiftSpinner.swift in Sources */,
+				AC669C68B34243AD17D020B9 /* Pods-Checkin-XCGLogger-dummy.m in Sources */,
+				0B3736CB5CD5CCC9A9DEB45C /* XCGLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7702A336D3375B06376F03B0 /* Sources */ = {
+		E478CE8B6DFCB17CAD33B75C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15CAE6A630ABACB34708C8F0 /* Pods-Checkin-dummy.m in Sources */,
+				CE002FD03A261D52F2FD377A /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */,
+				030F8AA29B6C5E8BE58ED19E /* SwiftSpinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8184C7404F6E8C75CA8D26DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Checkin-Canvas";
-			target = B7F136EE455A572F57BDF018 /* Pods-Checkin-Canvas */;
-			targetProxy = 71944097574B71B5671B1BDD /* PBXContainerItemProxy */;
-		};
-		88ACF372E2D5EB57F1B76139 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Checkin-SwiftSpinner";
-			target = 34AB37FA25DA646206D47B03 /* Pods-Checkin-SwiftSpinner */;
-			targetProxy = 8575456568653E9D6935F15C /* PBXContainerItemProxy */;
-		};
-		C0686404F842C0606A3ECD84 /* PBXTargetDependency */ = {
+		07C16CEF2D54A69DB0447C1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Checkin-XCGLogger";
-			target = 921A87EF7A2AAF39B6D41579 /* Pods-Checkin-XCGLogger */;
-			targetProxy = ED72A73B7686DCF769F5DBC7 /* PBXContainerItemProxy */;
+			target = 46EDA37322B5C4660CD5A2B7 /* Pods-Checkin-XCGLogger */;
+			targetProxy = 96EA446420B2975D1748A64C /* PBXContainerItemProxy */;
+		};
+		35825CB152C21ECE1895664B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-SwiftSpinner";
+			target = 5146A9C22834320040401190 /* Pods-Checkin-SwiftSpinner */;
+			targetProxy = F8DE744A3C3C4EC36B4D5A18 /* PBXContainerItemProxy */;
+		};
+		90128A6C29AFDC867A0D30D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-Canvas";
+			target = CDE45096112540CE89E507DA /* Pods-Checkin-Canvas */;
+			targetProxy = 9644EA3B1E6B26BB9464AFDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4CBF03ECE9DA49516F116F98 /* Release */ = {
+		0D0E9C1B3BABE21DC9AB170E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XCGLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16C732AB96886F36DB3430CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		366999F754ACE94068738445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F283CF632D83FF2279E221EB /* Pods-Checkin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin/Pods-Checkin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Checkin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E2E7A481F15E7037252A092 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -590,90 +674,7 @@
 			};
 			name = Release;
 		};
-		501B8DDF85B5B91B315020DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 958200020C389BCEE405ED23 /* Pods-Checkin-Canvas-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-Canvas/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Canvas;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5C3A523EE9699C427D5B21CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01EDC0277183C366DE73633A /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftSpinner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9837E3977105B3CFD601B509 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B26A067748AAB6D867EA25A4 /* Pods-Checkin.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin/Pods-Checkin.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Checkin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9DD9F5AC9C69FFBD8B87A32F /* Debug */ = {
+		70F4A7CBD3A90D7750C9DB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -712,37 +713,9 @@
 			};
 			name = Debug;
 		};
-		BBB617E227FC3A057CCE1B7E /* Debug */ = {
+		729B0F7F6ED13914CD25DA44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26520C54536C9F6C84DF1E20 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = XCGLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CEF66B902AC5C58C4645B0EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 958200020C389BCEE405ED23 /* Pods-Checkin-Canvas-Private.xcconfig */;
+			baseConfigurationReference = C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -757,7 +730,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Canvas;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -765,11 +738,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		DF5C0305CB8D62F5A30840E3 /* Debug */ = {
+		7F04CB4263002791E4F4974F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10BC2893116BF3B326736652 /* Pods-Checkin.debug.xcconfig */;
+			baseConfigurationReference = E57739FD12B3CBBC53003935 /* Pods-Checkin.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -797,9 +770,36 @@
 			};
 			name = Debug;
 		};
-		F3386292531098B99B947590 /* Release */ = {
+		B6ECAFA1DFED794C10B3711F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26520C54536C9F6C84DF1E20 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
+			baseConfigurationReference = C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCB5B6E982D40FEB4AA82C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -824,9 +824,9 @@
 			};
 			name = Release;
 		};
-		F3D686ECF0314A15B93C0DA9 /* Debug */ = {
+		FCDCDAED1CE45D3467A701FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01EDC0277183C366DE73633A /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
+			baseConfigurationReference = B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -855,52 +855,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E28D38607CFC2A8FED60CA1 /* Build configuration list for PBXProject "Pods" */ = {
+		0A5EC5666B07644D4020DFB5 /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DD9F5AC9C69FFBD8B87A32F /* Debug */,
-				4CBF03ECE9DA49516F116F98 /* Release */,
+				729B0F7F6ED13914CD25DA44 /* Debug */,
+				B6ECAFA1DFED794C10B3711F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		590835F8B1204FE2A88E8EFF /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */ = {
+		1AB8E71C281DADBEA02A2EF1 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3D686ECF0314A15B93C0DA9 /* Debug */,
-				5C3A523EE9699C427D5B21CB /* Release */,
+				70F4A7CBD3A90D7750C9DB4C /* Debug */,
+				4E2E7A481F15E7037252A092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A871B260DDF1E5846EFB55E /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */ = {
+		2A9991E126D668FF218F4066 /* Build configuration list for PBXNativeTarget "Pods-Checkin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBB617E227FC3A057CCE1B7E /* Debug */,
-				F3386292531098B99B947590 /* Release */,
+				7F04CB4263002791E4F4974F /* Debug */,
+				366999F754ACE94068738445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DEE93936E65A4465F71D4D3 /* Build configuration list for PBXNativeTarget "Pods-Checkin" */ = {
+		3B911B53C11583BDF0F805EF /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF5C0305CB8D62F5A30840E3 /* Debug */,
-				9837E3977105B3CFD601B509 /* Release */,
+				0D0E9C1B3BABE21DC9AB170E /* Debug */,
+				CCB5B6E982D40FEB4AA82C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6FBEBFD7FD13C57452D8934 /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */ = {
+		E7F9CC3C16806DB25EE72A76 /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				501B8DDF85B5B91B315020DA /* Debug */,
-				CEF66B902AC5C58C4645B0EC /* Release */,
+				FCDCDAED1CE45D3467A701FE /* Debug */,
+				16C732AB96886F36DB3430CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E36A4FBD99834ED5BD31B239 /* Project object */;
+	rootObject = 5F8B77B25350B1E6666DE76A /* Project object */;
 }

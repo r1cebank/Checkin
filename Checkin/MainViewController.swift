@@ -9,7 +9,6 @@
 import UIKit
 import MultipeerConnectivity
 import XCGLogger
-import AYVibrantButton
 import SwiftSpinner
 
 class MainViewController: UIViewController, MPCManagerDelegate{
