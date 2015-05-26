@@ -49,11 +49,15 @@ code_sign() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Canvas.framework'
+  install_framework 'MKInputBoxView.framework'
+  install_framework 'PXAlertView.framework'
   install_framework 'SwiftSpinner.framework'
   install_framework 'XCGLogger.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Canvas.framework'
+  install_framework 'MKInputBoxView.framework'
+  install_framework 'PXAlertView.framework'
   install_framework 'SwiftSpinner.framework'
   install_framework 'XCGLogger.framework'
 fi

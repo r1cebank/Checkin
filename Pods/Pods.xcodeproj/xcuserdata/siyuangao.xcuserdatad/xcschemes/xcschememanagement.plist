@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Checkin-MKInputBoxView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Checkin-PXAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Checkin-SwiftSpinner.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>46EDA37322B5C4660CD5A2B7</key>
+		<key>0306454E6913622B6D3FA7E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5146A9C22834320040401190</key>
+		<key>1E5C77A65E2F9BFB61703B9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97FA81CB860B1142523D3F9F</key>
+		<key>81447715C9455BCF68B2344E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CDE45096112540CE89E507DA</key>
+		<key>8C90443DE0AF778CEB0F6C6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7717B4897507FFE5956B3C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED3B0387FF905C8DAA34CB38</key>
 		<dict>
 			<key>primary</key>
 			<true/>

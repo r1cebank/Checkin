@@ -1,0 +1,6 @@
+framework module PXAlertView {
+  umbrella header "Pods-Checkin-PXAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,6 +6,8 @@ target 'Checkin' do
     pod 'XCGLogger'
     pod 'Canvas'
     pod 'SwiftSpinner'
+    pod 'MKInputBoxView'
+    pod 'PXAlertView', '~> 0.1.0'
 
 end
 

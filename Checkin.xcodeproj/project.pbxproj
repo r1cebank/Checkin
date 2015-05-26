@@ -17,6 +17,7 @@
 		ECE620F51B122DC7006F14AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE620F31B122DC7006F14AD /* LaunchScreen.xib */; };
 		ECE621011B122DC7006F14AD /* CheckinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE621001B122DC7006F14AD /* CheckinTests.swift */; };
 		ECE635F01B13F58000FB5E96 /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE635EF1B13F58000FB5E96 /* ClientViewController.swift */; };
+		ECE636301B14D44F00FB5E96 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE6362F1B14D44F00FB5E96 /* CheckInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		ECE620FF1B122DC7006F14AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE621001B122DC7006F14AD /* CheckinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinTests.swift; sourceTree = "<group>"; };
 		ECE635EF1B13F58000FB5E96 /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		ECE6362F1B14D44F00FB5E96 /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				ECE620EC1B122DC7006F14AD /* MainViewController.swift */,
 				ECE635EF1B13F58000FB5E96 /* ClientViewController.swift */,
+				ECE6362F1B14D44F00FB5E96 /* CheckInViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				EC24D91C1B12426E00CB128A /* FreqList.swift in Sources */,
 				ECE620EB1B122DC7006F14AD /* AppDelegate.swift in Sources */,
 				ECE635F01B13F58000FB5E96 /* ClientViewController.swift in Sources */,
+				ECE636301B14D44F00FB5E96 /* CheckInViewController.swift in Sources */,
 				ECC507B21B12372F00FA8772 /* MPCManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

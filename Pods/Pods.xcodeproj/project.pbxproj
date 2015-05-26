@@ -7,394 +7,572 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030F8AA29B6C5E8BE58ED19E /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A02CD1A0C9958DAA1CBB5 /* SwiftSpinner.swift */; };
-		0B3736CB5CD5CCC9A9DEB45C /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE7CBA361847DA2838F12C /* XCGLogger.swift */; };
-		1E0EE329F30BC7DAE8EB88C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83F00A439402D9FCA322E46 /* UIKit.framework */; };
-		25F52825A299CF3830B0C4B0 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7209F338BA91C25CA0E14F /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32C4156191E4FF32D516C7E4 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 995F84E150ADABA35B42662F /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CF41377336E14C0AAE80E82 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF02F1336F35232C6AAB71AB /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E412611BE78CFC26F1CA0D7 /* Pods-Checkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43958D43974B09AA39808961 /* Pods-Checkin-dummy.m */; };
-		42942F11A8C65D647F5301EA /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D360F976224A9A266F1099C /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44A3B296689109715D2C4C74 /* Pods-Checkin-XCGLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA0B9FB0F04D3EB783C549A /* Pods-Checkin-XCGLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48983FD3A1A69738EF93C403 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DB106F344CD02A1A04E8C /* UIButton+TCCustomFont.m */; };
-		49BF03CDF33FCED8413A8484 /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA7D2276DF0C4078215EB5 /* CSBlurView.m */; };
-		5497B3D2C8592EEA1BEDCFFE /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF456D4F42099BEC8FDDB96 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5529837E936457C87C3E5E36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
-		5C4AAF589212151CB1260EAB /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = C019FD8F9B8CDE7836F9467A /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6541012938F268F64A8ADFEF /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD096081FDAC1CEBF69C2C4 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		697175B1EA36C973BF8501E6 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84328FF6361DC7302C7B0671 /* UITextView+TCCustomFont.m */; };
-		6CEFBEB9E63E1F26910F0B3E /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A5ACC96D981EB498DED911 /* UINavigationBar+TCCustomFont.m */; };
-		7121D9191E3CC881FB4EF73E /* Pods-Checkin-Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE8C0B9E3CA53564427225 /* Pods-Checkin-Canvas-dummy.m */; };
-		72A7CC7A6F887AA61CF3D500 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AFAAD22D84BC8A1F593D7 /* CSAnimation.m */; };
-		7439C60179D142705092B1F8 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D34A5F9BFC6E630BA456AA9 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FB194413C03C650B6A1F846 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A73FEB0001C4D2C8CC0F87 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81446012F242B62F96EF37D7 /* Pods-Checkin-Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF10B09A4FED7E2486B455A /* Pods-Checkin-Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A271EB13D6DD353E7AAEE16 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = A14CA9DED32615794D490DD8 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92B694007D6C93AA69475370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
-		9AE078FEBFA6147753100B7D /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 909B30FF7691A2AF33DF04CB /* Pods-Checkin-SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BA421658AB2920703B9589F /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DB86B4D4203F5FF9E6BD0994 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC669C68B34243AD17D020B9 /* Pods-Checkin-XCGLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA37ACBD65DE0AA19311F4 /* Pods-Checkin-XCGLogger-dummy.m */; };
-		AD85F6F6E8BE8E1DF18C2EB6 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6648637D5FB3E9D350358E0D /* CSNavigationController.m */; };
-		B4A722C66D21D9665D3DF21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
-		BDCBDE426C5CBAC4514AEE4A /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1ED82A4D5E5F54399790E /* UILabel+TCCustomFont.m */; };
-		C32F66F4B56057905687492B /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4DE2ACD46BDCC222BBA53 /* CSAnimationView.m */; };
-		C35163BABAEC5C6FFBEDA129 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C099168AF8638DE8D65CAF9 /* UITextField+TCCustomFont.m */; };
-		CE002FD03A261D52F2FD377A /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3313C0A749A618570F156829 /* Pods-Checkin-SwiftSpinner-dummy.m */; };
-		D1FCAE166419E510CD6D2C63 /* Pods-Checkin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCB75CA06ACADB8823287E2 /* Pods-Checkin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D286DB242226A7A36813E9EE /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4DB8EF19C6212826F9DD5 /* UITextField+PlaceholderColor.m */; };
-		D778E18634C29072C586AA61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67C3F57E745A72460FD1E81 /* Foundation.framework */; };
+		006F08BF3C725F983F3B0599 /* Pods-Checkin-PXAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A362DD6A9EFDAADEF771CE9D /* Pods-Checkin-PXAlertView-dummy.m */; };
+		10FD7E72EFF32ACB4A2F1E28 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0116571F175C9F4689A17BE /* CSNavigationController.m */; };
+		177106B2E3D3B364F5BD6043 /* Pods-Checkin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD5E3A4A00B1DAA0453223C /* Pods-Checkin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18289CE18BD89D7817CD8255 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E845319A9C6E850CC15947E /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E737DDC68E38A317E7FC51 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5862A8613DF8C6FC8BA70D20 /* UITextView+TCCustomFont.m */; };
+		2D8E74605406BC985EC0D3E7 /* Pods-Checkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 336E62BD6079A0931264BD1D /* Pods-Checkin-dummy.m */; };
+		2EB65334E4BE57BE8F9DDBB7 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA178D8423E4AF2F9A7B4CF /* UILabel+TCCustomFont.m */; };
+		341EDEC2D50C82E13EA9E92C /* Pods-Checkin-Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC4F69DDDDA46F8E49A875F /* Pods-Checkin-Canvas-dummy.m */; };
+		3D2F0C1ACC5E7FCC7EDA320B /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2165BA0A79F37DD466B8CE /* CSAnimationView.m */; };
+		44F6DA0BFF5C6498A4B4F79B /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FDCC926F7D8361E9A4849 /* XCGLogger.swift */; };
+		4EB489E07BC08D6E3452D92F /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DAACE93FE81524E9D00E9F /* Pods-Checkin-SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55989E6BE281038DA34BAC62 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 745B095E641F0853464143FC /* UITextField+TCCustomFont.m */; };
+		561D5E7C3918A546819CB2D3 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 86746A047421372EA0208D33 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E09E8A92658AFC4B305F9C /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A8D90C4B83B612F2A8D17 /* SwiftSpinner.swift */; };
+		5788470F9E064D525D2ECCBB /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B9CB1C5729E69C19948ED /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591EB6AAD24DA354D75869F5 /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC84DB3AC9CC650C9DFE831 /* UITextField+PlaceholderColor.m */; };
+		619D54CCDE7AC1B842C612FC /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABE5ADC3956614792786936 /* CSAnimation.m */; };
+		61E56442AB5C171D52AE915F /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F39129247340E44EF0588A /* Pods-Checkin-SwiftSpinner-dummy.m */; };
+		64AB61F002D0B6FC54359710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573170E12C4C3F92CF47EAC /* Foundation.framework */; };
+		6579112DBA085BD3F2CF62DB /* Pods-Checkin-XCGLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 485E2663DEB27F7668E5FDB7 /* Pods-Checkin-XCGLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CAD89F271580DAC5D9DDEF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573170E12C4C3F92CF47EAC /* Foundation.framework */; };
+		772D0682113EA1692664B612 /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D51BBE15E59DA7EB288B9 /* CSBlurView.m */; };
+		7B0627A87B26C97C04BBCB20 /* Pods-Checkin-Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAF6C4D8F8C34E25DB12FBE /* Pods-Checkin-Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CBF327EBA47BA6FCC6B1F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573170E12C4C3F92CF47EAC /* Foundation.framework */; };
+		7FEB74C1B88AAE8904A9FBD5 /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E0763DF11136FFD3037728 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898330E3BA3CD4FAC2B9C50C /* MKInputBoxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C3887314851B1A2A99728E /* MKInputBoxView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91BBA6A50BAC082EC245379A /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DA61B728DCA8001D6B4A11D5 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936070064BA63AAFE1A81BFC /* PXAlertView+Customization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F33800A0608A1A3145C7B95 /* PXAlertView+Customization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96C7DD8C38AA7D3561921585 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C554F9E98BE88CC534F546 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A667342998EFF37095089433 /* PXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A20E9A23261971611848 /* PXAlertView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE9CDB6445E822306A13E8D1 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FF5C26885A428310AA96D /* UIButton+TCCustomFont.m */; };
+		B1E387A15BB1600854A5BB88 /* Pods-Checkin-MKInputBoxView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B063E6259688D8509838DBEC /* Pods-Checkin-MKInputBoxView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B13D21046D6C029F9555B0 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FE84522662628C12E3835D /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5DAD84D3E1FD97D111E7A95 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = A12379406F925DB788AE5B04 /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB62BFDC5F45701EA2D198B /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C47AD49A38993ECFDF34955E /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC36A846713D8AB2EB458F6A /* MKInputBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85141B9B2566A2772D2F2481 /* MKInputBoxView.m */; };
+		C133FB9BC4B6B89028446C51 /* PXAlertView+Customization.h in Headers */ = {isa = PBXBuildFile; fileRef = BE84D6DEB39618723DDEDCA8 /* PXAlertView+Customization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D322F65CA3D85F6B838A1340 /* Pods-Checkin-PXAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8FACDB87B42DD9ED0878C2 /* Pods-Checkin-PXAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46F40403C0049E2F1D600B5 /* Pods-Checkin-MKInputBoxView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 775867D30FEB6AB190A61957 /* Pods-Checkin-MKInputBoxView-dummy.m */; };
+		D50DA08B833F84FFFA494976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573170E12C4C3F92CF47EAC /* Foundation.framework */; };
+		D978E8FFFE969F34D93258ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCBE655A3CE0EF9FC7BB68C /* UIKit.framework */; };
+		DE7AF6C0AE6732D6B0D10D7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573170E12C4C3F92CF47EAC /* Foundation.framework */; };
+		E19FB6384EAB50EACC0B0D51 /* Pods-Checkin-XCGLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C456D416E8C87996F41231 /* Pods-Checkin-XCGLogger-dummy.m */; };
+		E6CAC9740CE71AB686DE65EB /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = A817DFBD8608F6622675BCB4 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FCF31A53F42666D830CF84 /* PXAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B2C51D6E295BF69AAD1F82 /* PXAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB420FBA1DBB9186F22F7DE3 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F1264DE93A07B2028B181B32 /* UINavigationBar+TCCustomFont.m */; };
+		F4B8E87878A779ED766AC642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573170E12C4C3F92CF47EAC /* Foundation.framework */; };
+		F8E6BC5920BAF1AD8D710114 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = E65820B300815B793DF3357B /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9644EA3B1E6B26BB9464AFDF /* PBXContainerItemProxy */ = {
+		326D0AE5D60BDEDE6E8D7523 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5F8B77B25350B1E6666DE76A /* Project object */;
+			containerPortal = 3FAB6643CA31FA92A4E5AB32 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CDE45096112540CE89E507DA;
+			remoteGlobalIDString = 1E5C77A65E2F9BFB61703B9D;
+			remoteInfo = "Pods-Checkin-PXAlertView";
+		};
+		92AD6D503A92B72200CF29E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FAB6643CA31FA92A4E5AB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7717B4897507FFE5956B3C8;
 			remoteInfo = "Pods-Checkin-Canvas";
 		};
-		96EA446420B2975D1748A64C /* PBXContainerItemProxy */ = {
+		AB26572E26254D78CBB54509 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5F8B77B25350B1E6666DE76A /* Project object */;
+			containerPortal = 3FAB6643CA31FA92A4E5AB32 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46EDA37322B5C4660CD5A2B7;
-			remoteInfo = "Pods-Checkin-XCGLogger";
-		};
-		F8DE744A3C3C4EC36B4D5A18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F8B77B25350B1E6666DE76A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5146A9C22834320040401190;
+			remoteGlobalIDString = ED3B0387FF905C8DAA34CB38;
 			remoteInfo = "Pods-Checkin-SwiftSpinner";
+		};
+		C4AF0E23777AA5B0C6981D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FAB6643CA31FA92A4E5AB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C90443DE0AF778CEB0F6C6C;
+			remoteInfo = "Pods-Checkin-MKInputBoxView";
+		};
+		E42A9FAFE2DD242E2E8467C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FAB6643CA31FA92A4E5AB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81447715C9455BCF68B2344E;
+			remoteInfo = "Pods-Checkin-XCGLogger";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02DE7CBA361847DA2838F12C /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = XCGLogger/Library/XCGLogger/XCGLogger.swift; sourceTree = "<group>"; };
-		05A73FEB0001C4D2C8CC0F87 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
-		0C099168AF8638DE8D65CAF9 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
-		10F4DB8EF19C6212826F9DD5 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
-		18AA37ACBD65DE0AA19311F4 /* Pods-Checkin-XCGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-XCGLogger-dummy.m"; sourceTree = "<group>"; };
-		1CD6449036482D849FC0976C /* Pods-Checkin-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-environment.h"; sourceTree = "<group>"; };
-		1D34A5F9BFC6E630BA456AA9 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
-		2DCF0EACCAE2924946EF6050 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3313C0A749A618570F156829 /* Pods-Checkin-SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
-		3418691B08473D96FE74D09D /* Pods-Checkin-SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
-		3B7209F338BA91C25CA0E14F /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
-		403A1C36516A52F1DC0C6268 /* Pods-Checkin-XCGLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger.xcconfig"; sourceTree = "<group>"; };
-		413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger-Private.xcconfig"; sourceTree = "<group>"; };
-		41987A17D511ABCBC3695B05 /* Pods-Checkin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-resources.sh"; sourceTree = "<group>"; };
-		43958D43974B09AA39808961 /* Pods-Checkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-dummy.m"; sourceTree = "<group>"; };
-		447EE140379B27011BFE063B /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48EE8C0B9E3CA53564427225 /* Pods-Checkin-Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-Canvas-dummy.m"; sourceTree = "<group>"; };
-		4B21844E161AB374567DE576 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D360F976224A9A266F1099C /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
-		4E84A5D2E6F60BA9EAEED695 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50ED3E588E0455E546B81ED0 /* Pods-Checkin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Checkin-acknowledgements.plist"; sourceTree = "<group>"; };
-		56E1ED82A4D5E5F54399790E /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
-		6270D46F373575941D1C4864 /* Pods-Checkin-Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-Canvas.modulemap"; sourceTree = "<group>"; };
-		63F4DE2ACD46BDCC222BBA53 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
-		6648637D5FB3E9D350358E0D /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
-		84328FF6361DC7302C7B0671 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
-		88A5ACC96D981EB498DED911 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
-		909B30FF7691A2AF33DF04CB /* Pods-Checkin-SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
-		9520120DF052817DDF6A2DB3 /* Pods-Checkin-XCGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-prefix.pch"; sourceTree = "<group>"; };
-		990E095D0CAEB111AA31253A /* Pods-Checkin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin.modulemap"; sourceTree = "<group>"; };
-		995F84E150ADABA35B42662F /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
-		9AE4FC5B8CB7A779C993DBCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FA0B9FB0F04D3EB783C549A /* Pods-Checkin-XCGLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-umbrella.h"; sourceTree = "<group>"; };
-		9FCA7D2276DF0C4078215EB5 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
-		A05C3420171043A2B0E4D15D /* Pods-Checkin-XCGLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-XCGLogger.modulemap"; sourceTree = "<group>"; };
-		A14CA9DED32615794D490DD8 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
-		A22F6053233C7B9353958816 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2A020D91F98AAF0FAB0FA3D /* Pods-Checkin-Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-prefix.pch"; sourceTree = "<group>"; };
-		A41EFCC4B1B61B65E2EA5803 /* Pods-Checkin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-frameworks.sh"; sourceTree = "<group>"; };
-		A83F00A439402D9FCA322E46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AA60BD63346842147FA6A0BA /* Pods-Checkin-SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner.xcconfig"; sourceTree = "<group>"; };
-		ABD096081FDAC1CEBF69C2C4 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
-		ABF10B09A4FED7E2486B455A /* Pods-Checkin-Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-umbrella.h"; sourceTree = "<group>"; };
-		ADCB75CA06ACADB8823287E2 /* Pods-Checkin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-umbrella.h"; sourceTree = "<group>"; };
-		B276EB989AEB18E6DA331E8C /* Pods-Checkin-SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-SwiftSpinner.modulemap"; sourceTree = "<group>"; };
-		B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner-Private.xcconfig"; sourceTree = "<group>"; };
-		BA0A02CD1A0C9958DAA1CBB5 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
-		BAF456D4F42099BEC8FDDB96 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
-		C019FD8F9B8CDE7836F9467A /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
-		C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas-Private.xcconfig"; sourceTree = "<group>"; };
-		C67C3F57E745A72460FD1E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CA3DB106F344CD02A1A04E8C /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
-		CA4802E6089B327D75975768 /* Pods-Checkin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Checkin-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA6411280653B1E7F580B7BE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DB86B4D4203F5FF9E6BD0994 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
-		E57739FD12B3CBBC53003935 /* Pods-Checkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.debug.xcconfig"; sourceTree = "<group>"; };
-		E77AFAAD22D84BC8A1F593D7 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
-		F283CF632D83FF2279E221EB /* Pods-Checkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.release.xcconfig"; sourceTree = "<group>"; };
-		F8C80CF8CA9DDBBAAFD411BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB80F64C3EC68D9A1495ADBE /* Pods-Checkin-Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas.xcconfig"; sourceTree = "<group>"; };
-		FE1447BE7EF68046064704CB /* Pods_Checkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF02F1336F35232C6AAB71AB /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		023319419BF3C1ECDA69F5AC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0234D6D9E9EA2F34D08562F1 /* Pods-Checkin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin.modulemap"; sourceTree = "<group>"; };
+		02F39129247340E44EF0588A /* Pods-Checkin-SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		04A1A20E9A23261971611848 /* PXAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXAlertView.m; path = Classes/PXAlertView.m; sourceTree = "<group>"; };
+		074B9CB1C5729E69C19948ED /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		0A917AFB5A863D63ED56DD7C /* Pods-Checkin-MKInputBoxView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-MKInputBoxView-Private.xcconfig"; sourceTree = "<group>"; };
+		0B4BCC2917A0854694938834 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BAF6C4D8F8C34E25DB12FBE /* Pods-Checkin-Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-umbrella.h"; sourceTree = "<group>"; };
+		0E59BD5B2F5709A379DF26D6 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF04BB4E39E233D223E9C6C /* Pods-Checkin-PXAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-PXAlertView.modulemap"; sourceTree = "<group>"; };
+		0F33800A0608A1A3145C7B95 /* PXAlertView+Customization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PXAlertView+Customization.m"; path = "Classes/PXAlertView+Customization.m"; sourceTree = "<group>"; };
+		11D3A3668BB008A6769CB11F /* Pods-Checkin-PXAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-PXAlertView.xcconfig"; sourceTree = "<group>"; };
+		14C3887314851B1A2A99728E /* MKInputBoxView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKInputBoxView.h; path = MKInputBoxView/MKInputBoxView.h; sourceTree = "<group>"; };
+		17289109FBD48B8A7032DFF9 /* Pods-Checkin-XCGLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger-Private.xcconfig"; sourceTree = "<group>"; };
+		192EB6D0860A768BA5F68853 /* Pods-Checkin-MKInputBoxView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-MKInputBoxView.modulemap"; sourceTree = "<group>"; };
+		1F2D51BBE15E59DA7EB288B9 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		1F967C35C4DD1B0A921926CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2449117E657B98088078C528 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E179F26D10E5B407CA7E0B5 /* Pods-Checkin-SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		330FDCC926F7D8361E9A4849 /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = XCGLogger/Library/XCGLogger/XCGLogger.swift; sourceTree = "<group>"; };
+		336E62BD6079A0931264BD1D /* Pods-Checkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-dummy.m"; sourceTree = "<group>"; };
+		3D7F44A652DC84D7C22A172E /* Pods-Checkin-XCGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-prefix.pch"; sourceTree = "<group>"; };
+		3E845319A9C6E850CC15947E /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		3EF1A1A8967CC545E4EBCBFC /* Pods-Checkin-Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-Canvas.modulemap"; sourceTree = "<group>"; };
+		40DAACE93FE81524E9D00E9F /* Pods-Checkin-SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		41FE84522662628C12E3835D /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		42BD6D716B3541604ADFAE0D /* Pods-Checkin-SwiftSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner-Private.xcconfig"; sourceTree = "<group>"; };
+		43C456D416E8C87996F41231 /* Pods-Checkin-XCGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-XCGLogger-dummy.m"; sourceTree = "<group>"; };
+		485E2663DEB27F7668E5FDB7 /* Pods-Checkin-XCGLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-XCGLogger-umbrella.h"; sourceTree = "<group>"; };
+		4ABE5ADC3956614792786936 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		4F0A8D90C4B83B612F2A8D17 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		510B0FFA89CD618F497A5E91 /* Pods-Checkin-Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas.xcconfig"; sourceTree = "<group>"; };
+		55F08DA62AA14F68E016A624 /* Pods-Checkin-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-environment.h"; sourceTree = "<group>"; };
+		585E1F2F69503CF23A04F7B7 /* Pods-Checkin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Checkin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5862A8613DF8C6FC8BA70D20 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		5B8FACDB87B42DD9ED0878C2 /* Pods-Checkin-PXAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-PXAlertView-umbrella.h"; sourceTree = "<group>"; };
+		5FC4F69DDDDA46F8E49A875F /* Pods-Checkin-Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-Canvas-dummy.m"; sourceTree = "<group>"; };
+		611C2C7B15B285932EA259C5 /* PXAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6283EE4236D895C9AD741D91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62EADD610FE3FD05718F090A /* Pods-Checkin-Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-Canvas-prefix.pch"; sourceTree = "<group>"; };
+		6CA178D8423E4AF2F9A7B4CF /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		702D3D0083DBA950AC27D6E5 /* Pods-Checkin-MKInputBoxView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-MKInputBoxView.xcconfig"; sourceTree = "<group>"; };
+		71FA091D6E076D982A041935 /* Pods-Checkin-SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-SwiftSpinner.xcconfig"; sourceTree = "<group>"; };
+		745B095E641F0853464143FC /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		775867D30FEB6AB190A61957 /* Pods-Checkin-MKInputBoxView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-MKInputBoxView-dummy.m"; sourceTree = "<group>"; };
+		7A55899836EDCE6BD97FF1B6 /* Pods-Checkin-PXAlertView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-PXAlertView-Private.xcconfig"; sourceTree = "<group>"; };
+		7D9058179D397996AE87A913 /* Pods_Checkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85141B9B2566A2772D2F2481 /* MKInputBoxView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKInputBoxView.m; path = MKInputBoxView/MKInputBoxView.m; sourceTree = "<group>"; };
+		86746A047421372EA0208D33 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		89A2FDEF8003A7D6A4F601F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B2C51D6E295BF69AAD1F82 /* PXAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAlertView.h; path = Classes/PXAlertView.h; sourceTree = "<group>"; };
+		9BC84DB3AC9CC650C9DFE831 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		9F4790B21B97AD88EF9CDAC6 /* Pods-Checkin-SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-SwiftSpinner.modulemap"; sourceTree = "<group>"; };
+		A12379406F925DB788AE5B04 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		A362DD6A9EFDAADEF771CE9D /* Pods-Checkin-PXAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Checkin-PXAlertView-dummy.m"; sourceTree = "<group>"; };
+		A817DFBD8608F6622675BCB4 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		A96EC04E9FB52D3731ABCC8E /* Pods-Checkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.release.xcconfig"; sourceTree = "<group>"; };
+		B0116571F175C9F4689A17BE /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		B063E6259688D8509838DBEC /* Pods-Checkin-MKInputBoxView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-MKInputBoxView-umbrella.h"; sourceTree = "<group>"; };
+		B0C554F9E98BE88CC534F546 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		B4EA736004BADF2BFA8D4525 /* Pods-Checkin-MKInputBoxView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-MKInputBoxView-prefix.pch"; sourceTree = "<group>"; };
+		BE84D6DEB39618723DDEDCA8 /* PXAlertView+Customization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXAlertView+Customization.h"; path = "Classes/PXAlertView+Customization.h"; sourceTree = "<group>"; };
+		C44BEB32E6990FCAC12D848B /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47AD49A38993ECFDF34955E /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		C573170E12C4C3F92CF47EAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C7F76D9FC8B29DCF902C7452 /* Pods-Checkin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-frameworks.sh"; sourceTree = "<group>"; };
+		C99FF5C26885A428310AA96D /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		CA4695F5E5C8837980A2C5F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2165BA0A79F37DD466B8CE /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		D368D835B1C7C9305804787E /* Pods-Checkin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Checkin-acknowledgements.plist"; sourceTree = "<group>"; };
+		D51689EEE9D138850A5071CB /* Pods-Checkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin.debug.xcconfig"; sourceTree = "<group>"; };
+		D674691B4F48A44D06F1AD2C /* MKInputBoxView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKInputBoxView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA61B728DCA8001D6B4A11D5 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		DD6AB8EC7B2D5F0B092B0B04 /* Pods-Checkin-Canvas-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-Canvas-Private.xcconfig"; sourceTree = "<group>"; };
+		DDFE03F5EAE1012E18CFA9B0 /* Pods-Checkin-XCGLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Checkin-XCGLogger.xcconfig"; sourceTree = "<group>"; };
+		DFCBE655A3CE0EF9FC7BB68C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E396ECD4F0447DB52CB6A9EA /* Pods-Checkin-PXAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-PXAlertView-prefix.pch"; sourceTree = "<group>"; };
+		E65820B300815B793DF3357B /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		EC068A6F1BC1FA1DA3E84CCB /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD5E3A4A00B1DAA0453223C /* Pods-Checkin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Checkin-umbrella.h"; sourceTree = "<group>"; };
+		F1264DE93A07B2028B181B32 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		F2E0763DF11136FFD3037728 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		F51B51BCF42035AE440EF3C2 /* Pods-Checkin-XCGLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Checkin-XCGLogger.modulemap"; sourceTree = "<group>"; };
+		FAFB2646C1E721AA6B9C0E94 /* Pods-Checkin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Checkin-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E58949D6A375A504C26A865 /* Frameworks */ = {
+		24D52BB6D73B1D33CEEA19E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B694007D6C93AA69475370 /* Foundation.framework in Frameworks */,
+				DE7AF6C0AE6732D6B0D10D7E /* Foundation.framework in Frameworks */,
+				D978E8FFFE969F34D93258ED /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5CDE4825C10BEE56680B2AD /* Frameworks */ = {
+		290BEDB3699944FE5C9372F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A722C66D21D9665D3DF21F /* Foundation.framework in Frameworks */,
-				1E0EE329F30BC7DAE8EB88C7 /* UIKit.framework in Frameworks */,
+				64AB61F002D0B6FC54359710 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D19E86AFCF79AB153990EE42 /* Frameworks */ = {
+		3DEBE6AA6743D5607441DE99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D778E18634C29072C586AA61 /* Foundation.framework in Frameworks */,
+				F4B8E87878A779ED766AC642 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBB63976FB5C9462121F24BA /* Frameworks */ = {
+		46B2E6F08E1A3246B61A29F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5529837E936457C87C3E5E36 /* Foundation.framework in Frameworks */,
+				D50DA08B833F84FFFA494976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2292F3649F8E981B55646FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAD89F271580DAC5D9DDEF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A4A60A256F8DDB15FCA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBF327EBA47BA6FCC6B1F3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07C72AE00BE31596878D786D /* Targets Support Files */ = {
+		138A0CAA9C481063B328FC3C /* XCGLogger */ = {
 			isa = PBXGroup;
 			children = (
-				4EC751707E59A7987ECF1D32 /* Pods-Checkin */,
+				330FDCC926F7D8361E9A4849 /* XCGLogger.swift */,
+				57EE746F30C5F33F419E4ADE /* Support Files */,
 			);
-			name = "Targets Support Files";
+			path = XCGLogger;
 			sourceTree = "<group>";
 		};
-		14E5483AB255E4B6EC426AC7 /* Support Files */ = {
+		307E944D3B7E6CBB07D96531 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E84A5D2E6F60BA9EAEED695 /* Info.plist */,
-				B276EB989AEB18E6DA331E8C /* Pods-Checkin-SwiftSpinner.modulemap */,
-				AA60BD63346842147FA6A0BA /* Pods-Checkin-SwiftSpinner.xcconfig */,
-				B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */,
-				3313C0A749A618570F156829 /* Pods-Checkin-SwiftSpinner-dummy.m */,
-				3418691B08473D96FE74D09D /* Pods-Checkin-SwiftSpinner-prefix.pch */,
-				909B30FF7691A2AF33DF04CB /* Pods-Checkin-SwiftSpinner-umbrella.h */,
+				1F967C35C4DD1B0A921926CA /* Info.plist */,
+				9F4790B21B97AD88EF9CDAC6 /* Pods-Checkin-SwiftSpinner.modulemap */,
+				71FA091D6E076D982A041935 /* Pods-Checkin-SwiftSpinner.xcconfig */,
+				42BD6D716B3541604ADFAE0D /* Pods-Checkin-SwiftSpinner-Private.xcconfig */,
+				02F39129247340E44EF0588A /* Pods-Checkin-SwiftSpinner-dummy.m */,
+				2E179F26D10E5B407CA7E0B5 /* Pods-Checkin-SwiftSpinner-prefix.pch */,
+				40DAACE93FE81524E9D00E9F /* Pods-Checkin-SwiftSpinner-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Checkin-SwiftSpinner";
 			sourceTree = "<group>";
 		};
-		4EC751707E59A7987ECF1D32 /* Pods-Checkin */ = {
+		3468BD39B52A8EB117CE02F4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9AE4FC5B8CB7A779C993DBCC /* Info.plist */,
-				990E095D0CAEB111AA31253A /* Pods-Checkin.modulemap */,
-				CA4802E6089B327D75975768 /* Pods-Checkin-acknowledgements.markdown */,
-				50ED3E588E0455E546B81ED0 /* Pods-Checkin-acknowledgements.plist */,
-				43958D43974B09AA39808961 /* Pods-Checkin-dummy.m */,
-				1CD6449036482D849FC0976C /* Pods-Checkin-environment.h */,
-				A41EFCC4B1B61B65E2EA5803 /* Pods-Checkin-frameworks.sh */,
-				41987A17D511ABCBC3695B05 /* Pods-Checkin-resources.sh */,
-				ADCB75CA06ACADB8823287E2 /* Pods-Checkin-umbrella.h */,
-				E57739FD12B3CBBC53003935 /* Pods-Checkin.debug.xcconfig */,
-				F283CF632D83FF2279E221EB /* Pods-Checkin.release.xcconfig */,
+				441940D3662B4E43559FAA81 /* Pods-Checkin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		441940D3662B4E43559FAA81 /* Pods-Checkin */ = {
+			isa = PBXGroup;
+			children = (
+				CA4695F5E5C8837980A2C5F1 /* Info.plist */,
+				0234D6D9E9EA2F34D08562F1 /* Pods-Checkin.modulemap */,
+				585E1F2F69503CF23A04F7B7 /* Pods-Checkin-acknowledgements.markdown */,
+				D368D835B1C7C9305804787E /* Pods-Checkin-acknowledgements.plist */,
+				336E62BD6079A0931264BD1D /* Pods-Checkin-dummy.m */,
+				55F08DA62AA14F68E016A624 /* Pods-Checkin-environment.h */,
+				C7F76D9FC8B29DCF902C7452 /* Pods-Checkin-frameworks.sh */,
+				FAFB2646C1E721AA6B9C0E94 /* Pods-Checkin-resources.sh */,
+				EFD5E3A4A00B1DAA0453223C /* Pods-Checkin-umbrella.h */,
+				D51689EEE9D138850A5071CB /* Pods-Checkin.debug.xcconfig */,
+				A96EC04E9FB52D3731ABCC8E /* Pods-Checkin.release.xcconfig */,
 			);
 			name = "Pods-Checkin";
 			path = "Target Support Files/Pods-Checkin";
 			sourceTree = "<group>";
 		};
-		4EF6883017E01C4E0A22B0F6 /* Canvas */ = {
+		57EE746F30C5F33F419E4ADE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D360F976224A9A266F1099C /* CSAnimation.h */,
-				E77AFAAD22D84BC8A1F593D7 /* CSAnimation.m */,
-				C019FD8F9B8CDE7836F9467A /* CSAnimationView.h */,
-				63F4DE2ACD46BDCC222BBA53 /* CSAnimationView.m */,
-				FF02F1336F35232C6AAB71AB /* CSBlurView.h */,
-				9FCA7D2276DF0C4078215EB5 /* CSBlurView.m */,
-				995F84E150ADABA35B42662F /* CSNavigationController.h */,
-				6648637D5FB3E9D350358E0D /* CSNavigationController.m */,
-				05A73FEB0001C4D2C8CC0F87 /* Canvas.h */,
-				DB86B4D4203F5FF9E6BD0994 /* UIButton+TCCustomFont.h */,
-				CA3DB106F344CD02A1A04E8C /* UIButton+TCCustomFont.m */,
-				3B7209F338BA91C25CA0E14F /* UILabel+TCCustomFont.h */,
-				56E1ED82A4D5E5F54399790E /* UILabel+TCCustomFont.m */,
-				BAF456D4F42099BEC8FDDB96 /* UINavigationBar+TCCustomFont.h */,
-				88A5ACC96D981EB498DED911 /* UINavigationBar+TCCustomFont.m */,
-				ABD096081FDAC1CEBF69C2C4 /* UITextField+PlaceholderColor.h */,
-				10F4DB8EF19C6212826F9DD5 /* UITextField+PlaceholderColor.m */,
-				1D34A5F9BFC6E630BA456AA9 /* UITextField+TCCustomFont.h */,
-				0C099168AF8638DE8D65CAF9 /* UITextField+TCCustomFont.m */,
-				A14CA9DED32615794D490DD8 /* UITextView+TCCustomFont.h */,
-				84328FF6361DC7302C7B0671 /* UITextView+TCCustomFont.m */,
-				CAC715D1D6815422989ED76A /* Support Files */,
-			);
-			path = Canvas;
-			sourceTree = "<group>";
-		};
-		57523045B3F18A68E9F16863 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8C80CF8CA9DDBBAAFD411BA /* Info.plist */,
-				A05C3420171043A2B0E4D15D /* Pods-Checkin-XCGLogger.modulemap */,
-				403A1C36516A52F1DC0C6268 /* Pods-Checkin-XCGLogger.xcconfig */,
-				413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */,
-				18AA37ACBD65DE0AA19311F4 /* Pods-Checkin-XCGLogger-dummy.m */,
-				9520120DF052817DDF6A2DB3 /* Pods-Checkin-XCGLogger-prefix.pch */,
-				9FA0B9FB0F04D3EB783C549A /* Pods-Checkin-XCGLogger-umbrella.h */,
+				6283EE4236D895C9AD741D91 /* Info.plist */,
+				F51B51BCF42035AE440EF3C2 /* Pods-Checkin-XCGLogger.modulemap */,
+				DDFE03F5EAE1012E18CFA9B0 /* Pods-Checkin-XCGLogger.xcconfig */,
+				17289109FBD48B8A7032DFF9 /* Pods-Checkin-XCGLogger-Private.xcconfig */,
+				43C456D416E8C87996F41231 /* Pods-Checkin-XCGLogger-dummy.m */,
+				3D7F44A652DC84D7C22A172E /* Pods-Checkin-XCGLogger-prefix.pch */,
+				485E2663DEB27F7668E5FDB7 /* Pods-Checkin-XCGLogger-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Checkin-XCGLogger";
 			sourceTree = "<group>";
 		};
-		670C5CE8C4DABE41BE372F6F /* iOS */ = {
+		63E2180C38B11FFC5D96B157 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C67C3F57E745A72460FD1E81 /* Foundation.framework */,
-				A83F00A439402D9FCA322E46 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		74881F5F27CFFD77A1A3FEBA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4EF6883017E01C4E0A22B0F6 /* Canvas */,
-				F46DB4A30CD98D3ED3E499A2 /* SwiftSpinner */,
-				928914F9026335FC8C9A8E69 /* XCGLogger */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		928914F9026335FC8C9A8E69 /* XCGLogger */ = {
-			isa = PBXGroup;
-			children = (
-				02DE7CBA361847DA2838F12C /* XCGLogger.swift */,
-				57523045B3F18A68E9F16863 /* Support Files */,
-			);
-			path = XCGLogger;
-			sourceTree = "<group>";
-		};
-		93A1C4B730D7797CD2E8AD1C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4B21844E161AB374567DE576 /* Canvas.framework */,
-				FE1447BE7EF68046064704CB /* Pods_Checkin.framework */,
-				2DCF0EACCAE2924946EF6050 /* SwiftSpinner.framework */,
-				447EE140379B27011BFE063B /* XCGLogger.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BCF879BAC2459EFB7E149638 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				670C5CE8C4DABE41BE372F6F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C1637F6B293E29D1D654F746 = {
-			isa = PBXGroup;
-			children = (
-				CA6411280653B1E7F580B7BE /* Podfile */,
-				BCF879BAC2459EFB7E149638 /* Frameworks */,
-				74881F5F27CFFD77A1A3FEBA /* Pods */,
-				93A1C4B730D7797CD2E8AD1C /* Products */,
-				07C72AE00BE31596878D786D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		CAC715D1D6815422989ED76A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A22F6053233C7B9353958816 /* Info.plist */,
-				6270D46F373575941D1C4864 /* Pods-Checkin-Canvas.modulemap */,
-				FB80F64C3EC68D9A1495ADBE /* Pods-Checkin-Canvas.xcconfig */,
-				C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */,
-				48EE8C0B9E3CA53564427225 /* Pods-Checkin-Canvas-dummy.m */,
-				A2A020D91F98AAF0FAB0FA3D /* Pods-Checkin-Canvas-prefix.pch */,
-				ABF10B09A4FED7E2486B455A /* Pods-Checkin-Canvas-umbrella.h */,
+				0B4BCC2917A0854694938834 /* Info.plist */,
+				3EF1A1A8967CC545E4EBCBFC /* Pods-Checkin-Canvas.modulemap */,
+				510B0FFA89CD618F497A5E91 /* Pods-Checkin-Canvas.xcconfig */,
+				DD6AB8EC7B2D5F0B092B0B04 /* Pods-Checkin-Canvas-Private.xcconfig */,
+				5FC4F69DDDDA46F8E49A875F /* Pods-Checkin-Canvas-dummy.m */,
+				62EADD610FE3FD05718F090A /* Pods-Checkin-Canvas-prefix.pch */,
+				0BAF6C4D8F8C34E25DB12FBE /* Pods-Checkin-Canvas-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Checkin-Canvas";
 			sourceTree = "<group>";
 		};
-		F46DB4A30CD98D3ED3E499A2 /* SwiftSpinner */ = {
+		759155BF91DE11B6AEFEDE4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA0A02CD1A0C9958DAA1CBB5 /* SwiftSpinner.swift */,
-				14E5483AB255E4B6EC426AC7 /* Support Files */,
+				8B8BF5E02E275CA97A7D6651 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E04DF826DD0E85E1E303EA /* PXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				93B2C51D6E295BF69AAD1F82 /* PXAlertView.h */,
+				04A1A20E9A23261971611848 /* PXAlertView.m */,
+				BE84D6DEB39618723DDEDCA8 /* PXAlertView+Customization.h */,
+				0F33800A0608A1A3145C7B95 /* PXAlertView+Customization.m */,
+				C51E6B037F860999A23CDC12 /* Support Files */,
+			);
+			path = PXAlertView;
+			sourceTree = "<group>";
+		};
+		8B8BF5E02E275CA97A7D6651 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C573170E12C4C3F92CF47EAC /* Foundation.framework */,
+				DFCBE655A3CE0EF9FC7BB68C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8F02FCD5D4DFAB7E755BFDF2 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				C47AD49A38993ECFDF34955E /* CSAnimation.h */,
+				4ABE5ADC3956614792786936 /* CSAnimation.m */,
+				41FE84522662628C12E3835D /* CSAnimationView.h */,
+				CB2165BA0A79F37DD466B8CE /* CSAnimationView.m */,
+				A817DFBD8608F6622675BCB4 /* CSBlurView.h */,
+				1F2D51BBE15E59DA7EB288B9 /* CSBlurView.m */,
+				86746A047421372EA0208D33 /* CSNavigationController.h */,
+				B0116571F175C9F4689A17BE /* CSNavigationController.m */,
+				E65820B300815B793DF3357B /* Canvas.h */,
+				DA61B728DCA8001D6B4A11D5 /* UIButton+TCCustomFont.h */,
+				C99FF5C26885A428310AA96D /* UIButton+TCCustomFont.m */,
+				A12379406F925DB788AE5B04 /* UILabel+TCCustomFont.h */,
+				6CA178D8423E4AF2F9A7B4CF /* UILabel+TCCustomFont.m */,
+				3E845319A9C6E850CC15947E /* UINavigationBar+TCCustomFont.h */,
+				F1264DE93A07B2028B181B32 /* UINavigationBar+TCCustomFont.m */,
+				F2E0763DF11136FFD3037728 /* UITextField+PlaceholderColor.h */,
+				9BC84DB3AC9CC650C9DFE831 /* UITextField+PlaceholderColor.m */,
+				B0C554F9E98BE88CC534F546 /* UITextField+TCCustomFont.h */,
+				745B095E641F0853464143FC /* UITextField+TCCustomFont.m */,
+				074B9CB1C5729E69C19948ED /* UITextView+TCCustomFont.h */,
+				5862A8613DF8C6FC8BA70D20 /* UITextView+TCCustomFont.m */,
+				63E2180C38B11FFC5D96B157 /* Support Files */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		A1F9B2E534C99585DC9290E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E59BD5B2F5709A379DF26D6 /* Canvas.framework */,
+				D674691B4F48A44D06F1AD2C /* MKInputBoxView.framework */,
+				611C2C7B15B285932EA259C5 /* PXAlertView.framework */,
+				7D9058179D397996AE87A913 /* Pods_Checkin.framework */,
+				C44BEB32E6990FCAC12D848B /* SwiftSpinner.framework */,
+				EC068A6F1BC1FA1DA3E84CCB /* XCGLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0C7B57AED35A56F8600EB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F02FCD5D4DFAB7E755BFDF2 /* Canvas */,
+				FBDED99272C55B424C187B46 /* MKInputBoxView */,
+				82E04DF826DD0E85E1E303EA /* PXAlertView */,
+				C0E8FDD8B5D0CF28B081ECBA /* SwiftSpinner */,
+				138A0CAA9C481063B328FC3C /* XCGLogger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0E8FDD8B5D0CF28B081ECBA /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				4F0A8D90C4B83B612F2A8D17 /* SwiftSpinner.swift */,
+				307E944D3B7E6CBB07D96531 /* Support Files */,
 			);
 			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		C51E6B037F860999A23CDC12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2449117E657B98088078C528 /* Info.plist */,
+				0EF04BB4E39E233D223E9C6C /* Pods-Checkin-PXAlertView.modulemap */,
+				11D3A3668BB008A6769CB11F /* Pods-Checkin-PXAlertView.xcconfig */,
+				7A55899836EDCE6BD97FF1B6 /* Pods-Checkin-PXAlertView-Private.xcconfig */,
+				A362DD6A9EFDAADEF771CE9D /* Pods-Checkin-PXAlertView-dummy.m */,
+				E396ECD4F0447DB52CB6A9EA /* Pods-Checkin-PXAlertView-prefix.pch */,
+				5B8FACDB87B42DD9ED0878C2 /* Pods-Checkin-PXAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-PXAlertView";
+			sourceTree = "<group>";
+		};
+		D8EC0FBA19BB2048DFFF37E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A2FDEF8003A7D6A4F601F8 /* Info.plist */,
+				192EB6D0860A768BA5F68853 /* Pods-Checkin-MKInputBoxView.modulemap */,
+				702D3D0083DBA950AC27D6E5 /* Pods-Checkin-MKInputBoxView.xcconfig */,
+				0A917AFB5A863D63ED56DD7C /* Pods-Checkin-MKInputBoxView-Private.xcconfig */,
+				775867D30FEB6AB190A61957 /* Pods-Checkin-MKInputBoxView-dummy.m */,
+				B4EA736004BADF2BFA8D4525 /* Pods-Checkin-MKInputBoxView-prefix.pch */,
+				B063E6259688D8509838DBEC /* Pods-Checkin-MKInputBoxView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Checkin-MKInputBoxView";
+			sourceTree = "<group>";
+		};
+		F14B74AF42EAD57097E2E81D = {
+			isa = PBXGroup;
+			children = (
+				023319419BF3C1ECDA69F5AC /* Podfile */,
+				759155BF91DE11B6AEFEDE4D /* Frameworks */,
+				BE0C7B57AED35A56F8600EB6 /* Pods */,
+				A1F9B2E534C99585DC9290E2 /* Products */,
+				3468BD39B52A8EB117CE02F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDED99272C55B424C187B46 /* MKInputBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				14C3887314851B1A2A99728E /* MKInputBoxView.h */,
+				85141B9B2566A2772D2F2481 /* MKInputBoxView.m */,
+				D8EC0FBA19BB2048DFFF37E3 /* Support Files */,
+			);
+			path = MKInputBoxView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D9E2C0E1F83F0AAB4810743 /* Headers */ = {
+		044932806D330A99694C6DB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A3B296689109715D2C4C74 /* Pods-Checkin-XCGLogger-umbrella.h in Headers */,
+				898330E3BA3CD4FAC2B9C50C /* MKInputBoxView.h in Headers */,
+				B1E387A15BB1600854A5BB88 /* Pods-Checkin-MKInputBoxView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A7D67A65B4E8D0F5E0D00DD /* Headers */ = {
+		23042D71B57F8094CB6E65C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE078FEBFA6147753100B7D /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */,
+				C133FB9BC4B6B89028446C51 /* PXAlertView+Customization.h in Headers */,
+				E7FCF31A53F42666D830CF84 /* PXAlertView.h in Headers */,
+				D322F65CA3D85F6B838A1340 /* Pods-Checkin-PXAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C44D10D99B8CDBB3DC11C38 /* Headers */ = {
+		3743BC709F4DF58E04ACCA96 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FCAE166419E510CD6D2C63 /* Pods-Checkin-umbrella.h in Headers */,
+				4EB489E07BC08D6E3452D92F /* Pods-Checkin-SwiftSpinner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D43B47D9C872E5DEE23489C0 /* Headers */ = {
+		387C3CC164813B6F27F23C85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42942F11A8C65D647F5301EA /* CSAnimation.h in Headers */,
-				5C4AAF589212151CB1260EAB /* CSAnimationView.h in Headers */,
-				3CF41377336E14C0AAE80E82 /* CSBlurView.h in Headers */,
-				32C4156191E4FF32D516C7E4 /* CSNavigationController.h in Headers */,
-				7FB194413C03C650B6A1F846 /* Canvas.h in Headers */,
-				81446012F242B62F96EF37D7 /* Pods-Checkin-Canvas-umbrella.h in Headers */,
-				9BA421658AB2920703B9589F /* UIButton+TCCustomFont.h in Headers */,
-				25F52825A299CF3830B0C4B0 /* UILabel+TCCustomFont.h in Headers */,
-				5497B3D2C8592EEA1BEDCFFE /* UINavigationBar+TCCustomFont.h in Headers */,
-				6541012938F268F64A8ADFEF /* UITextField+PlaceholderColor.h in Headers */,
-				7439C60179D142705092B1F8 /* UITextField+TCCustomFont.h in Headers */,
-				8A271EB13D6DD353E7AAEE16 /* UITextView+TCCustomFont.h in Headers */,
+				BAB62BFDC5F45701EA2D198B /* CSAnimation.h in Headers */,
+				B4B13D21046D6C029F9555B0 /* CSAnimationView.h in Headers */,
+				E6CAC9740CE71AB686DE65EB /* CSBlurView.h in Headers */,
+				561D5E7C3918A546819CB2D3 /* CSNavigationController.h in Headers */,
+				F8E6BC5920BAF1AD8D710114 /* Canvas.h in Headers */,
+				7B0627A87B26C97C04BBCB20 /* Pods-Checkin-Canvas-umbrella.h in Headers */,
+				91BBA6A50BAC082EC245379A /* UIButton+TCCustomFont.h in Headers */,
+				B5DAD84D3E1FD97D111E7A95 /* UILabel+TCCustomFont.h in Headers */,
+				18289CE18BD89D7817CD8255 /* UINavigationBar+TCCustomFont.h in Headers */,
+				7FEB74C1B88AAE8904A9FBD5 /* UITextField+PlaceholderColor.h in Headers */,
+				96C7DD8C38AA7D3561921585 /* UITextField+TCCustomFont.h in Headers */,
+				5788470F9E064D525D2ECCBB /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEA5F80AFA24EB81D51CA98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6579112DBA085BD3F2CF62DB /* Pods-Checkin-XCGLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF15D13C08F80F87B7A5DA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177106B2E3D3B364F5BD6043 /* Pods-Checkin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		46EDA37322B5C4660CD5A2B7 /* Pods-Checkin-XCGLogger */ = {
+		0306454E6913622B6D3FA7E0 /* Pods-Checkin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B911B53C11583BDF0F805EF /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */;
+			buildConfigurationList = DCD1272E1B7E56F8F166D66B /* Build configuration list for PBXNativeTarget "Pods-Checkin" */;
 			buildPhases = (
-				C1B2C28DB39CF300D6159FE4 /* Sources */,
-				DBB63976FB5C9462121F24BA /* Frameworks */,
-				4D9E2C0E1F83F0AAB4810743 /* Headers */,
+				FA445FA6988A0FCD8BE16C3D /* Sources */,
+				46B2E6F08E1A3246B61A29F4 /* Frameworks */,
+				FCF15D13C08F80F87B7A5DA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74ACB86F06C9F600CC07360A /* PBXTargetDependency */,
+				F6EE46DB5F559A7C020A8B80 /* PBXTargetDependency */,
+				774CD4B41395A514FA90EB4B /* PBXTargetDependency */,
+				D10E63A0F1909B5D330D344F /* PBXTargetDependency */,
+				B9C8DCA5EBB45632D66BBF34 /* PBXTargetDependency */,
+			);
+			name = "Pods-Checkin";
+			productName = "Pods-Checkin";
+			productReference = 7D9058179D397996AE87A913 /* Pods_Checkin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E5C77A65E2F9BFB61703B9D /* Pods-Checkin-PXAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1E953091BE632F6B309A7C /* Build configuration list for PBXNativeTarget "Pods-Checkin-PXAlertView" */;
+			buildPhases = (
+				3463E019494F2035B280424E /* Sources */,
+				290BEDB3699944FE5C9372F3 /* Frameworks */,
+				23042D71B57F8094CB6E65C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-PXAlertView";
+			productName = "Pods-Checkin-PXAlertView";
+			productReference = 611C2C7B15B285932EA259C5 /* PXAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81447715C9455BCF68B2344E /* Pods-Checkin-XCGLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBD28EE2D849017863C8CAE /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */;
+			buildPhases = (
+				BAFD2D4913E746F8F6ED80A1 /* Sources */,
+				3DEBE6AA6743D5607441DE99 /* Frameworks */,
+				ECEA5F80AFA24EB81D51CA98 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -402,53 +580,33 @@
 			);
 			name = "Pods-Checkin-XCGLogger";
 			productName = "Pods-Checkin-XCGLogger";
-			productReference = 447EE140379B27011BFE063B /* XCGLogger.framework */;
+			productReference = EC068A6F1BC1FA1DA3E84CCB /* XCGLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5146A9C22834320040401190 /* Pods-Checkin-SwiftSpinner */ = {
+		8C90443DE0AF778CEB0F6C6C /* Pods-Checkin-MKInputBoxView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7F9CC3C16806DB25EE72A76 /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */;
+			buildConfigurationList = 94DBE1F767CED2093278B2B8 /* Build configuration list for PBXNativeTarget "Pods-Checkin-MKInputBoxView" */;
 			buildPhases = (
-				E478CE8B6DFCB17CAD33B75C /* Sources */,
-				A5CDE4825C10BEE56680B2AD /* Frameworks */,
-				5A7D67A65B4E8D0F5E0D00DD /* Headers */,
+				55ED772A12FEC87B29E33B5C /* Sources */,
+				B2292F3649F8E981B55646FE /* Frameworks */,
+				044932806D330A99694C6DB1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Checkin-SwiftSpinner";
-			productName = "Pods-Checkin-SwiftSpinner";
-			productReference = 2DCF0EACCAE2924946EF6050 /* SwiftSpinner.framework */;
+			name = "Pods-Checkin-MKInputBoxView";
+			productName = "Pods-Checkin-MKInputBoxView";
+			productReference = D674691B4F48A44D06F1AD2C /* MKInputBoxView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		97FA81CB860B1142523D3F9F /* Pods-Checkin */ = {
+		C7717B4897507FFE5956B3C8 /* Pods-Checkin-Canvas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A9991E126D668FF218F4066 /* Build configuration list for PBXNativeTarget "Pods-Checkin" */;
+			buildConfigurationList = 8135FD3E45AA68C5C6D23CFF /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */;
 			buildPhases = (
-				1F4E41D9CF4944F9653F25F1 /* Sources */,
-				4E58949D6A375A504C26A865 /* Frameworks */,
-				9C44D10D99B8CDBB3DC11C38 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90128A6C29AFDC867A0D30D6 /* PBXTargetDependency */,
-				35825CB152C21ECE1895664B /* PBXTargetDependency */,
-				07C16CEF2D54A69DB0447C1D /* PBXTargetDependency */,
-			);
-			name = "Pods-Checkin";
-			productName = "Pods-Checkin";
-			productReference = FE1447BE7EF68046064704CB /* Pods_Checkin.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CDE45096112540CE89E507DA /* Pods-Checkin-Canvas */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A5EC5666B07644D4020DFB5 /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */;
-			buildPhases = (
-				A4C4F187B6065D9BB1F88C91 /* Sources */,
-				D19E86AFCF79AB153990EE42 /* Frameworks */,
-				D43B47D9C872E5DEE23489C0 /* Headers */,
+				F81AC2D5068642D60D948FBA /* Sources */,
+				F96A4A60A256F8DDB15FCA97 /* Frameworks */,
+				387C3CC164813B6F27F23C85 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -456,164 +614,159 @@
 			);
 			name = "Pods-Checkin-Canvas";
 			productName = "Pods-Checkin-Canvas";
-			productReference = 4B21844E161AB374567DE576 /* Canvas.framework */;
+			productReference = 0E59BD5B2F5709A379DF26D6 /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED3B0387FF905C8DAA34CB38 /* Pods-Checkin-SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695BEB8C97B81CDE47F8F7C3 /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */;
+			buildPhases = (
+				D95DF142EFCFA9DC227C2291 /* Sources */,
+				24D52BB6D73B1D33CEEA19E5 /* Frameworks */,
+				3743BC709F4DF58E04ACCA96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Checkin-SwiftSpinner";
+			productName = "Pods-Checkin-SwiftSpinner";
+			productReference = C44BEB32E6990FCAC12D848B /* SwiftSpinner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F8B77B25350B1E6666DE76A /* Project object */ = {
+		3FAB6643CA31FA92A4E5AB32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 1AB8E71C281DADBEA02A2EF1 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = BAE1C563DC23404EF7A93B6C /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C1637F6B293E29D1D654F746;
-			productRefGroup = 93A1C4B730D7797CD2E8AD1C /* Products */;
+			mainGroup = F14B74AF42EAD57097E2E81D;
+			productRefGroup = A1F9B2E534C99585DC9290E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97FA81CB860B1142523D3F9F /* Pods-Checkin */,
-				CDE45096112540CE89E507DA /* Pods-Checkin-Canvas */,
-				5146A9C22834320040401190 /* Pods-Checkin-SwiftSpinner */,
-				46EDA37322B5C4660CD5A2B7 /* Pods-Checkin-XCGLogger */,
+				0306454E6913622B6D3FA7E0 /* Pods-Checkin */,
+				C7717B4897507FFE5956B3C8 /* Pods-Checkin-Canvas */,
+				8C90443DE0AF778CEB0F6C6C /* Pods-Checkin-MKInputBoxView */,
+				1E5C77A65E2F9BFB61703B9D /* Pods-Checkin-PXAlertView */,
+				ED3B0387FF905C8DAA34CB38 /* Pods-Checkin-SwiftSpinner */,
+				81447715C9455BCF68B2344E /* Pods-Checkin-XCGLogger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F4E41D9CF4944F9653F25F1 /* Sources */ = {
+		3463E019494F2035B280424E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E412611BE78CFC26F1CA0D7 /* Pods-Checkin-dummy.m in Sources */,
+				936070064BA63AAFE1A81BFC /* PXAlertView+Customization.m in Sources */,
+				A667342998EFF37095089433 /* PXAlertView.m in Sources */,
+				006F08BF3C725F983F3B0599 /* Pods-Checkin-PXAlertView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4C4F187B6065D9BB1F88C91 /* Sources */ = {
+		55ED772A12FEC87B29E33B5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72A7CC7A6F887AA61CF3D500 /* CSAnimation.m in Sources */,
-				C32F66F4B56057905687492B /* CSAnimationView.m in Sources */,
-				49BF03CDF33FCED8413A8484 /* CSBlurView.m in Sources */,
-				AD85F6F6E8BE8E1DF18C2EB6 /* CSNavigationController.m in Sources */,
-				7121D9191E3CC881FB4EF73E /* Pods-Checkin-Canvas-dummy.m in Sources */,
-				48983FD3A1A69738EF93C403 /* UIButton+TCCustomFont.m in Sources */,
-				BDCBDE426C5CBAC4514AEE4A /* UILabel+TCCustomFont.m in Sources */,
-				6CEFBEB9E63E1F26910F0B3E /* UINavigationBar+TCCustomFont.m in Sources */,
-				D286DB242226A7A36813E9EE /* UITextField+PlaceholderColor.m in Sources */,
-				C35163BABAEC5C6FFBEDA129 /* UITextField+TCCustomFont.m in Sources */,
-				697175B1EA36C973BF8501E6 /* UITextView+TCCustomFont.m in Sources */,
+				BC36A846713D8AB2EB458F6A /* MKInputBoxView.m in Sources */,
+				D46F40403C0049E2F1D600B5 /* Pods-Checkin-MKInputBoxView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1B2C28DB39CF300D6159FE4 /* Sources */ = {
+		BAFD2D4913E746F8F6ED80A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC669C68B34243AD17D020B9 /* Pods-Checkin-XCGLogger-dummy.m in Sources */,
-				0B3736CB5CD5CCC9A9DEB45C /* XCGLogger.swift in Sources */,
+				E19FB6384EAB50EACC0B0D51 /* Pods-Checkin-XCGLogger-dummy.m in Sources */,
+				44F6DA0BFF5C6498A4B4F79B /* XCGLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E478CE8B6DFCB17CAD33B75C /* Sources */ = {
+		D95DF142EFCFA9DC227C2291 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE002FD03A261D52F2FD377A /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */,
-				030F8AA29B6C5E8BE58ED19E /* SwiftSpinner.swift in Sources */,
+				61E56442AB5C171D52AE915F /* Pods-Checkin-SwiftSpinner-dummy.m in Sources */,
+				56E09E8A92658AFC4B305F9C /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81AC2D5068642D60D948FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619D54CCDE7AC1B842C612FC /* CSAnimation.m in Sources */,
+				3D2F0C1ACC5E7FCC7EDA320B /* CSAnimationView.m in Sources */,
+				772D0682113EA1692664B612 /* CSBlurView.m in Sources */,
+				10FD7E72EFF32ACB4A2F1E28 /* CSNavigationController.m in Sources */,
+				341EDEC2D50C82E13EA9E92C /* Pods-Checkin-Canvas-dummy.m in Sources */,
+				AE9CDB6445E822306A13E8D1 /* UIButton+TCCustomFont.m in Sources */,
+				2EB65334E4BE57BE8F9DDBB7 /* UILabel+TCCustomFont.m in Sources */,
+				EB420FBA1DBB9186F22F7DE3 /* UINavigationBar+TCCustomFont.m in Sources */,
+				591EB6AAD24DA354D75869F5 /* UITextField+PlaceholderColor.m in Sources */,
+				55989E6BE281038DA34BAC62 /* UITextField+TCCustomFont.m in Sources */,
+				18E737DDC68E38A317E7FC51 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA445FA6988A0FCD8BE16C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8E74605406BC985EC0D3E7 /* Pods-Checkin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07C16CEF2D54A69DB0447C1D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Checkin-XCGLogger";
-			target = 46EDA37322B5C4660CD5A2B7 /* Pods-Checkin-XCGLogger */;
-			targetProxy = 96EA446420B2975D1748A64C /* PBXContainerItemProxy */;
-		};
-		35825CB152C21ECE1895664B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Checkin-SwiftSpinner";
-			target = 5146A9C22834320040401190 /* Pods-Checkin-SwiftSpinner */;
-			targetProxy = F8DE744A3C3C4EC36B4D5A18 /* PBXContainerItemProxy */;
-		};
-		90128A6C29AFDC867A0D30D6 /* PBXTargetDependency */ = {
+		74ACB86F06C9F600CC07360A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Checkin-Canvas";
-			target = CDE45096112540CE89E507DA /* Pods-Checkin-Canvas */;
-			targetProxy = 9644EA3B1E6B26BB9464AFDF /* PBXContainerItemProxy */;
+			target = C7717B4897507FFE5956B3C8 /* Pods-Checkin-Canvas */;
+			targetProxy = 92AD6D503A92B72200CF29E4 /* PBXContainerItemProxy */;
+		};
+		774CD4B41395A514FA90EB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-PXAlertView";
+			target = 1E5C77A65E2F9BFB61703B9D /* Pods-Checkin-PXAlertView */;
+			targetProxy = 326D0AE5D60BDEDE6E8D7523 /* PBXContainerItemProxy */;
+		};
+		B9C8DCA5EBB45632D66BBF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-XCGLogger";
+			target = 81447715C9455BCF68B2344E /* Pods-Checkin-XCGLogger */;
+			targetProxy = E42A9FAFE2DD242E2E8467C8 /* PBXContainerItemProxy */;
+		};
+		D10E63A0F1909B5D330D344F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-SwiftSpinner";
+			target = ED3B0387FF905C8DAA34CB38 /* Pods-Checkin-SwiftSpinner */;
+			targetProxy = AB26572E26254D78CBB54509 /* PBXContainerItemProxy */;
+		};
+		F6EE46DB5F559A7C020A8B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Checkin-MKInputBoxView";
+			target = 8C90443DE0AF778CEB0F6C6C /* Pods-Checkin-MKInputBoxView */;
+			targetProxy = C4AF0E23777AA5B0C6981D09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D0E9C1B3BABE21DC9AB170E /* Debug */ = {
+		06D3DD0F65CD70BEE61E5FEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = XCGLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		16C732AB96886F36DB3430CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftSpinner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		366999F754ACE94068738445 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F283CF632D83FF2279E221EB /* Pods-Checkin.release.xcconfig */;
+			baseConfigurationReference = A96EC04E9FB52D3731ABCC8E /* Pods-Checkin.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -640,7 +793,91 @@
 			};
 			name = Release;
 		};
-		4E2E7A481F15E7037252A092 /* Release */ = {
+		3644DE3D24C0FB1CD179FB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A917AFB5A863D63ED56DD7C /* Pods-Checkin-MKInputBoxView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-MKInputBoxView/Pods-Checkin-MKInputBoxView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-MKInputBoxView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-MKInputBoxView/Pods-Checkin-MKInputBoxView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MKInputBoxView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3791806524FBDCB0ECE8DE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51689EEE9D138850A5071CB /* Pods-Checkin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin/Pods-Checkin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Checkin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41F37AEE0154B1A72D5CBC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6AB8EC7B2D5F0B092B0B04 /* Pods-Checkin-Canvas-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		559D8CF0373C85C251D8B9DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -674,7 +911,198 @@
 			};
 			name = Release;
 		};
-		70F4A7CBD3A90D7750C9DB4C /* Debug */ = {
+		5D82BA28C5E18FBE52F7C3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A55899836EDCE6BD97FF1B6 /* Pods-Checkin-PXAlertView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-PXAlertView/Pods-Checkin-PXAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-PXAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-PXAlertView/Pods-Checkin-PXAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PXAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		606A9B7B0647D38AA4ABA24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17289109FBD48B8A7032DFF9 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XCGLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9744540E649ED02C1D5457A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A55899836EDCE6BD97FF1B6 /* Pods-Checkin-PXAlertView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-PXAlertView/Pods-Checkin-PXAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-PXAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-PXAlertView/Pods-Checkin-PXAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PXAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8D92A68D7CEFD066027C5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BD6D716B3541604ADFAE0D /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C004F5AAEE44E392CCD0A8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17289109FBD48B8A7032DFF9 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XCGLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C88815D66CB4AD0C35FB55B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BD6D716B3541604ADFAE0D /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCD603AB2B651B7FED479632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A917AFB5A863D63ED56DD7C /* Pods-Checkin-MKInputBoxView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-MKInputBoxView/Pods-Checkin-MKInputBoxView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-MKInputBoxView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-MKInputBoxView/Pods-Checkin-MKInputBoxView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MKInputBoxView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CECAA37CF4E47B90190F8AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -713,9 +1141,9 @@
 			};
 			name = Debug;
 		};
-		729B0F7F6ED13914CD25DA44 /* Debug */ = {
+		D347779571F18958B50BA595 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */;
+			baseConfigurationReference = DD6AB8EC7B2D5F0B092B0B04 /* Pods-Checkin-Canvas-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -734,118 +1162,6 @@
 				PRODUCT_NAME = Canvas;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7F04CB4263002791E4F4974F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E57739FD12B3CBBC53003935 /* Pods-Checkin.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin/Pods-Checkin.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Checkin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B6ECAFA1DFED794C10B3711F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C51F0F7662A2CFA7199F6958 /* Pods-Checkin-Canvas-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-Canvas/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-Canvas/Pods-Checkin-Canvas.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Canvas;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CCB5B6E982D40FEB4AA82C46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 413C644EF2FDB30ECD928BA3 /* Pods-Checkin-XCGLogger-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-XCGLogger/Pods-Checkin-XCGLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = XCGLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FCDCDAED1CE45D3467A701FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B912678078040DF2907F5955 /* Pods-Checkin-SwiftSpinner-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Checkin-SwiftSpinner/Pods-Checkin-SwiftSpinner.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftSpinner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -855,52 +1171,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A5EC5666B07644D4020DFB5 /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */ = {
+		5FBD28EE2D849017863C8CAE /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				729B0F7F6ED13914CD25DA44 /* Debug */,
-				B6ECAFA1DFED794C10B3711F /* Release */,
+				C004F5AAEE44E392CCD0A8FE /* Debug */,
+				606A9B7B0647D38AA4ABA24B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AB8E71C281DADBEA02A2EF1 /* Build configuration list for PBXProject "Pods" */ = {
+		695BEB8C97B81CDE47F8F7C3 /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70F4A7CBD3A90D7750C9DB4C /* Debug */,
-				4E2E7A481F15E7037252A092 /* Release */,
+				C88815D66CB4AD0C35FB55B3 /* Debug */,
+				A8D92A68D7CEFD066027C5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A9991E126D668FF218F4066 /* Build configuration list for PBXNativeTarget "Pods-Checkin" */ = {
+		8135FD3E45AA68C5C6D23CFF /* Build configuration list for PBXNativeTarget "Pods-Checkin-Canvas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F04CB4263002791E4F4974F /* Debug */,
-				366999F754ACE94068738445 /* Release */,
+				D347779571F18958B50BA595 /* Debug */,
+				41F37AEE0154B1A72D5CBC29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B911B53C11583BDF0F805EF /* Build configuration list for PBXNativeTarget "Pods-Checkin-XCGLogger" */ = {
+		94DBE1F767CED2093278B2B8 /* Build configuration list for PBXNativeTarget "Pods-Checkin-MKInputBoxView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D0E9C1B3BABE21DC9AB170E /* Debug */,
-				CCB5B6E982D40FEB4AA82C46 /* Release */,
+				CCD603AB2B651B7FED479632 /* Debug */,
+				3644DE3D24C0FB1CD179FB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7F9CC3C16806DB25EE72A76 /* Build configuration list for PBXNativeTarget "Pods-Checkin-SwiftSpinner" */ = {
+		BAE1C563DC23404EF7A93B6C /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCDCDAED1CE45D3467A701FE /* Debug */,
-				16C732AB96886F36DB3430CA /* Release */,
+				CECAA37CF4E47B90190F8AE6 /* Debug */,
+				559D8CF0373C85C251D8B9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD1272E1B7E56F8F166D66B /* Build configuration list for PBXNativeTarget "Pods-Checkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3791806524FBDCB0ECE8DE07 /* Debug */,
+				06D3DD0F65CD70BEE61E5FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1E953091BE632F6B309A7C /* Build configuration list for PBXNativeTarget "Pods-Checkin-PXAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D82BA28C5E18FBE52F7C3AC /* Debug */,
+				9744540E649ED02C1D5457A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5F8B77B25350B1E6666DE76A /* Project object */;
+	rootObject = 3FAB6643CA31FA92A4E5AB32 /* Project object */;
 }

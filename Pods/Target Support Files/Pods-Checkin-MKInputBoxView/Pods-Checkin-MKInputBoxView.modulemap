@@ -1,0 +1,6 @@
+framework module MKInputBoxView {
+  umbrella header "Pods-Checkin-MKInputBoxView-umbrella.h"
+
+  export *
+  module * { export * }
+}
