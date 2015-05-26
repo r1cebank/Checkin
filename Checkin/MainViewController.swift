@@ -59,13 +59,20 @@ class MainViewController: UIViewController, MPCManagerDelegate{
         
     }
     
+    func disconnectedWithPeer(peerID: MCPeerID) {
+    }
+    
     func connectedWithPeer(peerID: MCPeerID) {
         log.verbose("Connected with peer")
         let ids = peerID.displayName.componentsSeparatedByString("-")
         if(ids[ids.count - 1] == "host") {
             log.verbose("found the host")
-            SwiftSpinner.show("Host connected!", animated: true)
-            self.performSegueWithIdentifier("showClientViewSegue", sender: nil)
+            dispatch_async(dispatch_get_main_queue(),{
+                SwiftSpinner.hide()
+                SwiftSpinner.show("Host connected!", animated: true)
+                SwiftSpinner.hide()
+                self.performSegueWithIdentifier("showClientViewSegue", sender: nil)
+            })
         }
         
     }

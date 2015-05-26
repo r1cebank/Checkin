@@ -8,8 +8,10 @@
 
 import UIKit
 import Foundation
+import SwiftSpinner
+import MultipeerConnectivity
 
-class ClientViewController: UIViewController {
+class ClientViewController: UIViewController, MPCManagerDelegate {
     
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     
@@ -21,6 +23,27 @@ class ClientViewController: UIViewController {
         super.viewDidLoad()
         titleLabel.text = freq
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        appDelegate.mpcManager.delegate = self
+    }
+    func foundPeer() {
+    }
+    func lostPeer() {
+    }
+    func invitationWasReceived(fromPeer: String) {
+    }
+    func connectedWithPeer(peerID: MCPeerID) {
+        dispatch_async(dispatch_get_main_queue(),{
+            SwiftSpinner.hide()
+        })
+    }
+    func disconnectedWithPeer(peerID: MCPeerID) {
+        dispatch_async(dispatch_get_main_queue(),{
+            SwiftSpinner.show("waiting for host", animated: true)
+        })
+    }
+    
     override func didReceiveMemoryWarning() {
     }
 }

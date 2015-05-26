@@ -18,6 +18,8 @@ protocol MPCManagerDelegate {
     func invitationWasReceived(fromPeer: String)
     
     func connectedWithPeer(peerID: MCPeerID)
+    
+    func disconnectedWithPeer(peerID: MCPeerID)
 }
 
 
@@ -121,6 +123,7 @@ class MPCManager: NSObject, MCSessionDelegate, MCNearbyServiceBrowserDelegate, M
             println("Connecting to session: \(session)")
             
         default:
+            delegate?.disconnectedWithPeer(peerID)
             println("Did not connect to session: \(session)")
         }
     }
