@@ -60,6 +60,7 @@ class MainViewController: UIViewController, MPCManagerDelegate{
     }
     
     func connectedWithPeer(peerID: MCPeerID) {
+        log.verbose("Connected with peer")
         let ids = peerID.displayName.componentsSeparatedByString("-")
         if(ids[ids.count - 1] == "host") {
             log.verbose("found the host")
