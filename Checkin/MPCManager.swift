@@ -38,19 +38,34 @@ class MPCManager: NSObject, MCSessionDelegate, MCNearbyServiceBrowserDelegate, M
     var invitationHandler: ((Bool, MCSession!)->Void)!
     
     
-    override init() {
+    init(freq: String) {
         super.init()
+        let serviceType = trimFreq("pxc-".stringByAppendingString(freq))
         
-        peer = MCPeerID(displayName: UIDevice.currentDevice().name)
+        log.verbose("service type: \(serviceType)")
+        
+        peer = MCPeerID(displayName: NSUUID().UUIDString + "-client")
         
         session = MCSession(peer: peer)
         session.delegate = self
         
-        browser = MCNearbyServiceBrowser(peer: peer, serviceType: "proxi-checkin")
+        browser = MCNearbyServiceBrowser(peer: peer, serviceType: serviceType)
         browser.delegate = self
         
-        advertiser = MCNearbyServiceAdvertiser(peer: peer, discoveryInfo: nil, serviceType: "proxi-checkin")
+        advertiser = MCNearbyServiceAdvertiser(peer: peer, discoveryInfo: nil, serviceType: serviceType)
         advertiser.delegate = self
+    }
+    
+    func trimFreq(freq: String) -> String {
+        let strList = split(freq) { $0 == "-" }
+        
+        var finalList = ""
+        
+        for s in strList {
+            finalList.append(Array(s)[0])
+            finalList.append(Array(s)[count(s)-1])
+        }
+        return finalList
     }
     
     
@@ -58,7 +73,7 @@ class MPCManager: NSObject, MCSessionDelegate, MCNearbyServiceBrowserDelegate, M
     
     func browser(browser: MCNearbyServiceBrowser!, foundPeer peerID: MCPeerID!, withDiscoveryInfo info: [NSObject : AnyObject]!) {
         foundPeers.append(peerID)
-        
+        log.verbose("Found: \(peerID.displayName)")
         delegate?.foundPeer()
     }
     

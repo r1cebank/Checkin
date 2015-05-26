@@ -16,6 +16,7 @@
 		ECE620F21B122DC7006F14AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE620F11B122DC7006F14AD /* Images.xcassets */; };
 		ECE620F51B122DC7006F14AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE620F31B122DC7006F14AD /* LaunchScreen.xib */; };
 		ECE621011B122DC7006F14AD /* CheckinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE621001B122DC7006F14AD /* CheckinTests.swift */; };
+		ECE635F01B13F58000FB5E96 /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE635EF1B13F58000FB5E96 /* ClientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ECE620FA1B122DC7006F14AD /* CheckinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE620FF1B122DC7006F14AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE621001B122DC7006F14AD /* CheckinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinTests.swift; sourceTree = "<group>"; };
+		ECE635EF1B13F58000FB5E96 /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				ECE620EC1B122DC7006F14AD /* MainViewController.swift */,
+				ECE635EF1B13F58000FB5E96 /* ClientViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				ECE620ED1B122DC7006F14AD /* MainViewController.swift in Sources */,
 				EC24D91C1B12426E00CB128A /* FreqList.swift in Sources */,
 				ECE620EB1B122DC7006F14AD /* AppDelegate.swift in Sources */,
+				ECE635F01B13F58000FB5E96 /* ClientViewController.swift in Sources */,
 				ECC507B21B12372F00FA8772 /* MPCManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

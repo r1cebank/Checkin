@@ -26,9 +26,6 @@ class MainViewController: UIViewController, MPCManagerDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        appDelegate.mpcManager.delegate = self
-        appDelegate.mpcManager.browser.startBrowsingForPeers()
-        appDelegate.mpcManager.advertiser.startAdvertisingPeer()
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
         freq1.setTitle(freq[0], forState: UIControlState.Normal)
         freq2.setTitle(freq[1], forState: UIControlState.Normal)
@@ -63,7 +60,7 @@ class MainViewController: UIViewController, MPCManagerDelegate{
     }
     
     func connectedWithPeer(peerID: MCPeerID) {
-        
+        //let ids = split(peerID.displayName) { $0 = "-" }
     }
 
     @IBAction func buttonToggle(sender: UIButton!) {
@@ -76,6 +73,33 @@ class MainViewController: UIViewController, MPCManagerDelegate{
         codeLabel.text = "-".join(code)
     }
 
+    @IBAction func connectClicked(sender: UIButton) {
+        if(sender.selected) {
+            log.verbose("Stopping...")
+            if(appDelegate.mpcManager != nil) {
+                appDelegate.mpcManager.browser.stopBrowsingForPeers()
+                appDelegate.mpcManager.advertiser.stopAdvertisingPeer()
+                appDelegate.mpcManager = nil
+                log.verbose("Stopped")
+            }
+        } else {
+            log.verbose("Frequency: \(self.codeLabel.text!)")
+            appDelegate.mpcManager = MPCManager(freq: codeLabel.text!)
+            appDelegate.mpcManager.delegate = self
+            appDelegate.mpcManager.browser.startBrowsingForPeers()
+            appDelegate.mpcManager.advertiser.startAdvertisingPeer()
+        }
+        sender.toggleButton()
+        self.performSegueWithIdentifier("showClientViewSegue", sender: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier! == "showClientViewSegue") {
+            log.verbose("Preparing to show clientView")
+            let targetVC = segue.destinationViewController as! ClientViewController
+            targetVC.freq = codeLabel.text!
+        }
+    }
 }
 
 extension UIButton {

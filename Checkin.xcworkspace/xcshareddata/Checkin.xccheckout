@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9ADE28BF-E1BB-4FC4-8F1B-A27EBB804FBE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Checkin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6F73F23C84AF5A5C079E4643F53BBE9BE5A3C469</key>
+		<string>https://github.com/R1cebank/Checkin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Checkin.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6F73F23C84AF5A5C079E4643F53BBE9BE5A3C469</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/R1cebank/Checkin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6F73F23C84AF5A5C079E4643F53BBE9BE5A3C469</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6F73F23C84AF5A5C079E4643F53BBE9BE5A3C469</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Checkin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
