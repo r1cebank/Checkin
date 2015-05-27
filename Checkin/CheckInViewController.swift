@@ -34,20 +34,6 @@ class CheckInViewController: UIViewController, MPCManagerDelegate {
     @IBAction func checkinClicked(sender: UIButton) {
         let context = LAContext()
         var error: NSError?
-        if context.canEvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, error: &error) {
-            let reason = "Checkin with Touch ID"
-            context.evaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply: {
-                (success: Bool, error: NSError!) in
-                if success {
-                    PXAlertView.showAlertWithTitle("Success!", message: "You are checked in")
-                } else {
-                    PXAlertView.showAlertWithTitle("Failed!", message: "You are not checked in")
-                    return
-                }
-            })
-        } else {
-            PXAlertView.showAlertWithTitle("Caution", message: "Touch ID is not found")
-        }
         let inputBox = MKInputBoxView.boxOfType(MKInputBoxType.PlainTextInput)
         inputBox.setTitle("Who are you?")
         inputBox.setMessage("Please enter your identifier.")
@@ -62,6 +48,22 @@ class CheckInViewController: UIViewController, MPCManagerDelegate {
             PXAlertView.showAlertWithTitle("Success!", message: "You are checked in")
             self.dismissViewControllerAnimated(true, completion: nil)
         }
+        if context.canEvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, error: &error) {
+            let reason = "Checkin with Touch ID"
+            context.evaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply: {
+                (success: Bool, error: NSError!) in
+                if success {
+                } else {
+                    dispatch_async(dispatch_get_main_queue(),{
+                        inputBox.hide()
+                        })
+                    return
+                }
+            })
+        } else {
+            PXAlertView.showAlertWithTitle("Caution", message: "Touch ID is not found")
+        }
+        
         inputBox.show()
     }
     
