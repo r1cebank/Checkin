@@ -329,12 +329,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C39-6o-VCZ">
-                                <rect key="frame" x="239" y="273" width="122" height="54"/>
+                                <rect key="frame" x="210" y="273" width="180" height="54"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="122" id="8Tk-zd-fvy"/>
+                                    <constraint firstAttribute="width" constant="180" id="8Tk-zd-fvy"/>
                                     <constraint firstAttribute="height" constant="54" id="bZ8-TX-ESX"/>
                                 </constraints>
-                                <state key="normal" title="Check In" backgroundImage="Button Background">
+                                <state key="normal" title="Click to Check in" backgroundImage="Button Background">
                                     <color key="titleColor" red="0.92549019610000005" green="0.94117647059999998" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
