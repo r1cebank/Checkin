@@ -67,6 +67,10 @@ class CheckInViewController: UIViewController, MPCManagerDelegate {
         inputBox.show()
     }
     
+    func handleMPCReceivedDataWithNotification(notification: NSNotification) {
+        log.verbose("Received data from host")
+    }
+    
     func foundPeer() {
     }
     func lostPeer() {

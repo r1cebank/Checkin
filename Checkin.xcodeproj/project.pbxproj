@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54BCE0CF4AE1C4A04C5B649F /* Pods_Checkin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D69F2D382DF0DE2D39248E /* Pods_Checkin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7B4E70F81B177FEC009AB688 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E70F71B177FEC009AB688 /* QuizViewController.swift */; };
 		EC24D91C1B12426E00CB128A /* FreqList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24D91B1B12426E00CB128A /* FreqList.swift */; };
 		ECC507B21B12372F00FA8772 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC507B11B12372F00FA8772 /* MPCManager.swift */; };
 		ECE620EB1B122DC7006F14AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE620EA1B122DC7006F14AD /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		18FEEF2821AEDCB3BE7D1408 /* Pods-Checkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Checkin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Checkin/Pods-Checkin.release.xcconfig"; sourceTree = "<group>"; };
 		50EE5CAC0779210C0FB7E20A /* Pods-Checkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Checkin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Checkin/Pods-Checkin.debug.xcconfig"; sourceTree = "<group>"; };
+		7B4E70F71B177FEC009AB688 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		B0D69F2D382DF0DE2D39248E /* Pods_Checkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC24D91B1B12426E00CB128A /* FreqList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreqList.swift; sourceTree = "<group>"; };
 		ECC507B11B12372F00FA8772 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				ECE620EC1B122DC7006F14AD /* MainViewController.swift */,
 				ECE635EF1B13F58000FB5E96 /* ClientViewController.swift */,
 				ECE6362F1B14D44F00FB5E96 /* CheckInViewController.swift */,
+				7B4E70F71B177FEC009AB688 /* QuizViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE620ED1B122DC7006F14AD /* MainViewController.swift in Sources */,
+				7B4E70F81B177FEC009AB688 /* QuizViewController.swift in Sources */,
 				EC24D91C1B12426E00CB128A /* FreqList.swift in Sources */,
 				ECE620EB1B122DC7006F14AD /* AppDelegate.swift in Sources */,
 				ECE635F01B13F58000FB5E96 /* ClientViewController.swift in Sources */,

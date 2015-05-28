@@ -42,6 +42,10 @@ class ClientViewController: UIViewController, MPCManagerDelegate {
                 dispatch_async(dispatch_get_main_queue(),{
                     self.performSegueWithIdentifier("showCheckInViewSegue", sender: nil)
                 })
+            } else if(message == "quiz") {
+                dispatch_async(dispatch_get_main_queue(),{
+                    self.performSegueWithIdentifier("showQuizViewSegue", sender: nil)
+                })
             }
         }
     }
