@@ -17,12 +17,21 @@ import PXAlertView
 class QuizViewController: UIViewController, MPCManagerDelegate {
     
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    var selected: String!
+    @IBOutlet weak var selectedLabel: UILabel!
+    @IBOutlet weak var AButton: UIButton!
+    @IBOutlet weak var BButton: UIButton!
+    @IBOutlet weak var CButton: UIButton!
+    @IBOutlet weak var DButton: UIButton!
+    @IBOutlet weak var EButton: UIButton!
+    @IBOutlet weak var FButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     override func viewWillAppear(animated: Bool) {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "handleMPCReceivedDataWithNotification:", name: "receivedMPCDataNotification", object: nil)
+        selected = ""
     }
     override func viewWillDisappear(animated: Bool) {
         NSNotificationCenter.defaultCenter().removeObserver(self)
@@ -50,5 +59,23 @@ class QuizViewController: UIViewController, MPCManagerDelegate {
             SwiftSpinner.show("waiting for host", animated: true)
         })
     }
+    @IBAction func answerClicked(sender: UIButton) {
+        resetButtons()
+        sender.toggleButton()
+        selected = sender.titleLabel?.text
+        selectedLabel.text = selected
+    }
     
+    func resetButtons() {
+        AButton.selected = false
+        BButton.selected = false
+        CButton.selected = false
+        DButton.selected = false
+        EButton.selected = false
+        FButton.selected = false
+    }
+    
+    @IBAction func sendActionClicked(sender: UIButton) {
+        
+    }
 }
